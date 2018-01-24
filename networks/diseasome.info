@@ -1,0 +1,8 @@
+Goh et al. (`The human disease network', PNAS 104:21)
+created a bipartite graph containing 1777
+genes and 1284 genetic disorders listed by OMIM 3 . An edge between a
+gene and a disease indicates a known correlation between the expres-
+sion of the gene and the disease. The network data itself was obtained
+from the Gephi package and contains 1419 vertices and 2738 edges. It
+is unclear why the network is smaller than described in the original
+paper, potentially it is simply the largest connected component.

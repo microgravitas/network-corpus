@@ -1,0 +1,4 @@
+This network is a snapshot of the relationship
+between Perl developers in the Comprehensive Perl Archiver Network
+(CPAN). Two developers are connected by an edge if they use the same
+module in their code. The data is part of the Gephi package

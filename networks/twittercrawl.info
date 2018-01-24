@@ -1,0 +1,4 @@
+A network from the Gephi package,
+this network maps out retweets and mentions between twitter users.
+Unless other social networks, this network is particularly dense. With
+3656 users and 154824, the average degree is almost 85.
