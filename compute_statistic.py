@@ -15,7 +15,7 @@ import argparse
 
 from tinydb import TinyDB, Query
 
-db = TinyDB('statistics.json')
+db = TinyDB('statistics.json', indent=4)
 
 def list_networks():
     for f in glob.glob("networks/*.txt.gz"):
