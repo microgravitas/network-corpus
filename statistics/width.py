@@ -16,6 +16,7 @@ def compute_td(graph, **kwargs):
             filebuf.write("e {} {}\n".format(u+1,v+1)) # The dimacs format is 1-based.
             apex = max(apex, u)
             apex = max(apex, v)
+        apex += 1
 
         for u in graph:
             filebuf.write("e {} {}\n".format(apex+1, u+1))
