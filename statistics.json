@@ -109,7 +109,8 @@
             "m": 78,
             "maxdeg": 17,
             "n": 34,
-            "name": "karate"
+            "name": "karate",
+            "td": 8
         },
         "14": {
             "avgdeg": 11.038297872340426,
@@ -126,7 +127,8 @@
             "m": 610,
             "maxdeg": 29,
             "n": 376,
-            "name": "photoviz dynamic"
+            "name": "photoviz dynamic",
+            "td": 45
         },
         "16": {
             "avgdeg": 8.4,
@@ -134,7 +136,8 @@
             "m": 441,
             "maxdeg": 25,
             "n": 105,
-            "name": "polbooks"
+            "name": "polbooks",
+            "td": 48
         },
         "17": {
             "avgdeg": 27.312091503267975,
@@ -142,7 +145,8 @@
             "m": 16715,
             "maxdeg": 351,
             "n": 1224,
-            "name": "polblogs"
+            "name": "polblogs",
+            "td": 459
         },
         "18": {
             "avgdeg": 24.36617842876165,
@@ -158,7 +162,8 @@
             "m": 5539,
             "maxdeg": 88,
             "n": 238,
-            "name": "sp_data_school_day_2"
+            "name": "sp_data_school_day_2",
+            "td": 208
         },
         "20": {
             "avgdeg": 10.264150943396226,
@@ -166,7 +171,8 @@
             "m": 272,
             "maxdeg": 32,
             "n": 53,
-            "name": "bergen"
+            "name": "bergen",
+            "td": 24
         },
         "21": {
             "avgdeg": 8.078416115505988,
@@ -191,7 +197,8 @@
             "m": 254,
             "maxdeg": 36,
             "n": 77,
-            "name": "lesmiserables"
+            "name": "lesmiserables",
+            "td": 20
         },
         "24": {
             "avgdeg": 14.464646464646465,
@@ -208,7 +215,8 @@
             "m": 425,
             "maxdeg": 49,
             "n": 112,
-            "name": "word_adjacencies"
+            "name": "word_adjacencies",
+            "td": 48
         },
         "26": {
             "avgdeg": 5.034564958283671,
@@ -216,7 +224,8 @@
             "m": 2112,
             "maxdeg": 327,
             "n": 839,
-            "name": "cpan-authors"
+            "name": "cpan-authors",
+            "td": 50
         },
         "27": {
             "avgdeg": 3.8838430645659563,
