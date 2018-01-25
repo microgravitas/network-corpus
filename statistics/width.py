@@ -4,6 +4,7 @@ def compute_td(graph, **kwargs):
         Computes the treedepth using separator heuristics.
     """
     import os, subprocess
+
     with open('tmp.dimacs', 'w') as filebuf:
         # The td program only works for connected graphs, so we add an
         # apex vertex and subtract one from the result.
@@ -27,7 +28,8 @@ def compute_td(graph, **kwargs):
         sys.exit()
 
     try:
-        process = subprocess.run(["statistics/td/td-bs", "-s", "-p", "-n", "tmp.dimacs"], stderr=subprocess.PIPE, )
+        timeout = kwargs['timeout'] if 'timeout' in kwargs else None
+        process = subprocess.run(["statistics/td/td-bs", "-s", "-p", "-n", "tmp.dimacs"], stderr=subprocess.PIPE, timeout=timeout )
         output = str(process.stderr)
 
         td = int(output.split(",")[2].split(":")[1].strip())

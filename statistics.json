@@ -1,236 +1,237 @@
 {
     "_default": {
         "1": {
-            "td": 2125,
-            "n": 3656,
-            "m": 154824,
+            "avgdeg": 84.69584245076587,
             "degen": 159,
-            "name": "twittercrawl",
+            "m": 154824,
             "maxdeg": 1084,
-            "avgdeg": 84.69584245076587
+            "n": 3656,
+            "name": "twittercrawl",
+            "td": 2125
         },
         "2": {
-            "td": 87,
-            "n": 115,
-            "m": 613,
+            "avgdeg": 10.660869565217391,
             "degen": 8,
-            "name": "football",
+            "m": 613,
             "maxdeg": 12,
-            "avgdeg": 10.660869565217391
+            "n": 115,
+            "name": "football",
+            "td": 87
         },
         "3": {
-            "td": 37,
-            "n": 1419,
-            "m": 2738,
+            "avgdeg": 3.8590556730091614,
             "degen": 11,
-            "name": "diseasome",
+            "m": 2738,
             "maxdeg": 84,
-            "avgdeg": 3.8590556730091614
+            "n": 1419,
+            "name": "diseasome",
+            "td": 37
         },
         "4": {
-            "n": 75879,
-            "m": 405740,
-            "degen": 95,
             "avgdeg": 10.694395023656083,
+            "degen": 95,
+            "m": 405740,
             "maxdeg": 3044,
+            "n": 75879,
             "name": "soc-Epinions1"
         },
         "5": {
-            "td": 28,
-            "n": 1461,
-            "m": 2742,
+            "avgdeg": 3.753593429158111,
             "degen": 19,
-            "name": "netscience",
+            "m": 2742,
             "maxdeg": 34,
-            "avgdeg": 3.753593429158111
+            "n": 1461,
+            "name": "netscience",
+            "td": 28
         },
         "6": {
-            "td": 26,
-            "n": 62,
-            "m": 159,
+            "avgdeg": 5.129032258064516,
             "degen": 4,
-            "name": "dolphins",
+            "m": 159,
             "maxdeg": 12,
-            "avgdeg": 5.129032258064516
+            "n": 62,
+            "name": "dolphins",
+            "td": 26
         },
         "7": {
-            "n": 36692,
-            "m": 183831,
-            "degen": 47,
             "avgdeg": 10.020222391802028,
+            "degen": 47,
+            "m": 183831,
             "maxdeg": 1383,
+            "n": 36692,
             "name": "email-Enron"
         },
         "8": {
-            "n": 331,
-            "m": 930,
-            "degen": 3,
             "avgdeg": 5.619335347432024,
+            "degen": 3,
+            "m": 930,
             "maxdeg": 6,
-            "name": "hex"
+            "n": 331,
+            "name": "hex",
+            "td": 241
         },
         "9": {
-            "n": 58228,
-            "m": 214078,
-            "degen": 63,
             "avgdeg": 7.353094731057223,
+            "degen": 63,
+            "m": 214078,
             "maxdeg": 1134,
+            "n": 58228,
             "name": "loc-brightkite_edges"
         },
         "10": {
-            "td": 53,
-            "n": 724,
-            "m": 1015,
+            "avgdeg": 2.803867403314917,
             "degen": 4,
-            "name": "codeminer",
+            "m": 1015,
             "maxdeg": 55,
-            "avgdeg": 2.803867403314917
+            "n": 724,
+            "name": "codeminer",
+            "td": 53
         },
         "11": {
-            "n": 27769,
-            "m": 352285,
-            "degen": 39,
             "avgdeg": 25.37253772192013,
+            "degen": 39,
+            "m": 352285,
             "maxdeg": 2468,
+            "n": 27769,
             "name": "cit-HepTh"
         },
         "12": {
-            "n": 77360,
-            "m": 469180,
-            "degen": 63,
             "avgdeg": 12.129782833505688,
+            "degen": 63,
+            "m": 469180,
             "maxdeg": 2539,
+            "n": 77360,
             "name": "soc-Slashdot0811"
         },
         "13": {
-            "n": 34,
-            "m": 78,
-            "degen": 4,
             "avgdeg": 4.588235294117647,
+            "degen": 4,
+            "m": 78,
             "maxdeg": 17,
+            "n": 34,
             "name": "karate"
         },
         "14": {
-            "td": 65,
-            "n": 235,
-            "m": 1297,
+            "avgdeg": 11.038297872340426,
             "degen": 13,
-            "name": "airlines",
+            "m": 1297,
             "maxdeg": 130,
-            "avgdeg": 11.038297872340426
+            "n": 235,
+            "name": "airlines",
+            "td": 65
         },
         "15": {
-            "n": 376,
-            "m": 610,
-            "degen": 4,
             "avgdeg": 3.24468085106383,
+            "degen": 4,
+            "m": 610,
             "maxdeg": 29,
+            "n": 376,
             "name": "photoviz dynamic"
         },
         "16": {
-            "n": 105,
-            "m": 441,
-            "degen": 6,
             "avgdeg": 8.4,
+            "degen": 6,
+            "m": 441,
             "maxdeg": 25,
+            "n": 105,
             "name": "polbooks"
         },
         "17": {
-            "n": 1224,
-            "m": 16715,
-            "degen": 38,
             "avgdeg": 27.312091503267975,
+            "degen": 38,
+            "m": 16715,
             "maxdeg": 351,
+            "n": 1224,
             "name": "polblogs"
         },
         "18": {
-            "n": 34546,
-            "m": 420877,
-            "degen": 30,
             "avgdeg": 24.36617842876165,
+            "degen": 30,
+            "m": 420877,
             "maxdeg": 846,
+            "n": 34546,
             "name": "cit-HepPh"
         },
         "19": {
-            "n": 238,
-            "m": 5539,
-            "degen": 33,
             "avgdeg": 46.54621848739496,
+            "degen": 33,
+            "m": 5539,
             "maxdeg": 88,
+            "n": 238,
             "name": "sp_data_school_day_2"
         },
         "20": {
-            "n": 53,
-            "m": 272,
-            "degen": 9,
             "avgdeg": 10.264150943396226,
+            "degen": 9,
+            "m": 272,
             "maxdeg": 32,
+            "n": 53,
             "name": "bergen"
         },
         "21": {
-            "n": 23133,
-            "m": 93439,
-            "degen": 25,
             "avgdeg": 8.078416115505988,
+            "degen": 25,
+            "m": 93439,
             "maxdeg": 279,
+            "n": 23133,
             "name": "ca-CondMat"
         },
         "22": {
-            "td": 2153,
-            "n": 12006,
-            "m": 118489,
+            "avgdeg": 19.738297517907714,
             "degen": 238,
-            "name": "ca-HepPh",
+            "m": 118489,
             "maxdeg": 491,
-            "avgdeg": 19.738297517907714
+            "n": 12006,
+            "name": "ca-HepPh",
+            "td": 2153
         },
         "23": {
-            "n": 77,
-            "m": 254,
-            "degen": 9,
             "avgdeg": 6.597402597402597,
+            "degen": 9,
+            "m": 254,
             "maxdeg": 36,
+            "n": 77,
             "name": "lesmiserables"
         },
         "24": {
-            "td": 155,
-            "n": 297,
-            "m": 2148,
+            "avgdeg": 14.464646464646465,
             "degen": 10,
-            "name": "celegans",
+            "m": 2148,
             "maxdeg": 134,
-            "avgdeg": 14.464646464646465
+            "n": 297,
+            "name": "celegans",
+            "td": 155
         },
         "25": {
-            "n": 112,
-            "m": 425,
-            "degen": 6,
             "avgdeg": 7.589285714285714,
+            "degen": 6,
+            "m": 425,
             "maxdeg": 49,
+            "n": 112,
             "name": "word_adjacencies"
         },
         "26": {
-            "n": 839,
-            "m": 2112,
-            "degen": 9,
             "avgdeg": 5.034564958283671,
+            "degen": 9,
+            "m": 2112,
             "maxdeg": 327,
+            "n": 839,
             "name": "cpan-authors"
         },
         "27": {
-            "n": 6474,
-            "m": 12572,
-            "degen": 12,
             "avgdeg": 3.8838430645659563,
+            "degen": 12,
+            "m": 12572,
             "maxdeg": 1458,
+            "n": 6474,
             "name": "as20000102"
         },
         "28": {
-            "n": 10876,
-            "m": 39994,
-            "degen": 7,
             "avgdeg": 7.354542111070247,
+            "degen": 7,
+            "m": 39994,
             "maxdeg": 103,
+            "n": 10876,
             "name": "p2p-Gnutella04"
         }
     }

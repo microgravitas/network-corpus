@@ -15,7 +15,7 @@ import argparse
 
 from tinydb import TinyDB, Query
 
-db = TinyDB('statistics.json', indent=4)
+db = TinyDB('statistics.json', sort_keys=True, indent=4)
 
 def list_networks():
     for f in glob.glob("networks/*.txt.gz"):
@@ -73,6 +73,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('statistics', nargs='*')
 parser.add_argument('--force', action='store_true')
 parser.add_argument('--test', action='store_true')
+parser.add_argument('--timeout', type=int)
 
 args = parser.parse_args()
 
@@ -100,10 +101,10 @@ for stat_name in stats:
             continue
 
         g = load_network(name)
-        value = stat_func(g)
+        value = stat_func(g, timeout=args.timeout)
 
         if value == None:
-            print("Computing {} failed on network {}".format(stat_name, name))
+            print("Computing {} failed or timed out on network {}".format(stat_name, name))
             continue
 
         res = value if not res else action(value, res)
