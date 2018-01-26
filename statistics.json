@@ -81,7 +81,8 @@
             "m": 214078,
             "maxdeg": 1134,
             "n": 58228,
-            "name": "loc-brightkite_edges"
+            "name": "loc-brightkite_edges",
+            "tw": 5177
         },
         "10": {
             "avgdeg": 2.803867403314917,
@@ -256,7 +257,8 @@
             "m": 39994,
             "maxdeg": 103,
             "n": 10876,
-            "name": "p2p-Gnutella04"
+            "name": "p2p-Gnutella04",
+            "tw": 2799
         }
     }
 }
