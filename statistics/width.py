@@ -1,5 +1,5 @@
 
-def compute_tw(graph, logger, timeout=300) -> min:
+def compute_tw(graph, logger, timeout=None) -> min:
     """ 
         Computes the treewidth using the FlowCutter heuristic
         (https://github.com/ben-strasser/flow-cutter-pace16).
@@ -13,6 +13,9 @@ def compute_tw(graph, logger, timeout=300) -> min:
         filebuf.write("p tw {} {}\n".format(len(graph), graph.num_edges()))
         for u,v in graph.edges():
             filebuf.write("{} {}\n".format(u+1,v+1)) # The .gr format is 1-based.        
+
+    if not timeout:
+        timeout = 300 # The heuristic needs a timeout
 
     # Run heuristic for [timeout] seconds, then terminate.
     # The heuristic will return the best found solution so far via stdout.
