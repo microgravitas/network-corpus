@@ -115,7 +115,8 @@
             "m": 78,
             "maxdeg": 17,
             "n": 34,
-            "name": "karate"
+            "name": "karate",
+            "td": 8
         },
         "14": {
             "avgdeg": 11.038297872340426,
@@ -133,7 +134,8 @@
             "m": 610,
             "maxdeg": 29,
             "n": 376,
-            "name": "photoviz dynamic"
+            "name": "photoviz dynamic",
+            "td": 45
         },
         "16": {
             "avgdeg": 8.4,
@@ -142,6 +144,7 @@
             "maxdeg": 25,
             "n": 105,
             "name": "polbooks",
+            "td": 48,
             "tw": 14
         },
         "17": {
@@ -150,7 +153,8 @@
             "m": 16715,
             "maxdeg": 351,
             "n": 1224,
-            "name": "polblogs"
+            "name": "polblogs",
+            "td": 459
         },
         "18": {
             "avgdeg": 24.36617842876165,
@@ -167,6 +171,7 @@
             "maxdeg": 88,
             "n": 238,
             "name": "sp_data_school_day_2",
+            "td": 208,
             "tw": 122
         },
         "20": {
@@ -175,7 +180,8 @@
             "m": 272,
             "maxdeg": 32,
             "n": 53,
-            "name": "bergen"
+            "name": "bergen",
+            "td": 24
         },
         "21": {
             "avgdeg": 8.078416115505988,
@@ -202,6 +208,7 @@
             "maxdeg": 36,
             "n": 77,
             "name": "lesmiserables",
+            "td": 20,
             "tw": 10
         },
         "24": {
@@ -221,6 +228,7 @@
             "maxdeg": 49,
             "n": 112,
             "name": "word_adjacencies",
+            "td": 48,
             "tw": 31
         },
         "26": {
@@ -230,6 +238,7 @@
             "maxdeg": 327,
             "n": 839,
             "name": "cpan-authors",
+            "td": 50,
             "tw": 36
         },
         "27": {
