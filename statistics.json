@@ -7,7 +7,8 @@
             "maxdeg": 1084,
             "n": 3656,
             "name": "twittercrawl",
-            "td": 2125
+            "td": 2125,
+            "tw": 763
         },
         "2": {
             "avgdeg": 10.660869565217391,
@@ -16,7 +17,8 @@
             "maxdeg": 12,
             "n": 115,
             "name": "football",
-            "td": 87
+            "td": 87,
+            "tw": 39
         },
         "3": {
             "avgdeg": 3.8590556730091614,
@@ -25,7 +27,8 @@
             "maxdeg": 84,
             "n": 1419,
             "name": "diseasome",
-            "td": 37
+            "td": 37,
+            "tw": 12
         },
         "4": {
             "avgdeg": 10.694395023656083,
@@ -51,7 +54,8 @@
             "maxdeg": 12,
             "n": 62,
             "name": "dolphins",
-            "td": 26
+            "td": 26,
+            "tw": 11
         },
         "7": {
             "avgdeg": 10.020222391802028,
@@ -68,7 +72,8 @@
             "maxdeg": 6,
             "n": 331,
             "name": "hex",
-            "td": 241
+            "td": 241,
+            "tw": 30
         },
         "9": {
             "avgdeg": 7.353094731057223,
@@ -85,7 +90,8 @@
             "maxdeg": 55,
             "n": 724,
             "name": "codeminer",
-            "td": 53
+            "td": 53,
+            "tw": 9
         },
         "11": {
             "avgdeg": 25.37253772192013,
@@ -118,7 +124,8 @@
             "maxdeg": 130,
             "n": 235,
             "name": "airlines",
-            "td": 65
+            "td": 65,
+            "tw": 42
         },
         "15": {
             "avgdeg": 3.24468085106383,
@@ -134,7 +141,8 @@
             "m": 441,
             "maxdeg": 25,
             "n": 105,
-            "name": "polbooks"
+            "name": "polbooks",
+            "tw": 14
         },
         "17": {
             "avgdeg": 27.312091503267975,
@@ -158,7 +166,8 @@
             "m": 5539,
             "maxdeg": 88,
             "n": 238,
-            "name": "sp_data_school_day_2"
+            "name": "sp_data_school_day_2",
+            "tw": 122
         },
         "20": {
             "avgdeg": 10.264150943396226,
@@ -174,7 +183,8 @@
             "m": 93439,
             "maxdeg": 279,
             "n": 23133,
-            "name": "ca-CondMat"
+            "name": "ca-CondMat",
+            "tw": 2150
         },
         "22": {
             "avgdeg": 19.738297517907714,
@@ -191,7 +201,8 @@
             "m": 254,
             "maxdeg": 36,
             "n": 77,
-            "name": "lesmiserables"
+            "name": "lesmiserables",
+            "tw": 10
         },
         "24": {
             "avgdeg": 14.464646464646465,
@@ -200,7 +211,8 @@
             "maxdeg": 134,
             "n": 297,
             "name": "celegans",
-            "td": 155
+            "td": 155,
+            "tw": 71
         },
         "25": {
             "avgdeg": 7.589285714285714,
@@ -208,7 +220,8 @@
             "m": 425,
             "maxdeg": 49,
             "n": 112,
-            "name": "word_adjacencies"
+            "name": "word_adjacencies",
+            "tw": 31
         },
         "26": {
             "avgdeg": 5.034564958283671,
@@ -216,7 +229,8 @@
             "m": 2112,
             "maxdeg": 327,
             "n": 839,
-            "name": "cpan-authors"
+            "name": "cpan-authors",
+            "tw": 36
         },
         "27": {
             "avgdeg": 3.8838430645659563,
@@ -224,7 +238,8 @@
             "m": 12572,
             "maxdeg": 1458,
             "n": 6474,
-            "name": "as20000102"
+            "name": "as20000102",
+            "tw": 75
         },
         "28": {
             "avgdeg": 7.354542111070247,

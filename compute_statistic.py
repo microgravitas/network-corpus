@@ -2,7 +2,7 @@
 
 import sys, glob, os
 import gzip
-sys.path.insert(0, "/home/ubik/git/programs/augmental")
+import logging
 
 import statistics
 from statistics import *
@@ -18,8 +18,11 @@ from tinydb import TinyDB, Query
 db = TinyDB('statistics.json', sort_keys=True, indent=4)
 
 def list_networks():
+    networks = []
     for f in glob.glob("networks/*.txt.gz"):
         name = os.path.basename(f)[:-7]
+        networks.append(name) # Just so we have some control over the order
+    for name in reversed(networks):    
         yield name
 
 def load_network(name):
@@ -69,11 +72,21 @@ if len(sys.argv) == 1:
     sys.exit()
 
 
+# Set up logger
+logger = logging.getLogger('compute_statistic')
+hdlr = logging.FileHandler('compute_statistic.log')
+formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
+hdlr.setFormatter(formatter)
+logger.addHandler(hdlr) 
+logger.setLevel(logging.INFO)
+
+# Parse arguments
 parser = argparse.ArgumentParser()
 parser.add_argument('statistics', nargs='*')
 parser.add_argument('--force', action='store_true')
 parser.add_argument('--test', action='store_true')
 parser.add_argument('--timeout', type=int)
+parser.add_argument('--networks', nargs='*')
 
 args = parser.parse_args()
 
@@ -90,7 +103,13 @@ for stat_name in stats:
 
     stat_func = stat_dict[stat_name]
     action = update_action[stat_name]
-    for name in list_networks():
+    
+    if args.networks:
+        networks = args.networks
+    else:
+        networks = list_networks()
+
+    for name in networks:
         Network = Query()
         doc = db.get(Network.name == name)
         res = None
@@ -100,8 +119,9 @@ for stat_name in stats:
         if res and not args.force:
             continue
 
+        logger.info("Computing {} on network {} with timeout {}".format(stat_name, name, args.timeout))
         g = load_network(name)
-        value = stat_func(g, timeout=args.timeout)
+        value = stat_func(g, logger, args.timeout)
 
         if value == None:
             print("Computing {} failed or timed out on network {}".format(stat_name, name))

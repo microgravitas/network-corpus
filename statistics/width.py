@@ -1,5 +1,45 @@
 
-def compute_td(graph, **kwargs):
+def compute_tw(graph, logger, timeout=300) -> min:
+    """ 
+        Computes the treewidth using the FlowCutter heuristic
+        (https://github.com/ben-strasser/flow-cutter-pace16).
+    """
+    import os, sys, subprocess
+    import time
+
+    # See https://github.com/PACE-challenge/Treewidth#input-format for
+    # a description of the .gr format
+    with open('tmp.gr', 'w') as filebuf:
+        filebuf.write("p tw {} {}\n".format(len(graph), graph.num_edges()))
+        for u,v in graph.edges():
+            filebuf.write("{} {}\n".format(u+1,v+1)) # The .gr format is 1-based.        
+
+    # Run heuristic for [timeout] seconds, then terminate.
+    # The heuristic will return the best found solution so far via stdout.
+    proc = subprocess.Popen(["statistics/tw/flow_cutter_pace16", "tmp.gr"], stdout=subprocess.PIPE)
+    time.sleep(timeout) 
+
+    proc.terminate()
+    outs, errs = proc.communicate()
+
+    if errs:
+        logger.error(errs.decode())
+    logger.info(outs.decode())
+
+    width = None
+    for l in outs.decode().split('\n'):
+        if l[0] == "s":
+            # Solution like has format 's td [num-bags] [max bag size] [vertices in graph]'
+            tokens = l.split()
+            assert tokens[1] == 'td'
+            width = int(tokens[3])
+            break
+
+    os.remove('tmp.gr')
+
+    return width
+
+def compute_td(graph, logger, timeout=None) -> min:
     """
         Computes the treedepth using separator heuristics.
     """
@@ -28,7 +68,6 @@ def compute_td(graph, **kwargs):
         sys.exit()
 
     try:
-        timeout = kwargs['timeout'] if 'timeout' in kwargs else None
         process = subprocess.run(["statistics/td/td-bs", "-s", "-p", "-n", "tmp.dimacs"], stderr=subprocess.PIPE, timeout=timeout )
         output = str(process.stderr)
 

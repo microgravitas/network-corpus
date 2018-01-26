@@ -1,5 +1,5 @@
 
-def compute_degen(graph, **kwargs) -> min:
+def compute_degen(graph, logger, timeout=None) -> min:
     """
         Computes the degeneracy of the graph
     """
