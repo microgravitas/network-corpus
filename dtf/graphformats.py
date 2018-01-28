@@ -9,7 +9,7 @@ def read_edgelist(filename):
         line = line.strip()
         if line[0] == '#':
             continue
-        source,target= line.split("\t")
+        source,target= line.split()
         s = int(source)
         t = int(target)
    

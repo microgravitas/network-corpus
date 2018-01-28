@@ -1,7 +1,6 @@
 #! /usr/bin/env python3 
 
 import sys, os
-sys.path.insert(0, "/home/ubik/git/programs/augmental")
 
 import math
 from dtf.graph import Graph
