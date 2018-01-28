@@ -9,7 +9,7 @@ def read_edgelist(filename):
         line = line.strip()
         if line[0] == '#':
             continue
-        source,target= line.split()
+        source,target,*rest = line.split()
         s = int(source)
         t = int(target)
    
@@ -50,7 +50,7 @@ def read_leda(filename):
 
     for line in lines:
         line = line.strip()
-        if line == '' or line[0] == '#':
+        if len(line) == 0 or line[0] in ['#', '%']:
             continue
         s,t,r,l = line.split(' ')
         graph.add_edge(int(s)-1, int(t)-1) # LEDA is 1-based.
@@ -248,7 +248,7 @@ def get_writer(ext):
         return write_leda
     elif ext == ".gml":
         return write_gml
-    elif ext == ".txt":
+    elif ext == ".txt" or ext == ".edges":
         return write_edgelist
     else:
         raise Exception('Unknown output file format: {0}'.format(ext))
