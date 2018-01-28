@@ -7,7 +7,7 @@ def read_edgelist(filename):
     graph = Graph()
     for line in open(filename).readlines():
         line = line.strip()
-        if line[0] == '#':
+        if len(line) == 0 or line[0] in ['%','#']:
             continue
         source,target,*rest = line.split()
         s = int(source)
@@ -50,7 +50,7 @@ def read_leda(filename):
 
     for line in lines:
         line = line.strip()
-        if len(line) == 0 or line[0] in ['#', '%']:
+        if len(line) == 0 or line[0] in ['#']:
             continue
         s,t,r,l = line.split(' ')
         graph.add_edge(int(s)-1, int(t)-1) # LEDA is 1-based.
@@ -237,7 +237,7 @@ def get_parser(ext):
         return read_gml
     elif ext == ".leda":
         return read_leda
-    elif ext == ".txt":
+    elif ext == ".txt" or ext == ".edges":
         # print( "Ending is .txt. Assuming SNAP raw edge list")
         return read_edgelist
     else:
