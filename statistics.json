@@ -389,6 +389,24 @@
             "name": "rhesusbrain",
             "td": 139,
             "tw": 81
+        },
+        "43": {
+            "avgdeg": 2.5525620707871104,
+            "degen": 2,
+            "m": 2416,
+            "maxdeg": 10,
+            "n": 1893,
+            "name": "exnet-water",
+            "td": 122
+        },
+        "44": {
+            "avgdeg": 16.3444976076555,
+            "degen": 22,
+            "m": 15372,
+            "maxdeg": 455,
+            "n": 1881,
+            "name": "wikipedia-norm",
+            "td": 523
         }
     }
 }
