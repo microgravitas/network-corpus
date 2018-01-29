@@ -1,0 +1,23 @@
+Email communication network at the University Rovira i Virgili in Tarragona in the south of Catalonia in Spain. 
+Nodes are users and edges indicate that at least one email was sent.
+
+
+@inproceedings{nr,
+     title={The Network Data Repository with Interactive Graph Analytics and Visualization},
+     author={Ryan A. Rossi and Nesreen K. Ahmed},
+     booktitle={Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence},
+     url={http://networkrepository.com},
+     year={2015}
+}
+
+@article{guimera2003self,
+     title={Self-similar community structure in a network of human interactions},
+     author={Guimera, Roger and Danon, Leon and Diaz-Guilera, Albert and Giralt, Francesc and Arenas, Alex},
+     journal={Physical review E},
+     volume={68},
+     number={6},
+     pages={065103},
+     year={2003},
+     publisher={APS}
+}
+
