@@ -479,6 +479,25 @@
             "n": 15,
             "name": "wafa-padgett",
             "td": 7
+        },
+        "52": {
+            "avgdeg": 4.058530510585305,
+            "degen": 16,
+            "m": 3259,
+            "maxdeg": 227,
+            "n": 1606,
+            "name": "bitcoin-otc-negative",
+            "td": 114,
+            "tw": 60
+        },
+        "53": {
+            "avgdeg": 6.671810514982954,
+            "degen": 20,
+            "m": 18591,
+            "maxdeg": 788,
+            "n": 5573,
+            "name": "bitcoin-otc-positive",
+            "tw": 350
         }
     }
 }
