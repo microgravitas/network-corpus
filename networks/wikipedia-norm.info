@@ -1,0 +1,8 @@
+ICON: The network of Wikipedia pages on editorial norms, in 2015. 
+Nodes are wikipedia entries, and two entries are linked by a directed edge if one hyperlinks to the other.
+Editorial norms cover content creation, interactions between users, and formal administrative structure 
+among users and admins. Metadata includes page creation time, and norm category. 
+
+Original filename was links.csv
+http://tuvalu.santafe.edu/~simon/styled-9/styled-10/
+
