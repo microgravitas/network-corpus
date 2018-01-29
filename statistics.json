@@ -36,7 +36,8 @@
             "m": 405740,
             "maxdeg": 3044,
             "n": 75879,
-            "name": "soc-Epinions1"
+            "name": "soc-Epinions1",
+            "tw": 5502
         },
         "5": {
             "avgdeg": 3.753593429158111,
@@ -63,7 +64,8 @@
             "m": 183831,
             "maxdeg": 1383,
             "n": 36692,
-            "name": "email-Enron"
+            "name": "email-Enron",
+            "tw": 2193
         },
         "8": {
             "avgdeg": 5.619335347432024,
@@ -249,6 +251,7 @@
             "maxdeg": 1458,
             "n": 6474,
             "name": "as20000102",
+            "td": 282,
             "tw": 75
         },
         "28": {
@@ -285,6 +288,64 @@
             "maxdeg": 2761,
             "n": 23628,
             "name": "soc-gplus"
+        },
+        "32": {
+            "degen": 18,
+            "m": 8911,
+            "maxdeg": 927,
+            "n": 1781,
+            "name": "bn-fly-drosophila_medulla_1",
+            "td": 406,
+            "tw": 176
+        },
+        "33": {
+            "degen": 9,
+            "m": 2914,
+            "maxdeg": 102,
+            "n": 889,
+            "name": "soc-wiki-Vote"
+        },
+        "34": {
+            "degen": 6,
+            "m": 8909,
+            "maxdeg": 175,
+            "n": 4271,
+            "name": "web-EPA"
+        },
+        "35": {
+            "degen": 11,
+            "m": 5451,
+            "maxdeg": 71,
+            "n": 1133,
+            "name": "ia-email-univ"
+        },
+        "36": {
+            "degen": 17,
+            "m": 2765,
+            "maxdeg": 50,
+            "n": 410,
+            "name": "ia-infect-dublin"
+        },
+        "37": {
+            "degen": 5,
+            "m": 7680,
+            "maxdeg": 261,
+            "n": 6809,
+            "name": "ia-reality"
+        },
+        "38": {
+            "degen": 17,
+            "m": 2773,
+            "maxdeg": 59,
+            "n": 1299,
+            "name": "web-google"
+        },
+        "39": {
+            "degen": 158,
+            "m": 90811,
+            "maxdeg": 744,
+            "n": 1076,
+            "name": "bn-mouse_retina_1"
         }
     }
 }
