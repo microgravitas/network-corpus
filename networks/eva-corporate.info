@@ -1,0 +1,16 @@
+EVA / Denali is a multidisciplinary research project combining information 
+extraction, information visualization, and social network analysis techniques 
+to bring greater transparency to the public disclosure of inter-relationships 
+between corporations. The project is described in the paper [1].
+
+[..] we construct an ownership network with 6,726 relationships among 
+8,343 companies. Analysis reveals a highly clustered network, with over 50% of 
+all companies connected to one another in a single component. [..]
+
+[1] Kim Norlen, Gabriel Lucas, Mike Gebbie, and John Chuang. EVA: Extraction,
+Visualization and Analysis of the Telecommunications and Media Ownership
+Network. Proceedings of International Telecommunications Society 14th Biennial
+Conference, Seoul Korea, August 2002. (paper berkeley / local; slides berkeley /
+local) 
+
+http://vlado.fmf.uni-lj.si/pub/networks/data/econ/Eva/Eva.htm
