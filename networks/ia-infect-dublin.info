@@ -1,0 +1,15 @@
+A human contact network where nodes represent humans and edges between them represent proximity (i.e., contacts in the physical world).
+
+@inproceedings{nr,
+     title={The Network Data Repository with Interactive Graph Analytics and Visualization},
+     author={Ryan A. Rossi and Nesreen K. Ahmed},
+     booktitle={Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence},
+     url={http://networkrepository.com},
+     year={2015}
+}
+
+@misc{infect,
+     author={{SocioPatterns}},
+     title={Infectious contact networks},
+     note={http://www.sociopatterns.org/datasets/. Accessed 09/12/12.}
+}
