@@ -1,0 +1,5 @@
+ICON: The data set of water distribution networks of real systems and synthesized benchmarks. 
+Nodes represent a junction of pipes, reservoir or tank. Edges represent pipings, pumps or valves.
+This data set is hosted by the Center for Water Systems at the University of Exeter. 
+
+http://emps.exeter.ac.uk/engineering/research/cws/resources/benchmarks/expansion/exnet.php
