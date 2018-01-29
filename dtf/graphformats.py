@@ -22,6 +22,17 @@ def read_pajek(filename):
         for v in N:
             graph.add_edge(u,int(v))        
 
+    row = 0
+    def read_matrix(line, graph):
+        nonlocal row
+        for i,c in enumerate(line.split()):
+            if c != "0":
+                graph.add_edge(row, i)
+        row += 1
+
+    def ignore(line, graph):
+        pass
+
     mode = None
     with open(filename) as f:
         for line in f:
@@ -37,6 +48,10 @@ def read_pajek(filename):
                     mode = read_edge
                 elif modestr == 'edgeslist' or modestr == 'arcslist':
                     mode = read_edgelist
+                elif modestr == 'matrix':
+                    mode = read_matrix
+                elif modestr == 'network' or modestr == 'partition':
+                    mode = ignore
                 else:
                     raise Exception('Unknown mode string {} in line {}'.format(modestr, line))
                 continue
