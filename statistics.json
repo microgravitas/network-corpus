@@ -443,6 +443,42 @@
         "47": {
             "name": "ecoli-transcript",
             "tw": 9
+        },
+        "48": {
+            "avgdeg": 7.153846153846154,
+            "degen": 5,
+            "m": 93,
+            "maxdeg": 22,
+            "n": 26,
+            "name": "wafa-ceos",
+            "td": 13
+        },
+        "49": {
+            "avgdeg": 28.977777777777778,
+            "degen": 24,
+            "m": 652,
+            "maxdeg": 44,
+            "n": 45,
+            "name": "wafa-eies",
+            "td": 39
+        },
+        "50": {
+            "avgdeg": 15.142857142857142,
+            "degen": 12,
+            "m": 159,
+            "maxdeg": 20,
+            "n": 21,
+            "name": "wafa-hightech",
+            "td": 18
+        },
+        "51": {
+            "avgdeg": 3.6,
+            "degen": 3,
+            "m": 27,
+            "maxdeg": 8,
+            "n": 15,
+            "name": "wafa-padgett",
+            "td": 7
         }
     }
 }
