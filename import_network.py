@@ -7,6 +7,7 @@ from dtf.graph import Graph
 from dtf.graphformats import load_graph
 
 import gzip
+import subprocess
 
 def import_network(networkfile):
     g = load_graph(networkfile)
@@ -43,8 +44,18 @@ def import_network(networkfile):
     with open(infofile, 'w') as filebuf:
         filebuf.write(infotext)    
 
+    gitcmd = ['git', 'add', 'networks/{0}.txt.gz'.format(networkname), 'networks/{0}.info'.format(networkname)]
+    print(' '.join(gitcmd))
+    subprocess.run(gitcmd)
+    
+    gitcmd[1] = 'commit'
+    gitcmd.append('-m "Added network {0}"'.format(networkname))
+    print(' '.join(gitcmd))
+    subprocess.run(gitcmd)
+
 if __name__ == '__main__':
     for networkfile in sys.argv[1:]:
         import_network(networkfile)
-        
+    
+
 
