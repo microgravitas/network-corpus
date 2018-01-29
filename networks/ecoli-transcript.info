@@ -1,0 +1,6 @@
+This is an updated data set of the data used for the Nature Genetics paper titled:
+"Network motifs in the transcriptional regulation network of Escherichia coli"
+S S SHEN-ORR, R MILO, S MANGAN & U ALON, Nature Genetics Volume 31 No. 1 pp 64 - 68.
+
+The network is bipartite and connects operons to transcription factors.
+See http://www.weizmann.ac.il/mcb/UriAlon/e-coli-transcription-network
