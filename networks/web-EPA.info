@@ -1,0 +1,17 @@
+Network contains pages linking to www.epa.gov. 
+
+@inproceedings{nr,
+     title={The Network Data Repository with Interactive Graph Analytics and Visualization},
+     author={Ryan A. Rossi and Nesreen K. Ahmed},
+     booktitle={Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence},
+     url={http://networkrepository.com},
+     year={2015}
+}
+
+@book{de2011exploratory,
+     title={Exploratory social network analysis with Pajek},
+     author={De Nooy, Wouter and Mrvar, Andrej and Batagelj, Vladimir},
+     volume={27},
+     year={2011},
+     publisher={Cambridge University Press}
+}
