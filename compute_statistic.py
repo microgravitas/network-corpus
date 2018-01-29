@@ -25,9 +25,13 @@ def list_networks():
     for name in reversed(networks):    
         yield name
 
+def network_file(name):
+    return "networks/{}.txt.gz".format(name)
+
 def load_network(name):
     res = Graph()
-    with gzip.open("networks/{}.txt.gz".format(name), 'r') as filebuf:
+    filename = network_file(name)
+    with gzip.open(filename, 'r') as filebuf:
         for l in filebuf:
             u, v = l.decode().split()
             u, v = int(u), int(v)
@@ -120,7 +124,13 @@ for stat_name in stats:
             continue
 
         logger.info("Computing {} on network {} with timeout {}".format(stat_name, name, args.timeout))
-        g = load_network(name)
+        try:
+            g = load_network(name)
+        except FileNotFoundError:
+            logger.error("Network file '{}' could not be found".format(network_file(name)))
+            print("Network file '{}' could not be found".format(network_file(name)))
+            continue
+
         value = stat_func(g, logger, args.timeout)
 
         if value == None:
