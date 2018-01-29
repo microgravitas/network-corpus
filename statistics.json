@@ -407,6 +407,15 @@
             "n": 1881,
             "name": "wikipedia-norm",
             "td": 523
+        },
+        "45": {
+            "avgdeg": 7.223762376237624,
+            "degen": 6,
+            "m": 3648,
+            "maxdeg": 28,
+            "n": 1010,
+            "name": "roget-thesaurus",
+            "td": 446
         }
     }
 }
