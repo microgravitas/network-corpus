@@ -93,8 +93,8 @@ def read_gexf(filename):
     return graph
 
 def read_graphml(filename):
-    from BeautifulSoup import BeautifulSoup as Soup
-    soup = Soup(open(filename).read())
+    from bs4 import BeautifulSoup as BeautifulSoup
+    soup = BeautifulSoup(open(filename).read(), "lxml")
     graph = Graph()
 
     for edge in soup.findAll("edge"):
