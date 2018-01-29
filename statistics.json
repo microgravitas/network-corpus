@@ -290,6 +290,7 @@
             "name": "soc-gplus"
         },
         "32": {
+            "avgdeg": 10.006737787759686,
             "degen": 18,
             "m": 8911,
             "maxdeg": 927,
@@ -299,13 +300,16 @@
             "tw": 176
         },
         "33": {
+            "avgdeg": 6.555680539932508,
             "degen": 9,
             "m": 2914,
             "maxdeg": 102,
             "n": 889,
-            "name": "soc-wiki-Vote"
+            "name": "soc-wiki-Vote",
+            "td": 257
         },
         "34": {
+            "avgdeg": 4.171856708030906,
             "degen": 6,
             "m": 8909,
             "maxdeg": 175,
@@ -313,20 +317,25 @@
             "name": "web-EPA"
         },
         "35": {
+            "avgdeg": 9.62224183583407,
             "degen": 11,
             "m": 5451,
             "maxdeg": 71,
             "n": 1133,
-            "name": "ia-email-univ"
+            "name": "ia-email-univ",
+            "td": 408
         },
         "36": {
+            "avgdeg": 13.487804878048781,
             "degen": 17,
             "m": 2765,
             "maxdeg": 50,
             "n": 410,
-            "name": "ia-infect-dublin"
+            "name": "ia-infect-dublin",
+            "td": 212
         },
         "37": {
+            "avgdeg": 2.255837861653694,
             "degen": 5,
             "m": 7680,
             "maxdeg": 261,
@@ -334,18 +343,22 @@
             "name": "ia-reality"
         },
         "38": {
+            "avgdeg": 4.269438029253272,
             "degen": 17,
             "m": 2773,
             "maxdeg": 59,
             "n": 1299,
-            "name": "web-google"
+            "name": "web-google",
+            "td": 42
         },
         "39": {
+            "avgdeg": 168.79368029739777,
             "degen": 158,
             "m": 90811,
             "maxdeg": 744,
             "n": 1076,
-            "name": "bn-mouse_retina_1"
+            "name": "bn-mouse_retina_1",
+            "td": 883
         }
     }
 }
