@@ -1,0 +1,12 @@
+This network contains the collaboration of 40 composers of film scores and the 62 producers who produced a minimum of five movies in Hollywood, 1964-1976. This is a 2-mode network: a line between a composer and a producer indicates that the former created the soundtrack for the movie produced by the latter. The line values indicate the number of movies by one producer for which the composer created the music in the period 1964- 1976. The five top composers, each of whom earned 1.5% or more of the total income of Hollywood movie score composers in the 1960s and 1970s, are identified.
+References
+
+1.    Robert R. Faulkner, Music on Demand. Composers and Careers in the Hollywood Film Industry (New Brunswick: Transaction Books, 1983).
+2.   W. de Nooy, A. Mrvar, & V. Batagelj, Exploratory Social Network Analysis with Pajek (Cambridge: Cambridge University Press, 2004), Chapter 5.
+
+History
+
+1.    Original author: Robert R. Faulkner (University of Massachusetts - Amherst, Department of Sociology, Thompson Hall, 200 Hicks Way Amherst, MA 01003-9277; faulkner@soc.umass.edu).
+2.   Data compiled into Pajek data files by W. de Nooy, 2001.
+
+http://vlado.fmf.uni-lj.si/pub/networks/data/esna/movies.htm
