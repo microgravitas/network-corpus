@@ -261,13 +261,8 @@
             "tw": 2799
         },
         "29": {
-            "avgdeg": 6.555680539932508,
-            "degen": 9,
-            "m": 2914,
-            "maxdeg": 102,
-            "n": 889,
-            "name": "soc-wiki-Vote",
-            "td": 257
+            "name": "soc-advogato",
+            "td": 1367
         }
     }
 }
