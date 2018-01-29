@@ -3,6 +3,46 @@ import datetime
 from dtf.graph import Graph as Graph
 from xml.sax.saxutils import quoteattr
 
+def read_pajek(filename):
+    graph = Graph()
+
+    def read_vertex(line, graph):
+        u, *rest = line.split()
+        u = int(u)
+        graph.add_node(u)
+
+    def read_edge(line, graph):
+        u, v, *rest = line.split()
+        u, v = int(u), int(v)
+        graph.add_edge(u,v)     
+
+    def read_edgelist(line, graph):
+        u, *N = line.split()
+        u = int(u)
+        for v in N:
+            graph.add_edge(u,int(v))        
+
+    mode = None
+    with open(filename) as f:
+        for line in f:
+            line = line.strip()
+            if len(line) == 0 or line[0] == '%':
+                continue   
+            if line[0] == '*':
+                # Change mode
+                modestr = (line.split()[0])[1:].lower()
+                if modestr == 'vertices':
+                    mode = read_vertex
+                elif modestr == 'edges' or modestr == 'arcs':
+                    mode = read_edge
+                elif modestr == 'edgeslist' or modestr == 'arcslist':
+                    mode = read_edgelist
+                else:
+                    raise Exception('Unknown mode string {} in line {}'.format(modestr, line))
+                continue
+            mode(line, graph)
+    return graph
+
 def read_edgelist(filename):
     graph = Graph()
     for line in open(filename).readlines():
@@ -239,8 +279,9 @@ def get_parser(ext):
     elif ext == ".leda":
         return read_leda
     elif ext == ".txt" or ext == ".edges":
-        # print( "Ending is .txt. Assuming SNAP raw edge list")
         return read_edgelist
+    elif ext == ".net":
+        return read_pajek    
     else:
         raise Exception('Unknown input file format: {0}'.format(ext))     
 
