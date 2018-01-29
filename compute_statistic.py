@@ -3,6 +3,7 @@
 import sys, glob, os
 import gzip
 import logging
+from collections import defaultdict
 
 import statistics
 from statistics import *
@@ -44,8 +45,8 @@ def replace(newvalue, oldvalue):
     return newvalue
 
 # Load statistic functions
-stat_dict = {}
-update_action = {}
+stat_dict = defaultdict(dict)
+update_action = defaultdict(dict)
 for name, module in inspect.getmembers(statistics, inspect.ismodule):
     if name not in statistics.__all__:
         continue
@@ -53,28 +54,29 @@ for name, module in inspect.getmembers(statistics, inspect.ismodule):
     all_functions = inspect.getmembers(module, inspect.isfunction)
     stat_functions  = filter(lambda f: f[0].startswith("compute_"), all_functions)
     for name, f in stat_functions:
-        name = name[len("compute_"):] 
-        stat_dict[name] = f
-        update_action[name] = replace
-        if 'return' in f.__annotations__:
-            update_action[name] = f.__annotations__['return']
+        _, name, *variant = name.split("_")
+        varname = "" # This is the 'default' variant
+        if variant:
+            varname = "_".join(variant)
 
-    # stat_functions = [ (name[len("compute_"):], f) for name, f in stat_functions]
-    # stat_dict.update(stat_functions)
+        stat_dict[name][varname] = f
+        update_action[name][varname] = replace
+        if 'return' in f.__annotations__:
+            update_action[name][varname] = f.__annotations__['return']
 
 if len(sys.argv) == 1:
     print("Available statistics: ")
-    for name, f in sorted(stat_dict.items()):
-        prefix = "{:>8} [{:^7}] ".format(name, update_action[name].__name__)
-        wrapper = textwrap.TextWrapper(initial_indent=prefix, width=70,
-                               subsequent_indent=' '*21)
-        if f.__doc__:
-            text = ' '.join(f.__doc__.split()) # Equalize whitespace
-            print("  "+wrapper.fill(text))
-        else:
-            print("  "+wrapper.fill("(No documentation)"))
-    sys.exit()
-
+    for name, variants in sorted(stat_dict.items()):
+        prefix = "{:>8} ".format(name)
+        for varname, f in sorted(variants.items()):
+            print(prefix, end='')
+            prefix = " "*len(prefix)
+            varprefix = "{:10} [{:^7}] ".format(varname, update_action[name][varname].__name__)
+            if f.__doc__:
+                text = ' '.join(f.__doc__.split()) # Equalize whitespace
+                print(varprefix+text)
+            else:
+                print(varprefix+"(No documentation)")
 
 # Set up logger
 logger = logging.getLogger('compute_statistic')
@@ -98,15 +100,27 @@ stats = args.statistics
 if 'all' in stats:
     stats = stat_dict.keys()
 
-for stat_name in stats:
-    print("Computing {}".format(stat_name))
-    if stat_name not in stat_dict:
-        print("Error: '{}' is not a known statistic.".format(stat_name))
+for statname in stats:
+    varname = ""
+    if ":" in statname:
+        statname, varname = statname.split(":")
+
+    if varname not in stat_dict[statname]:
+        if varname != "":
+            print("Unknown method {}, reverting to default.".format(varname))
+        if "" in stat_dict[statname]:
+            varname = ""
+        else:
+            varname = list(stat_dict[statname].keys())[0]
+
+    print("Computing {} ({})".format(statname, "default method" if len(varname) == 0 else "using method {}".format(varname)))
+    if statname not in stat_dict:
+        print("Error: '{}' is not a known statistic.".format(statname))
         print("  Call this programm without argments for a list of supported statistic.")
         continue
 
-    stat_func = stat_dict[stat_name]
-    action = update_action[stat_name]
+    stat_func = stat_dict[statname][varname]
+    action = update_action[statname][varname]
     
     if args.networks:
         networks = args.networks
@@ -117,13 +131,13 @@ for stat_name in stats:
         Network = Query()
         doc = db.get(Network.name == name)
         res = None
-        if doc and stat_name in doc:
-            res = doc[stat_name]
+        if doc and statname in doc:
+            res = doc[statname]
 
         if res and not args.force:
             continue
 
-        logger.info("Computing {} on network {} with timeout {}".format(stat_name, name, args.timeout))
+        logger.info("Computing {} on network {} with timeout {}".format(statname, name, args.timeout))
         try:
             g = load_network(name)
         except FileNotFoundError:
@@ -134,7 +148,7 @@ for stat_name in stats:
         value = stat_func(g, logger, args.timeout)
 
         if value == None:
-            print("Computing {} failed or timed out on network {}".format(stat_name, name))
+            print("Computing {} failed or timed out on network {}".format(statname, name))
             continue
 
         res = value if not res else action(value, res)
@@ -146,4 +160,4 @@ for stat_name in stats:
         
         if args.test:
             continue
-        db.upsert({'name': name, stat_name: res}, Network.name == name)
+        db.upsert({'name': name, statname: res}, Network.name == name)
