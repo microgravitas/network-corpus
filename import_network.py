@@ -1,6 +1,6 @@
 #! /usr/bin/env python3 
 
-import sys, os
+import sys, os, re
 
 import math
 from dtf.graph import Graph
@@ -9,10 +9,28 @@ from dtf.graphformats import load_graph
 import gzip
 import subprocess
 
+def sorted_nicely( l ): 
+    convert = lambda text: int(text) if text.isdigit() else text 
+    alphanum_key = lambda key: [ convert(c) for c in re.split('([0-9]+)', key) ] 
+    return sorted(l, key = alphanum_key)
+
+def normalize(g):
+    if all( isinstance(u,int) for u in g ):
+        return g
+    # If the nodes are simply numbers decorated with some prefix,
+    # this sorting will most likely preserve the correct order.
+    nodemap = dict(zip(sorted_nicely(g), range(len(g))))
+    res = Graph()
+    for u,v in g.edges():
+        res.add_edge(nodemap[u], nodemap[v])
+    return res
+
 def import_network(networkfile):
     g = load_graph(networkfile)
     networkname = os.path.splitext(os.path.basename(networkfile))[0]
     print("Importing network {}".format(networkname))
+
+    g = normalize(g)
 
     infofile = os.path.splitext(networkfile)[0] + ".info"
 

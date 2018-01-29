@@ -9,10 +9,11 @@ def read_edgelist(filename):
         line = line.strip()
         if len(line) == 0 or line[0] in ['%','#']:
             continue
-        source,target,*rest = line.split()
-        s = int(source)
-        t = int(target)
-   
+        s,t,*rest = line.split()
+        try:
+            s, t = int(s), int(t)
+        except:
+            pass 
         graph.add_edge(s,t) 
 
     return graph
