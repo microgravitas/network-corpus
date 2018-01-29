@@ -1,0 +1,36 @@
+There are five network examples: Krackhardt's high-tech managers, 
+Padgett's Florentine families, Freeman's EIES network, Countries trade network, 
+and Galaskiewicz's CEOs and clubs network.
+
+Description
+
+HighTech.paj - multirelational network with 21 vertices and 190+102+20 arcs
+Padgett.paj - multirelational network with 16 vertices and 30+40 arcs
+EIES.paj - multirelational network with 48/32 vertices and 695+830/460 arcs
+Trade.paj - multirelational network with 24 vertices and 307+307+310+135+369 arcs
+CEOs.net - two-mode network with 41 vertices and 98 edges.
+
+Download
+
+all datasets (ZIP, 10K)
+Background
+
+Complete descriptions of these data, including references for the original sources 
+of the data, can be found in Chapter 2 (pages 59- 66) and Appendix B (pages 738-755)
+of Wasserman and Faust.
+
+The original data in ASCII, UCINET and KrackPlot formats are available at INSNA.
+History
+
+1.   INSNA page.
+2.   Transformed in Pajek format by V. Batagelj, 15. January 2005.
+
+Files
+
+wafa-hightech.net (HighTech.paj) - Krackhardt's High-tech managers
+wafa-padgett.net (Padgett.paj) - Padgett's Florentine Families
+wafa-eies.net (EIES.paj) - Freeman's EIES network
+wafa-trade.net (Trade.paj) - Countries trade data
+wafa-ceos.net (CEOs.net) - Galaskiewicz's CEOs and clubs. 
+
+http://vlado.fmf.uni-lj.si/pub/networks/data/WaFa/default.htm
