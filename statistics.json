@@ -497,6 +497,7 @@
             "maxdeg": 788,
             "n": 5573,
             "name": "bitcoin-otc-positive",
+            "td": 644,
             "tw": 350
         }
     }
