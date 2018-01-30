@@ -103,7 +103,8 @@
             "m": 352285,
             "maxdeg": 2468,
             "n": 27769,
-            "name": "cit-HepTh"
+            "name": "cit-HepTh",
+            "tw": 7159
         },
         "12": {
             "avgdeg": 12.129782833505688,
@@ -111,7 +112,8 @@
             "m": 469180,
             "maxdeg": 2539,
             "n": 77360,
-            "name": "soc-Slashdot0811"
+            "name": "soc-Slashdot0811",
+            "tw": 8461
         },
         "13": {
             "avgdeg": 4.588235294117647,
@@ -169,7 +171,8 @@
             "m": 420877,
             "maxdeg": 846,
             "n": 34546,
-            "name": "cit-HepPh"
+            "name": "cit-HepPh",
+            "tw": 6963
         },
         "19": {
             "avgdeg": 46.54621848739496,
@@ -520,7 +523,8 @@
             "m": 6711,
             "maxdeg": 552,
             "n": 7253,
-            "name": "eva-corporate"
+            "name": "eva-corporate",
+            "tw": 13
         }
     }
 }
