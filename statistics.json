@@ -437,10 +437,20 @@
             "tw": 226
         },
         "46": {
+            "avgdeg": 3.801980198019802,
+            "degen": 3,
+            "m": 192,
+            "maxdeg": 19,
+            "n": 101,
             "name": "movies",
             "tw": 16
         },
         "47": {
+            "avgdeg": 2.4832535885167464,
+            "degen": 3,
+            "m": 519,
+            "maxdeg": 72,
+            "n": 418,
             "name": "ecoli-transcript",
             "tw": 9
         },
@@ -503,6 +513,14 @@
             "name": "bitcoin-otc-positive",
             "td": 644,
             "tw": 350
+        },
+        "54": {
+            "avgdeg": 1.8505446022335585,
+            "degen": 3,
+            "m": 6711,
+            "maxdeg": 552,
+            "n": 7253,
+            "name": "eva-corporate"
         }
     }
 }
