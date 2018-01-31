@@ -549,6 +549,26 @@
             "n": 19428,
             "name": "marvel",
             "tw": 937
+        },
+        "57": {
+            "avgdeg": 9.610660486674393,
+            "degen": 9,
+            "m": 4147,
+            "maxdeg": 228,
+            "n": 863,
+            "name": "columbia-mobility",
+            "td": 67,
+            "tw": 34
+        },
+        "58": {
+            "avgdeg": 17.90034762456547,
+            "degen": 18,
+            "m": 7724,
+            "maxdeg": 545,
+            "n": 863,
+            "name": "columbia-social",
+            "td": 75,
+            "tw": 46
         }
     }
 }
