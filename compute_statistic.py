@@ -16,8 +16,6 @@ import argparse
 
 from tinydb import TinyDB, Query
 
-db = TinyDB('statistics.json', sort_keys=True, indent=4)
-
 def list_networks():
     networks = []
     for f in glob.glob("networks/*.txt.gz"):
@@ -46,6 +44,8 @@ def replace(newvalue, oldvalue):
 
 
 if __name__ == '__main__':
+    db = TinyDB('statistics.json', sort_keys=True, indent=4)
+    
     # Load statistic functions
     stat_dict = defaultdict(dict)
     update_action = defaultdict(dict)
