@@ -80,11 +80,15 @@ def compute_td_htd(graph, logger, timeout=None) -> min:
         the resulting treedepth.
         (https://github.com/mabseher/htd).
     """
+    import sys
 
     width, tree, bags = tw_pace(graph, logger, "htd_pace16", timeout)
     n = len(graph)
 
+    oldlimit = sys.getrecursionlimit()
+    sys.setrecursionlimit(15000)
     td = _td_from_tw(tree, bags, n)
+    sys.setrecursionlimit(oldlimit)
     return td
 
 def _td_from_tw(tree, bags, n):
@@ -125,7 +129,6 @@ def _find_separator_edge(tree, bags, n):
 
         res[(parent,current)] = nodes_below + len(bags[current] - bags[parent]) 
         res[(current,parent)] = n - res[(parent,current)]
-
 
     if len(tree) == 2:
         u,v = list(tree.edges())[0]
