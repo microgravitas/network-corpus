@@ -1,0 +1,10 @@
+ICON: Two networks representing weighted interactions between municipalities in Colombia from 2014. 
+Directed edges represent either a significant number of phones in one municipality calling phones 
+in the other, or a significant number of phones that were observed in one municipality being 
+observed in another within the same day. In the archive, the call network is "city_city_nedges_social," 
+in the "social" subdirectory, and the mobility network is "city_city_nedges_mobility," in the "mobility" 
+subdirectory.
+
+M. Coscia & R. Hausmann, "Evidence That Calls-Based and Mobility Networks Are Isomorphic." PloS ONE 10(12), e0145091 (2015).
+
+http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0145091
