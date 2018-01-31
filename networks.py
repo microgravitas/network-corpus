@@ -24,7 +24,7 @@ def network_size(name, max_size):
             nodes.add(u)
             nodes.add(v)
             if len(nodes) > max_size:
-                return max_size
+                return max_size+1
     return len(nodes)
 
 if __name__ == '__main__':
