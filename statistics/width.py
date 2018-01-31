@@ -4,22 +4,25 @@ def compute_tw_flowcutter(graph, logger, timeout=None) -> min:
         Computes the treewidth using the FlowCutter heuristic
         (https://github.com/ben-strasser/flow-cutter-pace16).
     """
-    return tw_pace(graph, logger, "flow_cutter_pace16", timeout)
+    width, _, _ = tw_pace(graph, logger, "flow_cutter_pace16", timeout)
+    return width
 
 def compute_tw_foxepstein(graph, logger, timeout=None) -> min:
     """ 
         Computes the treewidth using Fox-Epstein heuristic
         (https://github.com/elitheeli/2016-pace-challenge)
     """
-    return tw_pace(graph, logger, "fox_epstein_pace16", timeout)
+    width, _, _ = tw_pace(graph, logger, "fox_epstein_pace16", timeout)
+    return width
 
 
 def compute_tw_htd(graph, logger, timeout=None) -> min:
     """ 
-        Computes the treewidth using the FlowCutter heuristic
+        Computes the treewidth using the htd heuristic
         (https://github.com/mabseher/htd).
     """
-    return tw_pace(graph, logger, "htd_pace16", timeout)
+    width, _, _ = tw_pace(graph, logger, "htd_pace16", timeout)
+    return width
 
 def tw_pace(graph, logger, program, timeout=None) -> min:
     """ 
@@ -27,6 +30,7 @@ def tw_pace(graph, logger, program, timeout=None) -> min:
     """
     import os, sys, subprocess
     import time
+    from dtf.graph import Graph
 
     # See https://github.com/PACE-challenge/Treewidth#input-format for
     # a description of the .gr format
@@ -48,19 +52,100 @@ def tw_pace(graph, logger, program, timeout=None) -> min:
         out = e.stdout
 
     width = None
+    bags = {}
+    tree = Graph()
     for l in out.decode().split('\n'):
-        if len(l) > 0 and l[0] == "s":
+        if len(l) == 0 or l[0] == "c":
+            continue
+
+        tokens = l.split()
+        if tokens[0] == "s":
             # Solution like has format 's td [num-bags] [max bag size] [vertices in graph]'
-            tokens = l.split()
             assert tokens[1] == 'td'
             width = int(tokens[3])
-            break
+        elif tokens[0] == "b":
+            bag = int(tokens[1])
+            bags[bag] = frozenset(map(int, tokens[2:]))
+        else:
+            assert len(tokens) == 2
+            tree.add_edge(int(tokens[0]), int(tokens[1]))
 
     os.remove('tmp.gr')
 
-    return width
+    return width, tree, bags
 
-def compute_td(graph, logger, timeout=None) -> min:
+def compute_td_htd(graph, logger, timeout=None) -> min:
+    """
+        Computes a tree decomposition using htd and then measures
+        the resulting treedepth.
+        (https://github.com/mabseher/htd).
+    """
+
+    width, tree, bags = tw_pace(graph, logger, "htd_pace16", timeout)
+    n = len(graph)
+
+    td = _td_from_tw(tree, bags, n)
+    return td
+
+def _td_from_tw(tree, bags, n):
+    e = _find_separator_edge(tree, bags, n)
+    sep = bags[e[0]] & bags[e[1]] 
+
+    # Remove separator from bag
+    for u in bags:
+        bags[u] = bags[u] - sep
+    tree.remove_edge(*e)
+
+    res = []
+    for comp in tree.get_components():
+        if len(comp) == 1:
+            res.append(1)
+            continue
+        subtree = tree.subgraph(comp)
+        subtd = _td_from_tw(subtree, bags, len(comp))
+        res.append(subtd)
+
+    return len(sep) + max(res)
+
+def _find_separator_edge(tree, bags, n):
+    from operator import itemgetter
+    def dfs(parent, current, tree, bags, res):
+        nonlocal n
+        if tree.degree(current) == 1:
+            res[(parent,current)] = len(bags[current] - bags[parent]) 
+            res[(current,parent)] = n - len(bags[current] - bags[parent]) 
+            return 
+
+        nodes_below = 0
+        for child in tree.neighbours(current):
+            if child == parent:
+                continue
+            dfs(current, child, tree, bags, res)
+            nodes_below += res[(current,child)]
+
+        res[(parent,current)] = nodes_below + len(bags[current] - bags[parent]) 
+        res[(current,parent)] = n - res[(parent,current)]
+
+
+    if len(tree) == 2:
+        u,v = list(tree.edges())[0]
+        return (u,v)
+
+    # Pick a root (max-deg node to avoid picking a leaf)
+    r, _ = max([(v,tree.degree(v)) for v in tree], key=itemgetter(1))
+    labelling = {}
+    dfs(r, r, tree, bags, labelling)
+
+    previous, current = None, r
+    while True:
+        cands = [(u,labelling[(current,u)]) for u in tree.neighbours(current)]
+        _next, _ = max(cands, key=itemgetter(1))
+        if _next == previous:
+            break
+        previous, current = current, _next
+    return (previous, current)
+
+def compute_td_oel(graph, logger, timeout=None) -> min:
     """
         Computes the treedepth using separator heuristics.
     """
