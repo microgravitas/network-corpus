@@ -17,7 +17,7 @@
             "maxdeg": 12,
             "n": 115,
             "name": "football",
-            "td": 87,
+            "td": 58,
             "tw": 39
         },
         "3": {
@@ -56,7 +56,7 @@
             "maxdeg": 12,
             "n": 62,
             "name": "dolphins",
-            "td": 26,
+            "td": 20,
             "tw": 11
         },
         "7": {
@@ -75,7 +75,7 @@
             "maxdeg": 6,
             "n": 331,
             "name": "hex",
-            "td": 241,
+            "td": 62,
             "tw": 30
         },
         "9": {
@@ -94,7 +94,7 @@
             "maxdeg": 55,
             "n": 724,
             "name": "codeminer",
-            "td": 53,
+            "td": 27,
             "tw": 9
         },
         "11": {
@@ -132,7 +132,7 @@
             "maxdeg": 130,
             "n": 235,
             "name": "airlines",
-            "td": 65,
+            "td": 53,
             "tw": 41
         },
         "15": {
@@ -141,8 +141,8 @@
             "m": 610,
             "maxdeg": 29,
             "n": 376,
-            "name": "photoviz dynamic",
-            "td": 45,
+            "name": "photoviz_dynamic",
+            "td": 30,
             "tw": 14
         },
         "16": {
@@ -152,7 +152,7 @@
             "maxdeg": 25,
             "n": 105,
             "name": "polbooks",
-            "td": 48,
+            "td": 31,
             "tw": 14
         },
         "17": {
@@ -181,7 +181,7 @@
             "maxdeg": 88,
             "n": 238,
             "name": "sp_data_school_day_2",
-            "td": 208,
+            "td": 153,
             "tw": 119
         },
         "20": {
@@ -191,7 +191,7 @@
             "maxdeg": 32,
             "n": 53,
             "name": "bergen",
-            "td": 24,
+            "td": 23,
             "tw": 16
         },
         "21": {
@@ -220,7 +220,7 @@
             "maxdeg": 36,
             "n": 77,
             "name": "lesmiserables",
-            "td": 20,
+            "td": 16,
             "tw": 10
         },
         "24": {
@@ -230,7 +230,7 @@
             "maxdeg": 134,
             "n": 297,
             "name": "celegans",
-            "td": 155,
+            "td": 96,
             "tw": 71
         },
         "25": {
@@ -240,7 +240,7 @@
             "maxdeg": 49,
             "n": 112,
             "name": "word_adjacencies",
-            "td": 48,
+            "td": 42,
             "tw": 31
         },
         "26": {
@@ -260,7 +260,7 @@
             "maxdeg": 1458,
             "n": 6474,
             "name": "as20000102",
-            "td": 282,
+            "td": 104,
             "tw": 75
         },
         "28": {
@@ -289,7 +289,7 @@
             "maxdeg": 273,
             "n": 2426,
             "name": "soc-hamsterster",
-            "td": 344,
+            "td": 339,
             "tw": 279
         },
         "31": {
@@ -318,7 +318,7 @@
             "maxdeg": 102,
             "n": 889,
             "name": "soc-wiki-Vote",
-            "td": 257,
+            "td": 125,
             "tw": 71
         },
         "34": {
@@ -347,7 +347,7 @@
             "maxdeg": 50,
             "n": 410,
             "name": "ia-infect-dublin",
-            "td": 212,
+            "td": 97,
             "tw": 41
         },
         "37": {
@@ -386,7 +386,7 @@
             "maxdeg": 497,
             "n": 503,
             "name": "ratbrain",
-            "td": 153,
+            "td": 125,
             "tw": 109
         },
         "41": {
@@ -396,7 +396,7 @@
             "maxdeg": 205,
             "n": 213,
             "name": "mousebrain",
-            "td": 206,
+            "td": 204,
             "tw": 192
         },
         "42": {
@@ -406,7 +406,7 @@
             "maxdeg": 111,
             "n": 242,
             "name": "rhesusbrain",
-            "td": 139,
+            "td": 110,
             "tw": 81
         },
         "43": {
@@ -446,6 +446,7 @@
             "maxdeg": 19,
             "n": 101,
             "name": "movies",
+            "td": 22,
             "tw": 16
         },
         "47": {
@@ -455,6 +456,7 @@
             "maxdeg": 72,
             "n": 418,
             "name": "ecoli-transcript",
+            "td": 16,
             "tw": 9
         },
         "48": {
@@ -464,7 +466,7 @@
             "maxdeg": 22,
             "n": 26,
             "name": "wafa-ceos",
-            "td": 13,
+            "td": 12,
             "tw": 9
         },
         "49": {
@@ -474,7 +476,7 @@
             "maxdeg": 44,
             "n": 45,
             "name": "wafa-eies",
-            "td": 39,
+            "td": 35,
             "tw": 29
         },
         "50": {
@@ -484,7 +486,7 @@
             "maxdeg": 20,
             "n": 21,
             "name": "wafa-hightech",
-            "td": 18,
+            "td": 17,
             "tw": 16
         },
         "51": {
@@ -504,7 +506,7 @@
             "maxdeg": 227,
             "n": 1606,
             "name": "bitcoin-otc-negative",
-            "td": 114,
+            "td": 74,
             "tw": 60
         },
         "53": {
@@ -514,7 +516,7 @@
             "maxdeg": 788,
             "n": 5573,
             "name": "bitcoin-otc-positive",
-            "td": 644,
+            "td": 397,
             "tw": 350
         },
         "54": {
