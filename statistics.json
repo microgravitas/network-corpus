@@ -569,6 +569,26 @@
             "name": "columbia-social",
             "td": 75,
             "tw": 46
+        },
+        "59": {
+            "avgdeg": 2.556149732620321,
+            "degen": 2,
+            "m": 478,
+            "maxdeg": 5,
+            "n": 374,
+            "name": "autobahn",
+            "td": 24,
+            "tw": 10
+        },
+        "60": {
+            "avgdeg": 2.586129753914989,
+            "degen": 2,
+            "m": 578,
+            "maxdeg": 13,
+            "n": 447,
+            "name": "muenchen-bahn",
+            "td": 32,
+            "tw": 17
         }
     }
 }
