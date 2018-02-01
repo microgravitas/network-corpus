@@ -1,0 +1,21 @@
+The German Autobahn network reconstructed from wikipedia data
+(http://de.wikipedia.org/wiki/Kategorie:Bundesautobahn_als_Thema).
+
+"We sourced the Bundesautobahn network’s junctions and end nodes
+out of the Wikipedia website [71]. If we saw branches from motorway
+junctions that are smaller than 500 meter long we omitted them. We
+added the A71 to our graph 3 and excluded the small isolated motor-
+way part from the A252. For the labels of the motorways endpoints
+we applied subjective criteria. The most important change the graph
+has undergone is that we mapped the varying lengths to an arbitrary
+unit length."
+
+@thesis{sequoiavstheworld,
+	author={Rrafael Przybylski}, 
+	title={Sequoia vs The World},
+	school={{RWTH} Aachen University},
+	year=2014,
+	month=1,
+	type={Bachelor's Thesis}
+}
+
