@@ -1,0 +1,26 @@
+KONECT: Residence hall
+This directed network contains friendship ratings between 217 residents living
+at a residence hall located on the Australian National University campus. A node
+represents a person and
+
+http://konect.uni-koblenz.de/downloads/tsv/moreno_oz.tar.bz2
+
+@MISC{konect:2017:moreno_oz,
+    title = {Residence hall network dataset -- {KONECT}},
+    month = apr,
+    year = {2017},
+    url = {http://konect.uni-koblenz.de/networks/moreno_oz}
+}
+
+@article{konect:freeman1998,
+  title={Exploring Social Structure using Dynamic Three-dimensional
+                  Color Images}, 
+  author={Freeman, Linton Clarke and Webster, Cynthia Marie and Kirke, Deirdre M},
+  journal={Social Networks},
+  volume={20},
+  number={2},
+  pages={109--118},
+  year={1998},
+  publisher={Elsevier}
+}
+
