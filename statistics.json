@@ -698,14 +698,16 @@
             "m": 213217,
             "maxdeg": 9338,
             "n": 30834,
-            "name": "linux"
+            "name": "linux",
+            "tw": 799
         },
         "74": {
             "avgdeg": 2.3088235294117645,
             "m": 157,
             "maxdeg": 58,
             "n": 136,
-            "name": "american_revolution"
+            "name": "american_revolution",
+            "tw": 5
         },
         "75": {
             "avgdeg": 25.686840740100294,
@@ -719,28 +721,32 @@
             "m": 1298,
             "maxdeg": 12,
             "n": 1467,
-            "name": "chicago"
+            "name": "chicago",
+            "tw": 2
         },
         "77": {
             "avgdeg": 4.055374592833876,
             "m": 1245,
             "maxdeg": 142,
             "n": 614,
-            "name": "unicode_languages"
+            "name": "unicode_languages",
+            "tw": 40
         },
         "78": {
             "avgdeg": 2.41396933560477,
             "m": 1417,
             "maxdeg": 10,
             "n": 1174,
-            "name": "euroroad"
+            "name": "euroroad",
+            "tw": 16
         },
         "79": {
             "avgdeg": 16.94930875576037,
             "m": 1839,
             "maxdeg": 56,
             "n": 217,
-            "name": "residence_hall"
+            "name": "residence_hall",
+            "tw": 87
         },
         "80": {
             "avgdeg": 13.697364480383348,
@@ -754,7 +760,8 @@
             "m": 2765,
             "maxdeg": 50,
             "n": 410,
-            "name": "infectious"
+            "name": "infectious",
+            "tw": 41
         }
     }
 }
