@@ -1,0 +1,15 @@
+KONECT: JDK dependency
+This is the software class dependency network of the JDK 1.6.0.7 framework. The
+network is directed. Nodes represent classes. An edge between them indicates
+that there exists a dependency between two classes. As there may be multiple
+references between classes the network has multiple edges.
+
+http://konect.uni-koblenz.de/downloads/tsv/subelj_jdk.tar.bz2
+
+@MISC{konect:2017:subelj_jdk,
+    title = {JDK dependency network dataset -- {KONECT}},
+    month = apr,
+    year = {2017},
+    url = {http://konect.uni-koblenz.de/networks/subelj_jdk}
+}
+
