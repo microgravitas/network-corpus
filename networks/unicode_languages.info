@@ -1,0 +1,18 @@
+KONECT: Unicode languages
+This bipartite network denotes which languages are spoken in which countries.
+Nodes are countries and languages; edge weights denote the proportion (between
+zero and one) of the population of a given country speaking a given language.
+To quote the Unicode data description:  "The main goal is to provide approximate
+figures for the literate, functional population for each language in each
+territory: that is, the population that is able to read and write each language,
+and is comfortable enough to use it with computers."
+
+http://konect.uni-koblenz.de/downloads/tsv/unicodelang.tar.bz2
+
+@MISC{konect:2017:unicodelang,
+    title = {Unicode languages network dataset -- {KONECT}},
+    month = apr,
+    year = {2017},
+    url = {http://konect.uni-koblenz.de/networks/unicodelang}
+}
+
