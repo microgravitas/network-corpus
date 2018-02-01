@@ -1,0 +1,5 @@
+KONECT: This directed network contains flights between airports of the world. A directed 
+edge represents a flight from one airport to another. This dataset is extracted from 
+Openflights.org data and corresponds to network 14c in the dataset list by Tore Opsahl.
+
+Opsahl, T., 2011. Why Anchorage is not (that) important: Binary ties and Sample selection. Available at http://wp.me/poFcY-Vw.
