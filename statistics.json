@@ -692,6 +692,69 @@
             "name": "openflights",
             "td": 187,
             "tw": 114
+        },
+        "73": {
+            "avgdeg": 13.829992865019134,
+            "m": 213217,
+            "maxdeg": 9338,
+            "n": 30834,
+            "name": "linux"
+        },
+        "74": {
+            "avgdeg": 2.3088235294117645,
+            "m": 157,
+            "maxdeg": 58,
+            "n": 136,
+            "name": "american_revolution"
+        },
+        "75": {
+            "avgdeg": 25.686840740100294,
+            "m": 297094,
+            "maxdeg": 1062,
+            "n": 23132,
+            "name": "edinburgh_associative_thesaurus"
+        },
+        "76": {
+            "avgdeg": 1.7695978186775734,
+            "m": 1298,
+            "maxdeg": 12,
+            "n": 1467,
+            "name": "chicago"
+        },
+        "77": {
+            "avgdeg": 4.055374592833876,
+            "m": 1245,
+            "maxdeg": 142,
+            "n": 614,
+            "name": "unicode_languages"
+        },
+        "78": {
+            "avgdeg": 2.41396933560477,
+            "m": 1417,
+            "maxdeg": 10,
+            "n": 1174,
+            "name": "euroroad"
+        },
+        "79": {
+            "avgdeg": 16.94930875576037,
+            "m": 1839,
+            "maxdeg": 56,
+            "n": 217,
+            "name": "residence_hall"
+        },
+        "80": {
+            "avgdeg": 13.697364480383348,
+            "m": 91471,
+            "maxdeg": 728,
+            "n": 13356,
+            "name": "foldoc"
+        },
+        "81": {
+            "avgdeg": 13.487804878048781,
+            "m": 2765,
+            "maxdeg": 50,
+            "n": 410,
+            "name": "infectious"
         }
     }
 }
