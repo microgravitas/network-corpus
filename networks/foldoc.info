@@ -1,0 +1,23 @@
+KONECT: FOLDOC
+These are cross references between entries in the Free On-line Dictionary of
+Computing (FOLDOC, www.foldoc.org).  Nodes are entries, and a directed edge from
+term A to term B denotes that the term B is usd in the definition of term A.
+There are multiple edges, denoted multiple uses of the same term.
+
+http://konect.uni-koblenz.de/downloads/tsv/foldoc.tar.bz2
+
+@MISC{konect:2017:foldoc,
+    title = {FOLDOC network dataset -- {KONECT}},
+    month = apr,
+    year = {2017},
+    url = {http://konect.uni-koblenz.de/networks/foldoc}
+}
+
+@inproceedings{konect:foldoc,
+	author = {V. Batagelj and A. Mrvar and M. Zavešnik},
+	title = {Network Analysis of Texts},
+	booktitle = {Language Technologies},
+	year = {2002}, 
+	pages = {143--148},
+}
+
