@@ -595,14 +595,17 @@
             "m": 2742,
             "maxdeg": 100,
             "n": 198,
-            "name": "jazz"
+            "name": "jazz",
+            "td": 98,
+            "tw": 60
         },
         "62": {
             "avgdeg": 4.69882100750268,
             "m": 4384,
             "maxdeg": 402,
             "n": 1866,
-            "name": "DNC-emails"
+            "name": "DNC-emails",
+            "tw": 47
         },
         "63": {
             "avgdeg": 25.641838351822503,
@@ -616,7 +619,8 @@
             "m": 146160,
             "maxdeg": 855,
             "n": 6229,
-            "name": "reactome"
+            "name": "reactome",
+            "tw": 402
         },
         "65": {
             "avgdeg": 326.8513245033113,
@@ -630,49 +634,56 @@
             "m": 39285,
             "maxdeg": 803,
             "n": 5155,
-            "name": "advogato"
+            "name": "advogato",
+            "tw": 920
         },
         "67": {
             "avgdeg": 7.697228697228697,
             "m": 89157,
             "maxdeg": 377,
             "n": 23166,
-            "name": "cora_citation"
+            "name": "cora_citation",
+            "tw": 1460
         },
         "68": {
             "avgdeg": 16.679515076157912,
             "m": 53658,
             "maxdeg": 5923,
             "n": 6434,
-            "name": "JDK_dependency"
+            "name": "JDK_dependency",
+            "tw": 162
         },
         "69": {
             "avgdeg": 15.312696890836872,
             "m": 55899,
             "maxdeg": 181,
             "n": 7301,
-            "name": "chess"
+            "name": "chess",
+            "tw": 1270
         },
         "70": {
             "avgdeg": 5.609683794466403,
             "m": 85155,
             "maxdeg": 283,
             "n": 30360,
-            "name": "digg"
+            "name": "digg",
+            "tw": 3417
         },
         "71": {
             "avgdeg": 16.434640522875817,
             "m": 50290,
             "maxdeg": 5655,
             "n": 6120,
-            "name": "JUNG-javax"
+            "name": "JUNG-javax",
+            "tw": 163
         },
         "72": {
             "avgdeg": 10.668254508336169,
             "m": 15677,
             "maxdeg": 242,
             "n": 2939,
-            "name": "openflights"
+            "name": "openflights",
+            "tw": 114
         }
     }
 }
