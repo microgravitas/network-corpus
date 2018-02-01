@@ -1,0 +1,17 @@
+KONECT: American Revolution
+This bipartite network contains membership information of 136 people in 5
+organisations dating back to the time before the American Revolution. The list
+includes well-known people such as the American activist Paul Revere. Left nodes
+represent persons and right nodes represent organisations. An edge between a
+person and an organization shows that the person was a member of the
+organisation.
+
+http://konect.uni-koblenz.de/downloads/tsv/brunson_revolution.tar.bz2
+
+@MISC{konect:2017:brunson_revolution,
+    title = {American Revolution network dataset -- {KONECT}},
+    month = apr,
+    year = {2017},
+    url = {http://konect.uni-koblenz.de/networks/brunson_revolution}
+}
+
