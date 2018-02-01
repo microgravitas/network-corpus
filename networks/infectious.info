@@ -1,0 +1,29 @@
+KONECT: Infectious
+This network describes the face-to-face behavior of people during the exhibition
+INFECTIOUS: STAY AWAY in 2009 at the Science Gallery in Dublin. Nodes represent
+exhibition visitors; edges represent face-to-face contacts that were active for
+at least 20 seconds. Multiple edges between two nodes are possible and denote
+multiple contacts. The network contains the data from the day with the most
+interactions.
+
+http://konect.uni-koblenz.de/downloads/tsv/sociopatterns-infectious.tar.bz2
+
+@MISC{konect:2017:sociopatterns-infectious,
+    title = {Infectious network dataset -- {KONECT}},
+    month = apr,
+    year = {2017},
+    url = {http://konect.uni-koblenz.de/networks/sociopatterns-infectious}
+}
+
+@article{konect:sociopatterns,
+	author = {Lorenzo Isella and Juliette Stehlé and Alain Barrat and Ciro
+                  Cattuto and Jean-François Pinton and Wouter Van den
+                  Broeck}, 
+	title = {What's in a Crowd? Analysis of Face-to-Face Behavioral Networks},
+	journal = {J. of Theoretical Biology},
+	volume = {271},
+	number = {1},
+	pages = {166--180},
+	year = {2011},
+}
+
