@@ -1,0 +1,22 @@
+KONECT: MovieLens 1M
+This bipartite network contains one million movie ratings from
+http://movielens.umn.edu/. Left nodes are users and right nodes are movies. An
+edge between a user and a movie shows that the user has rated the movie.
+
+http://konect.uni-koblenz.de/downloads/tsv/movielens-1m.tar.bz2
+
+@MISC{konect:2017:movielens-1m,
+    title = {MovieLens 1M network dataset -- {KONECT}},
+    month = apr,
+    year = {2017},
+    url = {http://konect.uni-koblenz.de/networks/movielens-1m}
+}
+
+@misc{www.grouplens.org/node/73,
+	author = {{GroupLens Research}},
+	title = {{MovieLens} Data Sets},
+	month = {October},
+	year = {2006},
+	howpublished = {\url{http://www.grouplens.org/node/73}},
+}
+
