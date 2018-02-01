@@ -1,0 +1,22 @@
+KONECT: Cora citation
+This is the cora citation network. The network is directed. Nodes represent
+scientific papers. An edge between two nodes indicates that the left node cites
+the right node.
+
+http://konect.uni-koblenz.de/downloads/tsv/subelj_cora.tar.bz2
+
+@MISC{konect:2017:subelj_cora,
+    title = {Cora citation network dataset -- {KONECT}},
+    month = apr,
+    year = {2017},
+    url = {http://konect.uni-koblenz.de/networks/subelj_cora}
+}
+
+@inproceedings{konect:dependency4,
+	title = {Model of Complex Networks based on Citation Dynamics},
+	booktitle = {Proceedings of the {WWW} Workshop on Large Scale Network Analysis},
+	author = {{\v S}ubelj, Lovro and Bajec, Marko},
+	year = {2013},
+	pages = {527--530},
+}
+
