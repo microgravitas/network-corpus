@@ -45,7 +45,7 @@ def replace(newvalue, oldvalue):
 
 if __name__ == '__main__':
     db = TinyDB('statistics.json', sort_keys=True, indent=4)
-    
+
     # Load statistic functions
     stat_dict = defaultdict(dict)
     update_action = defaultdict(dict)
@@ -101,6 +101,8 @@ if __name__ == '__main__':
     stats = args.statistics
     if 'all' in stats:
         stats = stat_dict.keys()
+    elif 'fast' in stats:
+        stats = ['m','n','avgdeg','maxdeg']
 
     for statname in stats:
         varname = ""
