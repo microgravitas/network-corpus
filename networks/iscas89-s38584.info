@@ -1,0 +1,6 @@
+The ISCAS'89 benchmarks are a set of 31 digital sequential circuits. These
+benchmarks  were distributed on tape to participants of the Special Session on
+Sequential Test Generation, Int. Symposium on Circuits and Systems, May 1989,
+and are partially characterized in F. Brglez, D. Bryan, K. Kozminski in
+"Combinational Profiles of Sequential Benchmark Circuits", Proc. IEEE Int.
+Symposium on Circuits and Systems, pp. 1929-1934, May 1989.
