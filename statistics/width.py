@@ -85,6 +85,9 @@ def compute_td_htd(graph, logger, timeout=None) -> min:
     width, tree, bags = tw_pace(graph, logger, "htd_pace16", timeout)
     n = len(graph)
 
+    if width == None:
+        return None
+
     oldlimit = sys.getrecursionlimit()
     sys.setrecursionlimit(15000)
     logger.info("Recursive transformation of tree decomp of with {} with {} nodes".format(width, len(tree)))
