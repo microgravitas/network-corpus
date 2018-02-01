@@ -1,0 +1,25 @@
+KONECT: Digg
+This is the reply network of the social news website Digg. Each node in the
+network is a user of the website, and each directed edge denotes that a user
+replied to another user.
+
+http://konect.uni-koblenz.de/downloads/tsv/munmun_digg_reply.tar.bz2
+
+@MISC{konect:2017:munmun_digg_reply,
+    title = {Digg network dataset -- {KONECT}},
+    month = apr,
+    year = {2017},
+    url = {http://konect.uni-koblenz.de/networks/munmun_digg_reply}
+}
+
+@inproceedings{konect:choudhury09,
+        title = {Social Synchrony: Predicting Mimicry of User Actions in
+                  Online Social Media},  
+        author = {Choudhury, Munmun De and Sundaram, Hari and John,
+                  Ajita and Seligmann, Dorée Duncan}, 
+        booktitle = {Proc. Int. Conf. on Computational Science and
+                  Engineering},  
+        year = {2009}, 
+        pages = {151--158}, 
+}
+
