@@ -1,0 +1,25 @@
+KONECT: Edinburgh Associative Thesaurus
+This is the Edinburgh Associative Thesaurus.  Nodes are English words, and a
+directed link from A to B denotes that the word B was given as a response to the
+stimulus word A in user experiments.  Multiple links are allowed, and the
+multiplicity of an edge denotes the number of times a word has been given as a
+response to another word.  In some case, the given word itself was given as a
+response, leading to loops in the network.
+
+http://konect.uni-koblenz.de/downloads/tsv/eat.tar.bz2
+
+@MISC{konect:2017:eat,
+    title = {Edinburgh Associative Thesaurus network dataset -- {KONECT}},
+    month = apr,
+    year = {2017},
+    url = {http://konect.uni-koblenz.de/networks/eat}
+}
+
+@article{konect:eat,
+	author = {George R. Kiss and Christine Armstrong and Robert Milroy},
+	year = {1973},
+	title = {An Associative Thesaurus of {English} and Its Computer Analysis},
+	journal = {The Computer and Literary Studies},
+	publisher = {Edinburgh: University Press}, 
+}
+
