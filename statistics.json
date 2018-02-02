@@ -708,6 +708,7 @@
             "maxdeg": 58,
             "n": 136,
             "name": "american_revolution",
+            "td": 5,
             "tw": 5
         },
         "75": {
@@ -723,6 +724,7 @@
             "maxdeg": 12,
             "n": 1467,
             "name": "chicago",
+            "td": 8,
             "tw": 2
         },
         "77": {
@@ -769,35 +771,40 @@
             "m": 206,
             "maxdeg": 19,
             "n": 134,
-            "name": "iscas89-s444"
+            "name": "iscas89-s444",
+            "td": 13
         },
         "83": {
             "avgdeg": 2.19672131147541,
             "m": 67,
             "maxdeg": 8,
             "n": 61,
-            "name": "iscas89-s208.1"
+            "name": "iscas89-s208.1",
+            "td": 9
         },
         "84": {
             "avgdeg": 3.0048076923076925,
             "m": 625,
             "maxdeg": 18,
             "n": 416,
-            "name": "iscas89-s1238"
+            "name": "iscas89-s1238",
+            "td": 36
         },
         "85": {
             "avgdeg": 2.238947368421053,
             "m": 10635,
             "maxdeg": 39,
             "n": 9500,
-            "name": "iscas89-s38417"
+            "name": "iscas89-s38417",
+            "td": 42
         },
         "86": {
             "avgdeg": 2.88,
             "m": 144,
             "maxdeg": 12,
             "n": 100,
-            "name": "iscas89-s641"
+            "name": "iscas89-s641",
+            "td": 14
         },
         "87": {
             "avgdeg": 2.896551724137931,
