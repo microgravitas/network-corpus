@@ -12,8 +12,19 @@ def download_file(url, filename):
     with urllib.request.urlopen(url) as response, open(filename, 'wb') as out_file:
         shutil.copyfileobj(response, out_file)
 
+
 base_url = 'http://konect.uni-koblenz.de/'
-page = requests.get(sys.argv[1])
+request_url = sys.argv[1]
+
+# We either accept the full url or just the folder name (last part of url)
+page = None
+try:
+    page = requests.get(request_url)
+except:
+    pass
+
+if not page:
+    page = requests.get(base_url+'networks/'+request_url)
 
 soup = BeautifulSoup(page.content,"lxml")
 
