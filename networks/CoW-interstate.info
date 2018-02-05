@@ -1,0 +1,8 @@
+A networks representing interstate wars between 1817 and 2007. Two state are connected
+by an edge if they went to war against each other. If multiple state were involved
+the graph is complete on these nodes.
+
+The network is based on v4.0 of the correlates of war data set.
+
+Sarkees, Meredith Reid and Frank Wayman (2010). Resort to War: 1816 - 2007. Washington DC: CQ Press.
+http://www.correlatesofwar.org/data-sets/COW-war
