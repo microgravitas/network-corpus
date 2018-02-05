@@ -1222,7 +1222,8 @@
             "m": 245,
             "maxdeg": 16,
             "n": 115,
-            "name": "StackOverflow-tags"
+            "name": "StackOverflow-tags",
+            "td": 15
         },
         "116": {
             "avgdeg": 2.2404755840186303,
