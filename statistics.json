@@ -1223,28 +1223,32 @@
             "maxdeg": 16,
             "n": 115,
             "name": "StackOverflow-tags",
-            "td": 15
+            "td": 15,
+            "vc": 61
         },
         "116": {
             "avgdeg": 2.2404755840186303,
             "m": 246291,
             "maxdeg": 14902,
             "n": 219856,
-            "name": "bahamas"
+            "name": "bahamas",
+            "vc": 30265
         },
         "117": {
             "avgdeg": 2.523638101191695,
             "m": 702437,
             "maxdeg": 7015,
             "n": 556686,
-            "name": "panama"
+            "name": "panama",
+            "vc": 178769
         },
         "118": {
             "avgdeg": 3.628588947815704,
             "m": 505965,
             "maxdeg": 37336,
             "n": 278877,
-            "name": "offshore"
+            "name": "offshore",
+            "vc": 93533
         },
         "119": {
             "avgdeg": 2.9313487129728353,
