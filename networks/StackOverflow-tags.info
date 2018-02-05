@@ -1,0 +1,5 @@
+A network of tags from the StackOverflow website. Two tags are connected to each
+other if they appear in a common thread. The original dataset is weighted, we retain
+all edges here.
+
+https://www.kaggle.com/stackoverflow/stack-overflow-tag-network
