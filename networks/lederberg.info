@@ -1,0 +1,10 @@
+SuiteSparse: Lederberg
+Pajek network: Lederberg citation network
+
+Pajek network converted to sparse adjacency matrix for inclusion in UF sparse
+matrix collection, Tim Davis.  For Pajek datasets, See V. Batagelj & A. Mrvar,
+http://vlado.fmf.uni-lj.si/pub/networks/data/.
+Articles by and citing J Lederberg, 1945-2002, Wed Jul 31 13:40:22 2002
+
+https://sparse.tamu.edu/Pajek/Lederberg
+https://sparse.tamu.edu/MM/Pajek/Lederberg.tar.gz
