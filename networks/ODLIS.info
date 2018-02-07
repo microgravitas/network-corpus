@@ -1,0 +1,9 @@
+SuiteSparse: ODLIS
+Pajek network: online dictionary of library & inf. sci
+
+Pajek network converted to sparse adjacency matrix for inclusion in UF sparse
+matrix collection, Tim Davis.  For Pajek datasets, See V. Batagelj & A. Mrvar,
+http://vlado.fmf.uni-lj.si/pub/networks/data/.
+
+https://sparse.tamu.edu/Pajek/ODLIS
+https://sparse.tamu.edu/MM/Pajek/ODLIS.tar.gz
