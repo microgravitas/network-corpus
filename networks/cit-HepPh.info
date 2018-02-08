@@ -1,1 +1,21 @@
+SNAP: Arxiv HEP-PH (high energy physics phenomenology ) citation graph is from 
+the e-print arXiv and covers all the citations within a dataset of 34,546 papers 
+with 421,578 edges. If a paper i cites paper j, the graph contains a directed 
+edge from i to j. If a paper cites, or is cited by, a paper outside the dataset, 
+the graph does not contain any information about this.
+
+The data covers papers in the period from January 1993 to April 2003 (124 months). 
+It begins within a few months of the inception of the arXiv, and thus represents 
+essentially the complete history of its HEP-PH section.
+
+The data was originally released as a part of 2003 KDD Cup.
+
+J. Leskovec, J. Kleinberg and C. Faloutsos. Graphs over Time: Densification Laws, 
+Shrinking Diameters and Possible Explanations. 
+ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), 2005.
+
+J. Gehrke, P. Ginsparg, J. M. Kleinberg. Overview of the 2003 KDD Cup. 
+SIGKDD Explorations 5(2): 149-151, 2003.
+
 http://snap.stanford.edu/data/cit-HepPh.html
+
