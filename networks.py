@@ -9,7 +9,34 @@ from dtf.graphformats import load_graph
 import gzip
 import subprocess
 
-from compute_statistic import list_networks, network_file
+def list_networks():
+    networks = []
+    for f in glob.glob("networks/*.txt.gz"):
+        name = os.path.basename(f)[:-7]
+        networks.append(name) # Just so we have some control over the order
+    for name in reversed(networks):    
+        yield name
+
+def network_file(name):
+    return "networks/{}.txt.gz".format(name)
+
+def network_info(name):
+    res = None
+    with open("networks/{}.info".format(name), 'r') as filebuf:
+        res = filebuf.read()
+    return res
+
+def load_network(name):
+    res = Graph()
+    filename = network_file(name)
+    with gzip.open(filename, 'r') as filebuf:
+        for l in filebuf:
+            u, v = l.decode().split()
+            u, v = int(u), int(v)
+            if u == v:
+                continue
+            res.add_edge(u,v)
+    return res
 
 def network_size(name, max_size):
     res = Graph()

@@ -16,32 +16,10 @@ import argparse
 
 from tinydb import TinyDB, Query
 
-def list_networks():
-    networks = []
-    for f in glob.glob("networks/*.txt.gz"):
-        name = os.path.basename(f)[:-7]
-        networks.append(name) # Just so we have some control over the order
-    for name in reversed(networks):    
-        yield name
-
-def network_file(name):
-    return "networks/{}.txt.gz".format(name)
-
-def load_network(name):
-    res = Graph()
-    filename = network_file(name)
-    with gzip.open(filename, 'r') as filebuf:
-        for l in filebuf:
-            u, v = l.decode().split()
-            u, v = int(u), int(v)
-            if u == v:
-                continue
-            res.add_edge(u,v)
-    return res
+from networks import list_networks, network_file, load_network
 
 def replace(newvalue, oldvalue):
     return newvalue
-
 
 if __name__ == '__main__':
     db = TinyDB('statistics.json', sort_keys=True, indent=4)
