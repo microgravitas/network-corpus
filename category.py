@@ -12,7 +12,7 @@ from networks import list_networks, network_info
 
 def list_categories():
     return ['social', 'transportation', 'web', 'economic', 'citation', 
-            'collaboration', 'protein', 'communication', 'neural',
+            'collaboration', 'protein', 'genetic', 'communication', 'neural',
             'conflict', 'other']
 
 def query_category():
@@ -32,7 +32,7 @@ def query_category():
     res = None
     try:
         inp = int(inp)
-        res = choices[i]
+        res = choices[inp]
     except:
         pass
     return res
@@ -42,21 +42,28 @@ if __name__ == "__main__":
     db = TinyDB('statistics.json', sort_keys=True, indent=4)
 
     Network = Query()
-    res = db.search(~Network.category.exists())
+    # res = db.search(~Network.category.exists())
+    res = db.all()
 
     try:
         for entry in res:
             name = entry['name']
-            print("Network:", name)
+            category = entry['category'] if 'category' in entry else None
+            print("Network: {} ({})".format(name, category))
             print('-'*80)
-            print(network_info(name))
+
+            text = network_info(name).split('\n')
+            text = text[:min(12, len(text))]
+            text = '\n'.join(text)
+
+            print(text)
             print('-'*80)
 
             print("Enter a category. No entry skips, CTRL+C exits.")
             choice = query_category()
 
             if choice:
-                db.upsert({'category': choice},Network.name == name)
+                db.upsert({'category': choice}, Network.name == name)
 
             os.system('clear')
     except KeyboardInterrupt:

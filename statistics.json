@@ -2,7 +2,7 @@
     "_default": {
         "1": {
             "avgdeg": 84.69584245076587,
-            "category": "citation",
+            "category": "communication",
             "degen": 159,
             "m": 154824,
             "maxdeg": 1084,
@@ -14,7 +14,7 @@
         },
         "2": {
             "avgdeg": 10.660869565217391,
-            "category": "citation",
+            "category": "conflict",
             "degen": 8,
             "m": 613,
             "maxdeg": 12,
@@ -26,7 +26,7 @@
         },
         "3": {
             "avgdeg": 3.8590556730091614,
-            "category": "citation",
+            "category": "genetic",
             "degen": 11,
             "m": 2738,
             "maxdeg": 84,
@@ -38,7 +38,7 @@
         },
         "4": {
             "avgdeg": 10.694395023656083,
-            "category": "citation",
+            "category": "social",
             "degen": 95,
             "m": 405740,
             "maxdeg": 3044,
@@ -49,7 +49,7 @@
         },
         "5": {
             "avgdeg": 3.753593429158111,
-            "category": "citation",
+            "category": "collaboration",
             "degen": 19,
             "m": 2742,
             "maxdeg": 34,
@@ -61,7 +61,7 @@
         },
         "6": {
             "avgdeg": 5.129032258064516,
-            "category": "citation",
+            "category": "social",
             "degen": 4,
             "m": 159,
             "maxdeg": 12,
@@ -73,7 +73,7 @@
         },
         "7": {
             "avgdeg": 10.020222391802028,
-            "category": "citation",
+            "category": "communication",
             "degen": 47,
             "m": 183831,
             "maxdeg": 1383,
@@ -83,7 +83,7 @@
         },
         "8": {
             "avgdeg": 5.619335347432024,
-            "category": "citation",
+            "category": "other",
             "degen": 3,
             "m": 930,
             "maxdeg": 6,
@@ -95,7 +95,7 @@
         },
         "9": {
             "avgdeg": 7.353094731057223,
-            "category": "citation",
+            "category": "social",
             "degen": 63,
             "m": 214078,
             "maxdeg": 1134,
@@ -128,7 +128,7 @@
         },
         "12": {
             "avgdeg": 12.129782833505688,
-            "category": "citation",
+            "category": "social",
             "degen": 63,
             "m": 469180,
             "maxdeg": 2539,
@@ -139,7 +139,7 @@
         },
         "13": {
             "avgdeg": 4.588235294117647,
-            "category": "citation",
+            "category": "social",
             "degen": 4,
             "m": 78,
             "maxdeg": 17,
@@ -151,7 +151,7 @@
         },
         "14": {
             "avgdeg": 11.038297872340426,
-            "category": "citation",
+            "category": "transportation",
             "degen": 13,
             "m": 1297,
             "maxdeg": 130,
@@ -174,7 +174,7 @@
         },
         "16": {
             "avgdeg": 8.4,
-            "category": "citation",
+            "category": "other",
             "degen": 6,
             "m": 441,
             "maxdeg": 25,
@@ -208,7 +208,7 @@
         },
         "19": {
             "avgdeg": 46.54621848739496,
-            "category": "citation",
+            "category": "social",
             "degen": 33,
             "m": 5539,
             "maxdeg": 88,
@@ -232,7 +232,7 @@
         },
         "21": {
             "avgdeg": 8.078416115505988,
-            "category": "citation",
+            "category": "collaboration",
             "degen": 25,
             "m": 93439,
             "maxdeg": 279,
@@ -243,7 +243,7 @@
         },
         "22": {
             "avgdeg": 19.738297517907714,
-            "category": "citation",
+            "category": "collaboration",
             "degen": 238,
             "m": 118489,
             "maxdeg": 491,
@@ -254,7 +254,7 @@
         },
         "23": {
             "avgdeg": 6.597402597402597,
-            "category": "citation",
+            "category": "social",
             "degen": 9,
             "m": 254,
             "maxdeg": 36,
@@ -266,7 +266,7 @@
         },
         "24": {
             "avgdeg": 14.464646464646465,
-            "category": "citation",
+            "category": "neural",
             "degen": 10,
             "m": 2148,
             "maxdeg": 134,
@@ -278,7 +278,7 @@
         },
         "25": {
             "avgdeg": 7.589285714285714,
-            "category": "citation",
+            "category": "other",
             "degen": 6,
             "m": 425,
             "maxdeg": 49,
@@ -290,7 +290,7 @@
         },
         "26": {
             "avgdeg": 5.034564958283671,
-            "category": "citation",
+            "category": "collaboration",
             "degen": 9,
             "m": 2112,
             "maxdeg": 327,
@@ -302,7 +302,7 @@
         },
         "27": {
             "avgdeg": 3.8838430645659563,
-            "category": "citation",
+            "category": "communication",
             "degen": 12,
             "m": 12572,
             "maxdeg": 1458,
@@ -314,7 +314,7 @@
         },
         "28": {
             "avgdeg": 7.354542111070247,
-            "category": "citation",
+            "category": "communication",
             "degen": 7,
             "m": 39994,
             "maxdeg": 103,
@@ -326,7 +326,7 @@
         },
         "29": {
             "avgdeg": 15.263015289336172,
-            "category": "citation",
+            "category": "social",
             "degen": 25,
             "m": 39432,
             "maxdeg": 807,
@@ -338,7 +338,7 @@
         },
         "30": {
             "avgdeg": 13.709810387469085,
-            "category": "citation",
+            "category": "social",
             "degen": 24,
             "m": 16630,
             "maxdeg": 273,
@@ -350,7 +350,7 @@
         },
         "31": {
             "avgdeg": 3.3175893008295243,
-            "category": "citation",
+            "category": "social",
             "degen": 12,
             "m": 39194,
             "maxdeg": 2761,
@@ -360,7 +360,7 @@
         },
         "32": {
             "avgdeg": 10.006737787759686,
-            "category": "citation",
+            "category": "neural",
             "degen": 18,
             "m": 8911,
             "maxdeg": 927,
@@ -372,7 +372,7 @@
         },
         "33": {
             "avgdeg": 6.555680539932508,
-            "category": "citation",
+            "category": "social",
             "degen": 9,
             "m": 2914,
             "maxdeg": 102,
@@ -384,7 +384,7 @@
         },
         "34": {
             "avgdeg": 4.171856708030906,
-            "category": "citation",
+            "category": "web",
             "degen": 6,
             "m": 8909,
             "maxdeg": 175,
@@ -396,7 +396,7 @@
         },
         "35": {
             "avgdeg": 9.62224183583407,
-            "category": "citation",
+            "category": "communication",
             "degen": 11,
             "m": 5451,
             "maxdeg": 71,
@@ -408,7 +408,7 @@
         },
         "36": {
             "avgdeg": 13.487804878048781,
-            "category": "citation",
+            "category": "social",
             "degen": 17,
             "m": 2765,
             "maxdeg": 50,
@@ -431,7 +431,7 @@
         },
         "38": {
             "avgdeg": 4.269438029253272,
-            "category": "citation",
+            "category": "web",
             "degen": 17,
             "m": 2773,
             "maxdeg": 59,
@@ -455,7 +455,7 @@
         },
         "40": {
             "avgdeg": 91.57057654075547,
-            "category": "citation",
+            "category": "neural",
             "degen": 93,
             "m": 23030,
             "maxdeg": 497,
@@ -467,7 +467,7 @@
         },
         "41": {
             "avgdeg": 151.07042253521126,
-            "category": "citation",
+            "category": "neural",
             "degen": 157,
             "m": 16089,
             "maxdeg": 205,
@@ -479,7 +479,7 @@
         },
         "42": {
             "avgdeg": 25.239669421487605,
-            "category": "citation",
+            "category": "neural",
             "degen": 19,
             "m": 3054,
             "maxdeg": 111,
@@ -491,7 +491,7 @@
         },
         "43": {
             "avgdeg": 2.5525620707871104,
-            "category": "citation",
+            "category": "transportation",
             "degen": 2,
             "m": 2416,
             "maxdeg": 10,
@@ -503,7 +503,7 @@
         },
         "44": {
             "avgdeg": 16.3444976076555,
-            "category": "citation",
+            "category": "web",
             "degen": 22,
             "m": 15372,
             "maxdeg": 455,
@@ -527,7 +527,7 @@
         },
         "46": {
             "avgdeg": 3.801980198019802,
-            "category": "citation",
+            "category": "collaboration",
             "degen": 3,
             "m": 192,
             "maxdeg": 19,
@@ -539,7 +539,7 @@
         },
         "47": {
             "avgdeg": 2.4832535885167464,
-            "category": "citation",
+            "category": "genetic",
             "degen": 3,
             "m": 519,
             "maxdeg": 72,
@@ -551,7 +551,7 @@
         },
         "48": {
             "avgdeg": 7.153846153846154,
-            "category": "citation",
+            "category": "social",
             "degen": 5,
             "m": 93,
             "maxdeg": 22,
@@ -563,7 +563,7 @@
         },
         "49": {
             "avgdeg": 28.977777777777778,
-            "category": "citation",
+            "category": "communication",
             "degen": 24,
             "m": 652,
             "maxdeg": 44,
@@ -575,7 +575,7 @@
         },
         "50": {
             "avgdeg": 15.142857142857142,
-            "category": "citation",
+            "category": "social",
             "degen": 12,
             "m": 159,
             "maxdeg": 20,
@@ -587,7 +587,7 @@
         },
         "51": {
             "avgdeg": 3.6,
-            "category": "citation",
+            "category": "social",
             "degen": 3,
             "m": 27,
             "maxdeg": 8,
@@ -599,7 +599,7 @@
         },
         "52": {
             "avgdeg": 4.058530510585305,
-            "category": "citation",
+            "category": "social",
             "degen": 16,
             "m": 3259,
             "maxdeg": 227,
@@ -611,7 +611,7 @@
         },
         "53": {
             "avgdeg": 6.671810514982954,
-            "category": "citation",
+            "category": "social",
             "degen": 20,
             "m": 18591,
             "maxdeg": 788,
@@ -623,7 +623,7 @@
         },
         "54": {
             "avgdeg": 1.8505446022335585,
-            "category": "citation",
+            "category": "economic",
             "degen": 3,
             "m": 6711,
             "maxdeg": 552,
@@ -635,7 +635,7 @@
         },
         "55": {
             "avgdeg": 2.7517802644964395,
-            "category": "citation",
+            "category": "protein",
             "degen": 4,
             "m": 2705,
             "maxdeg": 89,
@@ -647,7 +647,7 @@
         },
         "56": {
             "avgdeg": 9.950792670372659,
-            "category": "citation",
+            "category": "social",
             "degen": 18,
             "m": 96662,
             "maxdeg": 1625,
@@ -670,7 +670,7 @@
         },
         "58": {
             "avgdeg": 17.90034762456547,
-            "category": "citation",
+            "category": "social",
             "degen": 18,
             "m": 7724,
             "maxdeg": 545,
@@ -682,7 +682,7 @@
         },
         "59": {
             "avgdeg": 2.556149732620321,
-            "category": "citation",
+            "category": "transportation",
             "degen": 2,
             "m": 478,
             "maxdeg": 5,
@@ -694,7 +694,7 @@
         },
         "60": {
             "avgdeg": 2.586129753914989,
-            "category": "citation",
+            "category": "transportation",
             "degen": 2,
             "m": 578,
             "maxdeg": 13,
@@ -706,7 +706,7 @@
         },
         "61": {
             "avgdeg": 27.696969696969695,
-            "category": "citation",
+            "category": "collaboration",
             "degen": 29,
             "m": 2742,
             "maxdeg": 100,
@@ -718,7 +718,7 @@
         },
         "62": {
             "avgdeg": 4.69882100750268,
-            "category": "citation",
+            "category": "communication",
             "degen": 17,
             "m": 4384,
             "maxdeg": 402,
@@ -729,7 +729,7 @@
         },
         "63": {
             "avgdeg": 25.641838351822503,
-            "category": "citation",
+            "category": "communication",
             "degen": 63,
             "m": 817090,
             "maxdeg": 1098,
@@ -738,7 +738,7 @@
         },
         "64": {
             "avgdeg": 46.928881040295394,
-            "category": "citation",
+            "category": "protein",
             "degen": 207,
             "m": 146160,
             "maxdeg": 855,
@@ -750,6 +750,7 @@
         },
         "65": {
             "avgdeg": 326.8513245033113,
+            "category": "other",
             "degen": 540,
             "m": 987091,
             "maxdeg": 3457,
@@ -758,7 +759,7 @@
         },
         "66": {
             "avgdeg": 15.241513094083414,
-            "category": "citation",
+            "category": "social",
             "degen": 25,
             "m": 39285,
             "maxdeg": 803,
@@ -793,7 +794,7 @@
         },
         "69": {
             "avgdeg": 15.312696890836872,
-            "category": "citation",
+            "category": "conflict",
             "degen": 29,
             "m": 55899,
             "maxdeg": 181,
@@ -805,7 +806,7 @@
         },
         "70": {
             "avgdeg": 5.609683794466403,
-            "category": "citation",
+            "category": "communication",
             "degen": 9,
             "m": 85155,
             "maxdeg": 283,
@@ -828,7 +829,7 @@
         },
         "72": {
             "avgdeg": 10.668254508336169,
-            "category": "citation",
+            "category": "transportation",
             "degen": 28,
             "m": 15677,
             "maxdeg": 242,
@@ -851,6 +852,7 @@
         },
         "74": {
             "avgdeg": 2.3088235294117645,
+            "category": "social",
             "degen": 3,
             "m": 157,
             "maxdeg": 58,
@@ -862,7 +864,7 @@
         },
         "75": {
             "avgdeg": 25.686840740100294,
-            "category": "citation",
+            "category": "other",
             "degen": 35,
             "m": 297094,
             "maxdeg": 1062,
@@ -872,7 +874,7 @@
         },
         "76": {
             "avgdeg": 1.7695978186775734,
-            "category": "citation",
+            "category": "transportation",
             "degen": 1,
             "m": 1298,
             "maxdeg": 12,
@@ -884,7 +886,7 @@
         },
         "77": {
             "avgdeg": 4.055374592833876,
-            "category": "citation",
+            "category": "other",
             "degen": 5,
             "m": 1245,
             "maxdeg": 142,
@@ -895,7 +897,7 @@
         },
         "78": {
             "avgdeg": 2.41396933560477,
-            "category": "citation",
+            "category": "transportation",
             "degen": 2,
             "m": 1417,
             "maxdeg": 10,
@@ -906,7 +908,7 @@
         },
         "79": {
             "avgdeg": 16.94930875576037,
-            "category": "citation",
+            "category": "social",
             "degen": 11,
             "m": 1839,
             "maxdeg": 56,
@@ -918,7 +920,7 @@
         },
         "80": {
             "avgdeg": 13.697364480383348,
-            "category": "citation",
+            "category": "other",
             "degen": 12,
             "m": 91471,
             "maxdeg": 728,
@@ -927,7 +929,7 @@
         },
         "81": {
             "avgdeg": 13.487804878048781,
-            "category": "citation",
+            "category": "social",
             "degen": 17,
             "m": 2765,
             "maxdeg": 50,
@@ -939,7 +941,7 @@
         },
         "82": {
             "avgdeg": 3.074626865671642,
-            "category": "citation",
+            "category": "other",
             "degen": 2,
             "m": 206,
             "maxdeg": 19,
@@ -951,7 +953,7 @@
         },
         "83": {
             "avgdeg": 2.19672131147541,
-            "category": "citation",
+            "category": "other",
             "degen": 2,
             "m": 67,
             "maxdeg": 8,
@@ -963,7 +965,7 @@
         },
         "84": {
             "avgdeg": 3.0048076923076925,
-            "category": "citation",
+            "category": "other",
             "degen": 2,
             "m": 625,
             "maxdeg": 18,
@@ -975,7 +977,7 @@
         },
         "85": {
             "avgdeg": 2.238947368421053,
-            "category": "citation",
+            "category": "other",
             "degen": 4,
             "m": 10635,
             "maxdeg": 39,
@@ -987,7 +989,7 @@
         },
         "86": {
             "avgdeg": 2.88,
-            "category": "citation",
+            "category": "other",
             "degen": 3,
             "m": 144,
             "maxdeg": 12,
@@ -999,7 +1001,7 @@
         },
         "87": {
             "avgdeg": 2.896551724137931,
-            "category": "citation",
+            "category": "other",
             "degen": 2,
             "m": 168,
             "maxdeg": 18,
@@ -1011,7 +1013,7 @@
         },
         "88": {
             "avgdeg": 3.365010799136069,
-            "category": "citation",
+            "category": "other",
             "degen": 3,
             "m": 779,
             "maxdeg": 53,
@@ -1023,7 +1025,7 @@
         },
         "89": {
             "avgdeg": 2.7335473515248796,
-            "category": "citation",
+            "category": "other",
             "degen": 4,
             "m": 3406,
             "maxdeg": 37,
@@ -1034,7 +1036,7 @@
         },
         "90": {
             "avgdeg": 1.7777777777777777,
-            "category": "citation",
+            "category": "other",
             "degen": 1,
             "m": 8,
             "maxdeg": 3,
@@ -1046,7 +1048,7 @@
         },
         "91": {
             "avgdeg": 2.271698113207547,
-            "category": "citation",
+            "category": "other",
             "degen": 2,
             "m": 301,
             "maxdeg": 12,
@@ -1058,7 +1060,7 @@
         },
         "92": {
             "avgdeg": 2.7349397590361444,
-            "category": "citation",
+            "category": "other",
             "degen": 2,
             "m": 454,
             "maxdeg": 12,
@@ -1070,7 +1072,7 @@
         },
         "93": {
             "avgdeg": 2.627737226277372,
-            "category": "citation",
+            "category": "other",
             "degen": 3,
             "m": 180,
             "maxdeg": 12,
@@ -1082,7 +1084,7 @@
         },
         "94": {
             "avgdeg": 2.619385342789598,
-            "category": "citation",
+            "category": "other",
             "degen": 2,
             "m": 554,
             "maxdeg": 17,
@@ -1094,7 +1096,7 @@
         },
         "95": {
             "avgdeg": 3.3710691823899372,
-            "category": "citation",
+            "category": "other",
             "degen": 3,
             "m": 268,
             "maxdeg": 12,
@@ -1106,7 +1108,7 @@
         },
         "96": {
             "avgdeg": 3.508771929824561,
-            "category": "citation",
+            "category": "other",
             "degen": 3,
             "m": 200,
             "maxdeg": 23,
@@ -1118,7 +1120,7 @@
         },
         "97": {
             "avgdeg": 2.3879093198992445,
-            "category": "citation",
+            "category": "other",
             "degen": 4,
             "m": 2370,
             "maxdeg": 18,
@@ -1129,7 +1131,7 @@
         },
         "98": {
             "avgdeg": 4.01673640167364,
-            "category": "citation",
+            "category": "other",
             "degen": 3,
             "m": 480,
             "maxdeg": 48,
@@ -1141,7 +1143,7 @@
         },
         "99": {
             "avgdeg": 2.4901960784313726,
-            "category": "citation",
+            "category": "other",
             "degen": 2,
             "m": 127,
             "maxdeg": 9,
@@ -1153,7 +1155,7 @@
         },
         "100": {
             "avgdeg": 3.375,
-            "category": "citation",
+            "category": "other",
             "degen": 3,
             "m": 270,
             "maxdeg": 12,
@@ -1165,7 +1167,7 @@
         },
         "101": {
             "avgdeg": 2.44,
-            "category": "citation",
+            "category": "other",
             "degen": 2,
             "m": 122,
             "maxdeg": 9,
@@ -1177,7 +1179,7 @@
         },
         "102": {
             "avgdeg": 2.248062015503876,
-            "category": "citation",
+            "category": "other",
             "degen": 2,
             "m": 145,
             "maxdeg": 9,
@@ -1189,7 +1191,7 @@
         },
         "103": {
             "avgdeg": 2.4662765629812133,
-            "category": "citation",
+            "category": "other",
             "degen": 4,
             "m": 4004,
             "maxdeg": 25,
@@ -1201,7 +1203,7 @@
         },
         "104": {
             "avgdeg": 3.365750528541226,
-            "category": "citation",
+            "category": "other",
             "degen": 3,
             "m": 796,
             "maxdeg": 56,
@@ -1213,7 +1215,7 @@
         },
         "105": {
             "avgdeg": 2.735342108125748,
-            "category": "citation",
+            "category": "other",
             "degen": 4,
             "m": 12573,
             "maxdeg": 54,
@@ -1224,7 +1226,7 @@
         },
         "106": {
             "avgdeg": 2.3231750531537916,
-            "category": "citation",
+            "category": "other",
             "degen": 3,
             "m": 1639,
             "maxdeg": 10,
@@ -1235,7 +1237,7 @@
         },
         "107": {
             "avgdeg": 2.9186046511627906,
-            "category": "citation",
+            "category": "other",
             "degen": 2,
             "m": 251,
             "maxdeg": 12,
@@ -1247,7 +1249,7 @@
         },
         "108": {
             "avgdeg": 3.0082644628099175,
-            "category": "citation",
+            "category": "other",
             "degen": 2,
             "m": 182,
             "maxdeg": 19,
@@ -1259,7 +1261,7 @@
         },
         "109": {
             "avgdeg": 2.5506991610067917,
-            "category": "citation",
+            "category": "other",
             "degen": 2,
             "m": 15961,
             "maxdeg": 1440,
@@ -1271,7 +1273,7 @@
         },
         "110": {
             "avgdeg": 2.848806366047745,
-            "category": "citation",
+            "category": "other",
             "degen": 2,
             "m": 537,
             "maxdeg": 16,
@@ -1283,7 +1285,7 @@
         },
         "111": {
             "avgdeg": 4.0653061224489795,
-            "category": "citation",
+            "category": "other",
             "degen": 3,
             "m": 498,
             "maxdeg": 49,
@@ -1295,7 +1297,7 @@
         },
         "112": {
             "avgdeg": 2.847826086956522,
-            "category": "citation",
+            "category": "other",
             "degen": 2,
             "m": 131,
             "maxdeg": 11,
@@ -1307,7 +1309,7 @@
         },
         "113": {
             "avgdeg": 32.5841784989858,
-            "category": "citation",
+            "category": "communication",
             "degen": 35,
             "m": 16064,
             "maxdeg": 345,
@@ -1319,7 +1321,7 @@
         },
         "114": {
             "avgdeg": 15.410071942446043,
-            "category": "citation",
+            "category": "economic",
             "degen": 19,
             "m": 1071,
             "maxdeg": 91,
@@ -1331,7 +1333,7 @@
         },
         "115": {
             "avgdeg": 4.260869565217392,
-            "category": "citation",
+            "category": "other",
             "degen": 6,
             "m": 245,
             "maxdeg": 16,
@@ -1342,7 +1344,7 @@
         },
         "116": {
             "avgdeg": 2.2404755840186303,
-            "category": "citation",
+            "category": "economic",
             "degen": 6,
             "m": 246291,
             "maxdeg": 14902,
@@ -1352,7 +1354,7 @@
         },
         "117": {
             "avgdeg": 2.523638101191695,
-            "category": "citation",
+            "category": "economic",
             "degen": 63,
             "m": 702437,
             "maxdeg": 7015,
@@ -1362,7 +1364,7 @@
         },
         "118": {
             "avgdeg": 3.628588947815704,
-            "category": "citation",
+            "category": "economic",
             "degen": 13,
             "m": 505965,
             "maxdeg": 37336,
@@ -1372,7 +1374,7 @@
         },
         "119": {
             "avgdeg": 2.9313487129728353,
-            "category": "citation",
+            "category": "economic",
             "degen": 23,
             "m": 794545,
             "maxdeg": 35359,
@@ -1381,7 +1383,7 @@
         },
         "120": {
             "avgdeg": 3.5054945054945055,
-            "category": "citation",
+            "category": "conflict",
             "degen": 4,
             "m": 319,
             "maxdeg": 25,
@@ -1390,7 +1392,7 @@
         },
         "121": {
             "avgdeg": 2.5003785011355033,
-            "category": "citation",
+            "category": "transportation",
             "m": 3303,
             "maxdeg": 5,
             "n": 2642,
@@ -1401,6 +1403,7 @@
         },
         "122": {
             "avgdeg": 11.29448275862069,
+            "category": "other",
             "m": 16377,
             "maxdeg": 592,
             "n": 2900,
@@ -1422,7 +1425,7 @@
         },
         "124": {
             "avgdeg": 5.172145748987854,
-            "category": "citation",
+            "category": "web",
             "m": 15969,
             "maxdeg": 199,
             "n": 6175,
@@ -1444,7 +1447,7 @@
         },
         "126": {
             "avgdeg": 5.711543495331996,
-            "category": "citation",
+            "category": "communication",
             "m": 32730,
             "maxdeg": 2432,
             "n": 11461,
@@ -1455,7 +1458,7 @@
         },
         "127": {
             "avgdeg": 4.189905136925004,
-            "category": "citation",
+            "category": "communication",
             "m": 23409,
             "maxdeg": 2389,
             "n": 11174,
