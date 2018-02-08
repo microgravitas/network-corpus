@@ -1,2 +1,11 @@
-Network from the SNAP collection.
+SNAP: Slashdot is a technology-related news website know for its specific 
+user community. The website features user-submitted and editor-evaluated 
+current primarily technology oriented news. In 2002 Slashdot introduced the 
+Slashdot Zoo feature which allows users to tag each other as friends or foes. 
+The network cotains friend/foe links between the users of Slashdot. 
+The network was obtained in November 2008.
+
 https://snap.stanford.edu/data/soc-sign-Slashdot081106.html
+
+J. Leskovec, D. Huttenlocher, J. Kleinberg: Signed Networks in Social Media. 
+28th ACM Conference on Human Factors in Computing Systems (CHI), 2010.
