@@ -1,6 +1,6 @@
 #! /usr/bin/env python3 
 
-import sys, os
+import sys, os, glob
 
 import math, argparse
 from dtf.graph import Graph
