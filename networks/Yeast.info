@@ -1,0 +1,18 @@
+ICON: A network representing protein-protein interactions in budding yeast, 
+obtained by combining information from several high-throughput methods (as of 2002). 
+
+Contained in gephi library and available on Pajek
+http://vlado.fmf.uni-lj.si/pub/networks/data/bio/yeast/yeast.htm
+
+@article{bu2003topological,
+  title={Topological structure analysis of the protein--protein interaction network in budding yeast},
+  author={Bu, Dongbo and Zhao, Yi and Cai, Lun and Xue, Hong and Zhu, Xiaopeng and Lu, 
+	  Hongchao and Zhang, Jingfen and Sun, Shiwei and Ling, Lunjiang and Zhang, Nan and others},
+  journal={Nucleic acids research},
+  volume={31},
+  number={9},
+  pages={2443--2450},
+  year={2003},
+  publisher={Oxford University Press}
+}
+
