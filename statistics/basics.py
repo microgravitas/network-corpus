@@ -33,6 +33,14 @@ def compute_radius(graph, logger, timeout=None):
     Gcc = sorted(nx.connected_component_subgraphs(G), key = len, reverse=True)[0]
     return nx.radius(Gcc)
 
+def compute_assort(graph, logger, timeout=None):
+    """
+        Computes the degree assortativity coefficient (uses networkx)
+    """
+    import networkx as nx
+    G = _to_networkx(graph)
+    return nx.degree_assortativity_coefficient(G)
+
 def _to_networkx(graph):
     import networkx as nx
     G = nx.Graph()
