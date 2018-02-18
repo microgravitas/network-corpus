@@ -13,12 +13,29 @@ def compute_m(graph, logger, timeout=None):
 
 def compute_maxdeg(graph, logger, timeout=None):
     """
-        Returns the maximum degree.
+        Computes the maximum degree.
     """
     return max(graph.degree_sequence())
 
 def compute_avgdeg(graph, logger, timeout=None):
     """
-        Returns the average degree.
+        Computes the average degree.
     """
     return graph.calc_average_degree()
+
+
+def compute_radius(graph, logger, timeout=None):
+    """
+        Computes the radius (uses networkx)
+    """
+    import networkx as nx
+    G = _to_networkx(graph)
+    Gcc = sorted(nx.connected_component_subgraphs(G), key = len, reverse=True)[0]
+    return nx.radius(Gcc)
+
+def _to_networkx(graph):
+    import networkx as nx
+    G = nx.Graph()
+    for u,v in graph.edges():
+        G.add_edge(u,v)
+    return G

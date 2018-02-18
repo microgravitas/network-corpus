@@ -168,6 +168,7 @@
             "maxdeg": 29,
             "n": 376,
             "name": "photoviz_dynamic",
+            "radius": 8,
             "td": 30,
             "tw": 14,
             "vc": 112
@@ -521,6 +522,7 @@
             "maxdeg": 28,
             "n": 1010,
             "name": "roget-thesaurus",
+            "radius": 6,
             "td": 266,
             "tw": 226,
             "vc": 605
@@ -1197,6 +1199,7 @@
             "maxdeg": 25,
             "n": 3247,
             "name": "iscas89-s15850",
+            "radius": 21,
             "td": 24,
             "tw": 10,
             "vc": 1310
