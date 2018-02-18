@@ -68,6 +68,7 @@
             "maxdeg": 12,
             "n": 62,
             "name": "dolphins",
+            "radius": 5,
             "td": 20,
             "tw": 11,
             "vc": 34
@@ -186,6 +187,7 @@
             "maxdeg": 25,
             "n": 105,
             "name": "polbooks",
+            "radius": 4,
             "td": 31,
             "tw": 14,
             "vc": 62
@@ -769,6 +771,7 @@
             "maxdeg": 855,
             "n": 6229,
             "name": "reactome",
+            "radius": 12,
             "td": 652,
             "tw": 402,
             "vc": 3511
@@ -934,6 +937,7 @@
             "maxdeg": 10,
             "n": 1174,
             "name": "euroroad",
+            "radius": 31,
             "tw": 16,
             "vc": 571
         },
@@ -1056,6 +1060,7 @@
             "maxdeg": 53,
             "n": 463,
             "name": "iscas89-s1488",
+            "radius": 5,
             "td": 24,
             "tw": 18,
             "vc": 75
@@ -1450,6 +1455,7 @@
             "maxdeg": 592,
             "n": 2900,
             "name": "ODLIS",
+            "radius": 4,
             "td": 406,
             "tw": 366,
             "vc": 1341
