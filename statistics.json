@@ -200,6 +200,7 @@
             "maxdeg": 351,
             "n": 1224,
             "name": "polblogs",
+            "radius": 4,
             "td": 310,
             "tw": 221,
             "vc": 560
@@ -235,6 +236,7 @@
             "maxdeg": 32,
             "n": 53,
             "name": "bergen",
+            "radius": 2,
             "td": 23,
             "tw": 16,
             "vc": 30
@@ -247,6 +249,7 @@
             "maxdeg": 279,
             "n": 23133,
             "name": "ca-CondMat",
+            "radius": 8,
             "tw": 2082,
             "vc": 13521
         },
@@ -395,6 +398,7 @@
             "maxdeg": 102,
             "n": 889,
             "name": "soc-wiki-Vote",
+            "radius": 7,
             "td": 125,
             "tw": 71,
             "vc": 406
@@ -503,6 +507,7 @@
             "maxdeg": 111,
             "n": 242,
             "name": "rhesusbrain",
+            "radius": 3,
             "td": 110,
             "tw": 81,
             "vc": 150
@@ -528,6 +533,7 @@
             "maxdeg": 455,
             "n": 1881,
             "name": "wikipedia-norm",
+            "radius": 4,
             "td": 359,
             "tw": 319,
             "vc": 858
@@ -604,6 +610,7 @@
             "maxdeg": 20,
             "n": 21,
             "name": "wafa-hightech",
+            "radius": 1,
             "td": 17,
             "tw": 16,
             "vc": 17
@@ -640,6 +647,7 @@
             "maxdeg": 788,
             "n": 5573,
             "name": "bitcoin-otc-positive",
+            "radius": 7,
             "td": 397,
             "tw": 350,
             "vc": 1464
@@ -652,6 +660,7 @@
             "maxdeg": 552,
             "n": 7253,
             "name": "eva-corporate",
+            "radius": 10,
             "td": 25,
             "tw": 13,
             "vc": 1213
@@ -664,6 +673,7 @@
             "maxdeg": 89,
             "n": 1966,
             "name": "Y2H_union",
+            "radius": 8,
             "td": 80,
             "tw": 60,
             "vc": 707
@@ -1073,6 +1083,7 @@
             "maxdeg": 37,
             "n": 2492,
             "name": "iscas89-s13207",
+            "radius": 7,
             "tw": 7,
             "vc": 1059
         },
@@ -1084,6 +1095,7 @@
             "maxdeg": 3,
             "n": 9,
             "name": "iscas89-s27",
+            "radius": 4,
             "td": 4,
             "tw": 2,
             "vc": 4
@@ -1096,6 +1108,7 @@
             "maxdeg": 12,
             "n": 265,
             "name": "iscas89-s838.1",
+            "radius": 11,
             "td": 13,
             "tw": 4,
             "vc": 110
@@ -1108,6 +1121,7 @@
             "maxdeg": 12,
             "n": 332,
             "name": "iscas89-s953",
+            "radius": 8,
             "td": 37,
             "tw": 25,
             "vc": 139
@@ -1120,6 +1134,7 @@
             "maxdeg": 12,
             "n": 137,
             "name": "iscas89-s713",
+            "radius": 7,
             "td": 14,
             "tw": 8,
             "vc": 50
@@ -1396,6 +1411,7 @@
             "maxdeg": 14902,
             "n": 219856,
             "name": "bahamas",
+            "radius": 16,
             "vc": 30265
         },
         "117": {
