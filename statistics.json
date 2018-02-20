@@ -8,6 +8,7 @@
             "maxdeg": 1084,
             "n": 3656,
             "name": "twittercrawl",
+            "radius": 4,
             "td": 1223,
             "tw": 732,
             "vc": 2136
@@ -57,6 +58,7 @@
             "maxdeg": 34,
             "n": 1461,
             "name": "netscience",
+            "radius": 9,
             "td": 21,
             "tw": 20,
             "vc": 899
@@ -415,6 +417,7 @@
             "maxdeg": 175,
             "n": 4271,
             "name": "web-EPA",
+            "radius": 6,
             "td": 280,
             "tw": 255,
             "vc": 892
@@ -427,6 +430,7 @@
             "maxdeg": 71,
             "n": 1133,
             "name": "ia-email-univ",
+            "radius": 5,
             "td": 260,
             "tw": 217,
             "vc": 594
@@ -451,6 +455,7 @@
             "maxdeg": 261,
             "n": 6809,
             "name": "ia-reality",
+            "radius": 4,
             "td": 53,
             "tw": 41,
             "vc": 81
@@ -463,6 +468,7 @@
             "maxdeg": 59,
             "n": 1299,
             "name": "web-google",
+            "radius": 7,
             "td": 26,
             "tw": 18,
             "vc": 498
@@ -475,6 +481,7 @@
             "maxdeg": 744,
             "n": 1076,
             "name": "bn-mouse_retina_1",
+            "radius": 2,
             "td": 533,
             "tw": 419,
             "vc": 911
@@ -645,6 +652,7 @@
             "maxdeg": 227,
             "n": 1606,
             "name": "bitcoin-otc-negative",
+            "radius": 7,
             "td": 74,
             "tw": 60,
             "vc": 428
@@ -773,6 +781,7 @@
             "maxdeg": 402,
             "n": 1866,
             "name": "DNC-emails",
+            "radius": 4,
             "tw": 47,
             "vc": 249
         },
@@ -816,6 +825,7 @@
             "maxdeg": 803,
             "n": 5155,
             "name": "advogato",
+            "radius": 5,
             "td": 967,
             "tw": 920,
             "vc": 2204
@@ -839,6 +849,7 @@
             "maxdeg": 5923,
             "n": 6434,
             "name": "JDK_dependency",
+            "radius": 4,
             "td": 236,
             "tw": 162,
             "vc": 1988
@@ -851,6 +862,7 @@
             "maxdeg": 181,
             "n": 7301,
             "name": "chess",
+            "radius": 7,
             "td": 1562,
             "tw": 1270,
             "vc": 4080
@@ -875,6 +887,7 @@
             "maxdeg": 5655,
             "n": 6120,
             "name": "JUNG-javax",
+            "radius": 4,
             "td": 235,
             "tw": 163,
             "vc": 1859
@@ -1201,6 +1214,7 @@
             "maxdeg": 18,
             "n": 1985,
             "name": "iscas89-s9234",
+            "radius": 16,
             "tw": 9,
             "vc": 890
         },
@@ -1304,6 +1318,7 @@
             "maxdeg": 54,
             "n": 9193,
             "name": "iscas89-s38584",
+            "radius": 22,
             "tw": 22,
             "vc": 3539
         },
@@ -1315,6 +1330,7 @@
             "maxdeg": 10,
             "n": 1411,
             "name": "iscas89-s5378",
+            "radius": 12,
             "tw": 7,
             "vc": 563
         },
@@ -1514,6 +1530,7 @@
             "maxdeg": 331,
             "n": 6651,
             "name": "zewail",
+            "radius": 6,
             "td": 1341,
             "tw": 1107,
             "vc": 3726
@@ -1525,6 +1542,7 @@
             "maxdeg": 199,
             "n": 6175,
             "name": "web-california",
+            "radius": 7,
             "td": 370,
             "tw": 333,
             "vc": 1470
@@ -1536,6 +1554,7 @@
             "maxdeg": 1103,
             "n": 8324,
             "name": "lederberg",
+            "radius": 9,
             "td": 914,
             "tw": 836,
             "vc": 3582
@@ -1568,6 +1587,7 @@
             "maxdeg": 64,
             "n": 2284,
             "name": "Yeast",
+            "radius": 6,
             "td": 287,
             "tw": 262,
             "vc": 763
