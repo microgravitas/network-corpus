@@ -815,7 +815,8 @@
             "m": 987091,
             "maxdeg": 3457,
             "n": 6040,
-            "name": "movielens_1m"
+            "name": "movielens_1m",
+            "radius": 2
         },
         "66": {
             "avgdeg": 15.241513094083414,
@@ -900,6 +901,7 @@
             "maxdeg": 242,
             "n": 2939,
             "name": "openflights",
+            "radius": 7,
             "td": 187,
             "tw": 114
         },
