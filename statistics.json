@@ -20,6 +20,7 @@
             "maxdeg": 12,
             "n": 115,
             "name": "football",
+            "radius": 3,
             "td": 58,
             "tw": 39,
             "vc": 94
@@ -116,6 +117,7 @@
             "maxdeg": 55,
             "n": 724,
             "name": "codeminer",
+            "radius": 10,
             "td": 27,
             "tw": 9,
             "vc": 191
@@ -162,6 +164,7 @@
             "maxdeg": 130,
             "n": 235,
             "name": "airlines",
+            "radius": 2,
             "td": 53,
             "tw": 41,
             "vc": 96
@@ -285,6 +288,7 @@
             "maxdeg": 134,
             "n": 297,
             "name": "celegans",
+            "radius": 3,
             "td": 96,
             "tw": 71,
             "vc": 187
@@ -435,6 +439,7 @@
             "maxdeg": 50,
             "n": 410,
             "name": "ia-infect-dublin",
+            "radius": 5,
             "td": 97,
             "tw": 41,
             "vc": 293
@@ -482,6 +487,7 @@
             "maxdeg": 497,
             "n": 503,
             "name": "ratbrain",
+            "radius": 2,
             "td": 125,
             "tw": 109,
             "vc": 161
@@ -560,6 +566,7 @@
             "maxdeg": 19,
             "n": 101,
             "name": "movies",
+            "radius": 6,
             "td": 22,
             "tw": 16,
             "vc": 39
@@ -572,6 +579,7 @@
             "maxdeg": 72,
             "n": 418,
             "name": "ecoli-transcript",
+            "radius": 7,
             "td": 16,
             "tw": 9,
             "vc": 103
@@ -584,6 +592,7 @@
             "maxdeg": 22,
             "n": 26,
             "name": "wafa-ceos",
+            "radius": 2,
             "td": 12,
             "tw": 9,
             "vc": 14
@@ -623,6 +632,7 @@
             "maxdeg": 8,
             "n": 15,
             "name": "wafa-padgett",
+            "radius": 3,
             "td": 7,
             "tw": 5,
             "vc": 8
@@ -698,6 +708,7 @@
             "maxdeg": 228,
             "n": 863,
             "name": "columbia-mobility",
+            "radius": 4,
             "td": 67,
             "tw": 34,
             "vc": 554
@@ -710,6 +721,7 @@
             "maxdeg": 545,
             "n": 863,
             "name": "columbia-social",
+            "radius": 2,
             "td": 75,
             "tw": 46,
             "vc": 429
@@ -722,6 +734,7 @@
             "maxdeg": 5,
             "n": 374,
             "name": "autobahn",
+            "radius": 16,
             "td": 24,
             "tw": 10,
             "vc": 172
@@ -959,6 +972,7 @@
             "maxdeg": 56,
             "n": 217,
             "name": "residence_hall",
+            "radius": 3,
             "td": 117,
             "tw": 87,
             "vc": 166
@@ -980,6 +994,7 @@
             "maxdeg": 50,
             "n": 410,
             "name": "infectious",
+            "radius": 5,
             "td": 101,
             "tw": 41,
             "vc": 293
@@ -1147,6 +1162,7 @@
             "maxdeg": 17,
             "n": 423,
             "name": "iscas89-s1423",
+            "radius": 12,
             "td": 16,
             "tw": 6,
             "vc": 169
@@ -1159,6 +1175,7 @@
             "maxdeg": 12,
             "n": 159,
             "name": "iscas89-s526n",
+            "radius": 8,
             "td": 19,
             "tw": 9,
             "vc": 50
@@ -1171,6 +1188,7 @@
             "maxdeg": 23,
             "n": 114,
             "name": "iscas89-s386",
+            "radius": 5,
             "td": 15,
             "tw": 9,
             "vc": 25
@@ -1194,6 +1212,7 @@
             "maxdeg": 48,
             "n": 239,
             "name": "iscas89-s820",
+            "radius": 7,
             "td": 21,
             "tw": 13,
             "vc": 38
@@ -1206,6 +1225,7 @@
             "maxdeg": 9,
             "n": 102,
             "name": "iscas89-s349",
+            "radius": 6,
             "td": 10,
             "tw": 4,
             "vc": 39
@@ -1218,6 +1238,7 @@
             "maxdeg": 12,
             "n": 160,
             "name": "iscas89-s526",
+            "radius": 8,
             "td": 21,
             "tw": 10,
             "vc": 50
@@ -1230,6 +1251,7 @@
             "maxdeg": 9,
             "n": 100,
             "name": "iscas89-s344",
+            "radius": 6,
             "td": 8,
             "tw": 4,
             "vc": 38
@@ -1242,6 +1264,7 @@
             "maxdeg": 9,
             "n": 129,
             "name": "iscas89-s420.1",
+            "radius": 8,
             "td": 11,
             "tw": 3,
             "vc": 54
@@ -1268,6 +1291,7 @@
             "maxdeg": 56,
             "n": 473,
             "name": "iscas89-s1494",
+            "radius": 5,
             "td": 25,
             "tw": 18,
             "vc": 75
@@ -1302,6 +1326,7 @@
             "maxdeg": 12,
             "n": 172,
             "name": "iscas89-s510",
+            "radius": 6,
             "td": 21,
             "tw": 14,
             "vc": 67
@@ -1314,6 +1339,7 @@
             "maxdeg": 19,
             "n": 121,
             "name": "iscas89-s400",
+            "radius": 8,
             "td": 12,
             "tw": 7,
             "vc": 44
@@ -1338,6 +1364,7 @@
             "maxdeg": 16,
             "n": 377,
             "name": "iscas89-s1196",
+            "radius": 8,
             "td": 34,
             "tw": 23,
             "vc": 137
@@ -1350,6 +1377,7 @@
             "maxdeg": 49,
             "n": 245,
             "name": "iscas89-s832",
+            "radius": 7,
             "td": 22,
             "tw": 13,
             "vc": 38
@@ -1362,6 +1390,7 @@
             "maxdeg": 11,
             "n": 92,
             "name": "iscas89-s298",
+            "radius": 8,
             "td": 13,
             "tw": 6,
             "vc": 29
@@ -1387,6 +1416,7 @@
             "maxdeg": 91,
             "n": 139,
             "name": "capitalist",
+            "radius": 3,
             "td": 46,
             "tw": 38,
             "vc": 81
@@ -1450,7 +1480,8 @@
             "m": 319,
             "maxdeg": 25,
             "n": 182,
-            "name": "CoW-interstate"
+            "name": "CoW-interstate",
+            "radius": 6
         },
         "121": {
             "avgdeg": 2.5003785011355033,
