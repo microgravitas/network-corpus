@@ -1,5 +1,5 @@
 
-def compute_tw_flowcutter(graph, logger, timeout=None) -> min:
+def compute_tw_flowcutter(graph, filename, logger, timeout=None) -> min:
     """ 
         Computes the treewidth using the FlowCutter heuristic
         (https://github.com/ben-strasser/flow-cutter-pace16).
@@ -7,7 +7,7 @@ def compute_tw_flowcutter(graph, logger, timeout=None) -> min:
     width, _, _ = tw_pace(graph, logger, "flow_cutter_pace16", timeout)
     return width
 
-def compute_tw_foxepstein(graph, logger, timeout=None) -> min:
+def compute_tw_foxepstein(graph, filename, logger, timeout=None) -> min:
     """ 
         Computes the treewidth using Fox-Epstein heuristic
         (https://github.com/elitheeli/2016-pace-challenge)
@@ -16,7 +16,7 @@ def compute_tw_foxepstein(graph, logger, timeout=None) -> min:
     return width
 
 
-def compute_tw_htd(graph, logger, timeout=None) -> min:
+def compute_tw_htd(graph, filename, logger, timeout=None) -> min:
     """ 
         Computes the treewidth using the htd heuristic
         (https://github.com/mabseher/htd).
@@ -74,7 +74,7 @@ def tw_pace(graph, logger, program, timeout=None) -> min:
 
     return width, tree, bags
 
-def compute_td_htd(graph, logger, timeout=None) -> min:
+def compute_td_htd(graph, filename, logger, timeout=None) -> min:
     """
         Computes a tree decomposition using htd and then measures
         the resulting treedepth.
@@ -152,7 +152,7 @@ def _find_separator_edge(tree, bags, n):
         previous, current = current, _next
     return (previous, current)
 
-def compute_td_oel(graph, logger, timeout=None) -> min:
+def compute_td_oel(graph, filename, logger, timeout=None) -> min:
     """
         Computes the treedepth using separator heuristics.
     """

@@ -127,7 +127,7 @@ if __name__ == '__main__':
                 print("Network file '{}' could not be found".format(network_file(name)))
                 continue
 
-            value = stat_func(g, logger, args.timeout)
+            value = stat_func(g, network_file(name), logger, args.timeout)
 
             if value == None:
                 print("Computing {} failed or timed out on network {}".format(statname, name))

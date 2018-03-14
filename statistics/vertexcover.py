@@ -1,5 +1,5 @@
 
-def compute_vc(graph, logger, timeout=None) -> min:
+def compute_vc(graph, filename, logger, timeout=None) -> min:
     """
         Computes a minimum vertex cover using the solver
         by T.Akiba and Y.Iwata (https://github.com/wata-orz/vertex_cover)
