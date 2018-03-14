@@ -3,6 +3,7 @@
 import sys, os, glob
 
 import math, argparse
+from operator import itemgetter
 from dtf.graph import Graph
 from dtf.graphformats import load_graph
 
@@ -13,8 +14,10 @@ def list_networks():
     networks = []
     for f in glob.glob("networks/*.txt.gz"):
         name = os.path.basename(f)[:-7]
-        networks.append(name) # Just so we have some control over the order
-    for name in reversed(networks):    
+        size = os.path.getsize(f)
+        networks.append((name, size)) # Just so we have some control over the order
+
+    for name, _ in sorted(networks, key=itemgetter(1)):    
         yield name
 
 def network_file(name):
