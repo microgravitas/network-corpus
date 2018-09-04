@@ -1,4 +1,9 @@
+Taken from Newman's network collection
+200~http://www-personal.umich.edu/~mejn/netdata/.
+
+Original description:
+
 The file as-22july06.gml contains a symmetrized snapshot of the structure
 of the Internet at the level of autonomous systems, reconstructed from BGP
 tables posted at archive.routeviews.org.  This snapshot was created by Mark
-Newman from data for July 22, 2006 and is not previously publis
+Newman from data for July 22, 2006 and is not previously published.
