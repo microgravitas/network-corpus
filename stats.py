@@ -11,9 +11,9 @@ from statistics import *
 from dtf.graph import Graph
 
 import textwrap
-import inspect
 import argparse
 
+from fuzzywuzzy import process
 from tinydb import TinyDB, Query
 import json
 
@@ -47,7 +47,7 @@ class ColumnPrinter(object):
         self._print()
 
     def print(self, s=None):
-        self.flush_columns()        
+        self.flush_columns()
         for l in self._split_lines(s):
             self.out.write(l)
             self.out.write('\n')
@@ -59,7 +59,7 @@ class ColumnPrinter(object):
         for l in self.left_lines:
             self.out.write(self.format_str.format(l, ""))
         for r in self.right_lines:
-            self.out.write(self.format_str.format("",r))            
+            self.out.write(self.format_str.format("",r))
         self.left_lines = []
         self.right_lines = []
 
@@ -72,9 +72,31 @@ class ColumnPrinter(object):
         self.right_lines = self.right_lines[printed:]
 
 
+def print_network(doc, printer=None):
+    if printer:
+        print_left = printer.print_left
+        print_right = printer.print_right
+        _print = printer.print
+    else:
+        print_left = print
+        print_right = lambda s: None
+        _print = print
+
+    print_left("{} ({} nodes, {} edges)".format(name, doc['n'], doc['m']))
+    for k in sorted(doc):
+        if k in ['n', 'm', 'name']:
+            continue
+        if isinstance(doc[k], float):
+            print_left(" {:>8} : {:.2f}".format(k, doc[k]))
+        else:
+            print_left(" {:>8} : {}".format(k, doc[k]))
+
+    print_right(network_info(name))
+    _print()
+
 if __name__ == '__main__':
     db = TinyDB('statistics.json', sort_keys=True, indent=4)
-    
+
     # Parse arguments
     parser = argparse.ArgumentParser()
     parser.add_argument('networks', nargs='*')
@@ -82,42 +104,22 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
+    names = [res['name'] for res in db.search(Query().name.exists())]
+
     networks = args.networks
     if 'all' in networks:
         networks = list_networks()
 
     if args.verbose:
-        p = ColumnPrinter(left=30, right=70)
-        for name in networks:
-            Network = Query()
-            doc = db.get(Network.name == name)
-
-            if not doc:
-                p.print("Unknown network: {}".format(name))
-                continue
-
-            p.print_left("{} ({} nodes, {} edges)".format(name, doc['n'], doc['m']))
-            for k in sorted(doc):
-                if k in ['n', 'm', 'name']:
-                    continue
-                if isinstance(doc[k], float):
-                    p.print_left(" {:>8} : {:.2f}".format(k, doc[k]))
-                else:
-                    p.print_left(" {:>8} : {}".format(k, doc[k]))
-            p.print_left()
-
-            p.print_right(network_info(name))
-            p.print()
+        printer = ColumnPrinter(left=30, right=70)
     else:
-        for name in networks:
-            Network = Query()
-            doc = db.get(Network.name == name)
-            print("{} ({} nodes, {} edges)".format(name, doc['n'], doc['m']))
-            for k in sorted(doc):
-                if k in ['n', 'm', 'name']:
-                    continue
-                if isinstance(doc[k], float):
-                    print(" {:>8} : {:.2f}".format(k, doc[k]))
-                else:
-                    print(" {:>8} : {}".format(k, doc[k]))
-            print()
+        printer = None
+
+    for name in networks:
+        Network = Query()
+        doc = db.get(Network.name == name)
+        if not doc:
+            print("Unknown network: '{}'. Did you mean {}?'".format(name, process.extractOne(name, names)[0]))
+            continue
+
+        print_network(doc, printer)
