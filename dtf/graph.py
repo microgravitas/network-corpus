@@ -28,6 +28,14 @@ class Graph:
     def get_max_id(self):
         return max(self.nodes)
 
+    def copy(self):
+        res = Graph()
+        for v in self.nodes:
+            res.add_node(v)
+        for u,v in self.edges():
+            res.add_edge(u,v)
+        return res
+
     def edges(self):
         for u in self:
             for v in self.adj[u]:
@@ -39,6 +47,13 @@ class Graph:
 
     def add_node(self,u):
         self.nodes.add(u)
+
+    def remove_node(self, u):
+        for v in self.adj[u]:
+            self.adj[v].discard(u)
+
+        del self.adj[u]
+        self.nodes.discard(u)
 
     def add_edge(self,u,v):
         self.nodes.add(u)

@@ -65,3 +65,24 @@ def domset(filename, r, logger, timeout=None) -> min:
  	with Rhizome.from_file(filename) as rhizome:
  		ds = rhizome.domset(r);
  		return len(ds)
+
+
+def compute_frag(graph, filename, logger, timeout=None):     
+    """ 
+        Computer how many high-degree vertices have to be removed
+        in order to have every connected component to be of size at 
+        most n/2 
+    """
+    return frag(graph, .5)
+
+def frag(graph, thresh) -> min: 
+    graph = graph.copy()
+    n = len(graph)
+    degrees = sorted([(graph.degree(u), u) for u in graph], reverse=True)
+
+    for _, u in degrees:
+        graph.remove_node(u)
+        max_compsize = max(len(comp) for comp in graph.get_components())
+        if max_compsize/n <= thresh:
+            break
+    return n - len(graph)
