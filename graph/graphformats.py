@@ -1,6 +1,6 @@
 import sys
 import datetime
-from dtf.graph import Graph as Graph
+from graph.graph import Graph as Graph
 from xml.sax.saxutils import quoteattr
 
 def read_pajek(filename):
@@ -95,7 +95,7 @@ def read_leda(filename):
     numVertices = 10**10
     lines = open(filename)
     
-    # Skip preable       
+    # Skip preamble       
     skip_lines(lines, 4)
     numVertices = int(next(lines))
 

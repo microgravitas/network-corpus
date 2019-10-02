@@ -2767,6 +2767,384 @@
             "maxdeg": 2390,
             "n": 22963,
             "name": "as-22july06"
+        },
+        "130": {
+            "avgdeg": 2.5130434782608697,
+            "m": 2312,
+            "maxdeg": 376,
+            "n": 1840,
+            "name": "BioGrid-Affinity-Capture-Luminescence"
+        },
+        "131": {
+            "avgdeg": 1.0,
+            "m": 1,
+            "maxdeg": 1,
+            "n": 2,
+            "name": "BioGrid-Apis-Mellifera"
+        },
+        "132": {
+            "avgdeg": 1.0,
+            "m": 2,
+            "maxdeg": 1,
+            "n": 4,
+            "name": "BioGrid-Equus-Caballus"
+        },
+        "133": {
+            "avgdeg": 1.0,
+            "m": 1,
+            "maxdeg": 1,
+            "n": 2,
+            "name": "BioGrid-Human-Herpesvirus-7"
+        },
+        "134": {
+            "avgdeg": 1.0,
+            "m": 1,
+            "maxdeg": 1,
+            "n": 2,
+            "name": "BioGrid-Escherichia-Coli-K12"
+        },
+        "135": {
+            "avgdeg": 1.0,
+            "m": 1,
+            "maxdeg": 1,
+            "n": 2,
+            "name": "BioGrid-Anopheles-Gambiae-Pest"
+        },
+        "136": {
+            "avgdeg": 1.0,
+            "m": 1,
+            "maxdeg": 1,
+            "n": 2,
+            "name": "BioGrid-Human-Papillomavirus-10"
+        },
+        "137": {
+            "avgdeg": 1.0,
+            "m": 1,
+            "maxdeg": 1,
+            "n": 2,
+            "name": "BioGrid-Bacillus-Subtilis-168"
+        },
+        "138": {
+            "avgdeg": 1.0,
+            "m": 3,
+            "maxdeg": 1,
+            "n": 6,
+            "name": "BioGrid-Human-Herpesvirus-3"
+        },
+        "139": {
+            "avgdeg": 1.1111111111111112,
+            "m": 5,
+            "maxdeg": 2,
+            "n": 9,
+            "name": "BioGrid-Cavia-Porcellus"
+        },
+        "140": {
+            "avgdeg": 1.1428571428571428,
+            "m": 4,
+            "maxdeg": 2,
+            "n": 7,
+            "name": "BioGrid-Human-Herpesvirus-6b"
+        },
+        "141": {
+            "avgdeg": 1.2,
+            "m": 6,
+            "maxdeg": 2,
+            "n": 10,
+            "name": "BioGrid-Human-Herpesvirus-2"
+        },
+        "142": {
+            "avgdeg": 1.3333333333333333,
+            "m": 8,
+            "maxdeg": 3,
+            "n": 12,
+            "name": "BioGrid-Human-Herpesvirus-6a"
+        },
+        "143": {
+            "avgdeg": 1.6,
+            "m": 8,
+            "maxdeg": 3,
+            "n": 10,
+            "name": "BioGrid-Escherichia-Coli-K12-Mc4100-Bw2952"
+        },
+        "144": {
+            "avgdeg": 1.4444444444444444,
+            "m": 13,
+            "maxdeg": 2,
+            "n": 18,
+            "name": "BioGrid-Chlorocebus-Sabaeus"
+        },
+        "145": {
+            "avgdeg": 1.5789473684210527,
+            "m": 15,
+            "maxdeg": 11,
+            "n": 19,
+            "name": "BioGrid-Chlamydomonas-Reinhardtii"
+        },
+        "146": {
+            "avgdeg": 1.8181818181818181,
+            "m": 20,
+            "maxdeg": 16,
+            "n": 22,
+            "name": "BioGrid-Human-Papillomavirus-6b"
+        },
+        "147": {
+            "avgdeg": 1.5789473684210527,
+            "m": 15,
+            "maxdeg": 6,
+            "n": 19,
+            "name": "BioGrid-Human-Immunodeficiency-Virus-2"
+        },
+        "148": {
+            "avgdeg": 1.4814814814814814,
+            "m": 20,
+            "maxdeg": 4,
+            "n": 27,
+            "name": "BioGrid-Dictyostelium-Discoideum-Ax4"
+        },
+        "149": {
+            "avgdeg": 1.7727272727272727,
+            "m": 39,
+            "maxdeg": 13,
+            "n": 44,
+            "name": "BioGrid-Glycine-Max"
+        },
+        "150": {
+            "avgdeg": 1.6521739130434783,
+            "m": 57,
+            "maxdeg": 30,
+            "n": 69,
+            "name": "BioGrid-Cricetulus-Griseus"
+        },
+        "151": {
+            "avgdeg": 1.9375,
+            "m": 62,
+            "maxdeg": 44,
+            "n": 64,
+            "name": "BioGrid-Emericella-Nidulans-Fgsc-A4"
+        },
+        "152": {
+            "avgdeg": 1.9705882352941178,
+            "m": 134,
+            "maxdeg": 133,
+            "n": 136,
+            "name": "BioGrid-Hepatitus-C-Virus"
+        },
+        "153": {
+            "avgdeg": 1.7685950413223142,
+            "m": 107,
+            "maxdeg": 27,
+            "n": 121,
+            "name": "BioGrid-Human-Herpesvirus-5"
+        },
+        "154": {
+            "avgdeg": 1.7482517482517483,
+            "m": 125,
+            "maxdeg": 90,
+            "n": 143,
+            "name": "BioGrid-Canis-Familiaris"
+        },
+        "155": {
+            "avgdeg": 2.1502890173410405,
+            "m": 186,
+            "maxdeg": 93,
+            "n": 173,
+            "name": "BioGrid-Human-Papillomavirus-16"
+        },
+        "156": {
+            "avgdeg": 2.337078651685393,
+            "m": 208,
+            "maxdeg": 40,
+            "n": 178,
+            "name": "BioGrid-Human-Herpesvirus-1"
+        },
+        "157": {
+            "avgdeg": 2.0383141762452106,
+            "m": 266,
+            "maxdeg": 61,
+            "n": 261,
+            "name": "BioGrid-Danio-Rerio"
+        },
+        "158": {
+            "avgdeg": 2.018575851393189,
+            "m": 326,
+            "maxdeg": 154,
+            "n": 323,
+            "name": "BioGrid-Human-Herpesvirus-4"
+        },
+        "159": {
+            "avgdeg": 2.11138014527845,
+            "m": 436,
+            "maxdeg": 110,
+            "n": 413,
+            "name": "BioGrid-Gallus-Gallus"
+        },
+        "160": {
+            "avgdeg": 1.86784140969163,
+            "m": 424,
+            "maxdeg": 27,
+            "n": 454,
+            "name": "BioGrid-Bos-Taurus"
+        },
+        "161": {
+            "avgdeg": 1.9301675977653632,
+            "m": 691,
+            "maxdeg": 119,
+            "n": 716,
+            "name": "BioGrid-Human-Herpesvirus-8"
+        },
+        "162": {
+            "avgdeg": 2.3181019332161688,
+            "m": 1319,
+            "maxdeg": 324,
+            "n": 1138,
+            "name": "BioGrid-Human-Immunodeficiency-Virus-1"
+        },
+        "163": {
+            "avgdeg": 1.81651376146789,
+            "m": 1089,
+            "maxdeg": 60,
+            "n": 1199,
+            "name": "BioGrid-Far-Western"
+        },
+        "164": {
+            "avgdeg": 2.870651204281891,
+            "m": 1609,
+            "maxdeg": 427,
+            "n": 1121,
+            "name": "BioGrid-Candida-Albicans-Sc5314"
+        },
+        "165": {
+            "avgdeg": 2.5777027027027026,
+            "m": 2289,
+            "maxdeg": 392,
+            "n": 1776,
+            "name": "BioGrid-Dosage-Lethality"
+        },
+        "166": {
+            "avgdeg": 3.0310988251554942,
+            "m": 2193,
+            "maxdeg": 213,
+            "n": 1447,
+            "name": "BioGrid-Dosage-Growth-Defect"
+        },
+        "167": {
+            "avgdeg": 2.9677926158680283,
+            "m": 1889,
+            "maxdeg": 58,
+            "n": 1273,
+            "name": "BioGrid-Escherichia-Coli-K12-Mg1655"
+        },
+        "168": {
+            "avgdeg": 2.8176470588235296,
+            "m": 2395,
+            "maxdeg": 51,
+            "n": 1700,
+            "name": "BioGrid-Fret"
+        },
+        "169": {
+            "avgdeg": 1.7642950676560454,
+            "m": 2021,
+            "maxdeg": 92,
+            "n": 2291,
+            "name": "BioGrid-Co-Crystal-Structure"
+        },
+        "170": {
+            "avgdeg": 2.513124470787468,
+            "m": 4452,
+            "maxdeg": 63,
+            "n": 3543,
+            "name": "BioGrid-Co-Localization"
+        },
+        "171": {
+            "avgdeg": 2.7600554785020806,
+            "m": 5970,
+            "maxdeg": 1972,
+            "n": 4326,
+            "name": "BioGrid-Co-Purification"
+        },
+        "172": {
+            "avgdeg": 3.81301775147929,
+            "m": 6444,
+            "maxdeg": 75,
+            "n": 3380,
+            "name": "BioGrid-Dosage-Rescue"
+        },
+        "173": {
+            "avgdeg": 4.117401392111369,
+            "m": 17746,
+            "maxdeg": 427,
+            "n": 8620,
+            "name": "BioGrid-Biochemical-Activity"
+        },
+        "174": {
+            "avgdeg": 7.396309039724742,
+            "m": 23646,
+            "maxdeg": 522,
+            "n": 6394,
+            "name": "BioGrid-Caenorhabditis-Elegans"
+        },
+        "175": {
+            "avgdeg": 6.220849981837995,
+            "m": 42815,
+            "maxdeg": 3572,
+            "n": 13765,
+            "name": "BioGrid-Affinity-Capture-Rna"
+        },
+        "176": {
+            "avgdeg": 9.199577613516368,
+            "m": 47916,
+            "maxdeg": 1341,
+            "n": 10417,
+            "name": "BioGrid-Arabidopsis-Thaliana-Columbia"
+        },
+        "177": {
+            "avgdeg": 10.230371244440411,
+            "m": 56354,
+            "maxdeg": 187,
+            "n": 11017,
+            "name": "BioGrid-Co-Fractionation"
+        },
+        "178": {
+            "avgdeg": 12.980921757770632,
+            "m": 60556,
+            "maxdeg": 303,
+            "n": 9330,
+            "name": "BioGrid-Drosophila-Melanogaster"
+        },
+        "179": {
+            "avgdeg": 6.091497051550314,
+            "m": 64046,
+            "maxdeg": 535,
+            "n": 21028,
+            "name": "BioGrid-Affinity-Capture-Western"
+        },
+        "180": {
+            "avgdeg": 89.4019197637214,
+            "m": 181620,
+            "maxdeg": 1187,
+            "n": 4063,
+            "name": "BioGrid-Escherichia-Coli-K12-W3110"
+        },
+        "181": {
+            "avgdeg": 15.897616989751821,
+            "m": 321887,
+            "maxdeg": 2217,
+            "n": 40495,
+            "name": "BioGrid-Affinity-Capture-Ms"
+        },
+        "182": {
+            "avgdeg": 30.694973643796953,
+            "m": 369767,
+            "maxdeg": 2882,
+            "n": 24093,
+            "name": "BioGrid-Homo-Sapiens"
+        },
+        "183": {
+            "avgdeg": 34.860172071475844,
+            "m": 1316843,
+            "maxdeg": 3620,
+            "n": 75550,
+            "name": "BioGrid-All"
         }
     }
 }

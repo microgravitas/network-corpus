@@ -8,7 +8,7 @@ from collections import defaultdict
 import statistics
 from statistics import *
 
-from dtf.graph import Graph
+from graph.graph import Graph
 
 import textwrap
 import argparse

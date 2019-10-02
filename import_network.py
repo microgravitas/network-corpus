@@ -3,8 +3,8 @@
 import sys, os, re
 
 import math
-from dtf.graph import Graph
-from dtf.graphformats import load_graph
+from graph.graph import Graph
+from graph.graphformats import load_graph
 
 import gzip
 import subprocess
