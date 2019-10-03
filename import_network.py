@@ -9,6 +9,8 @@ from graph.graphformats import load_graph
 import gzip
 import subprocess
 
+from tinydb import TinyDB, Query
+
 def sorted_nicely( l ): 
     convert = lambda text: int(text) if text.isdigit() else text 
     alphanum_key = lambda key: [ convert(c) for c in re.split('([0-9]+)', key) ] 
@@ -55,14 +57,24 @@ def import_network(networkfile):
 
     infofile = "networks/{}.info".format(networkname)
 
+    m = 0
+    nodes = set()
     with gzip.GzipFile(networkfile, mode='w') as filebuf:
         for u,v in g.edges():
             filebuf.write("{} {}\n".format(u,v).encode())
+            nodes.add(u)
+            nodes.add(v)
+            m += 1
+    n = len(nodes)
 
     with open(infofile, 'w') as filebuf:
         filebuf.write(infotext)    
 
-    gitcmd = ['git', 'add', 'networks/{0}.txt.gz'.format(networkname), 'networks/{0}.info'.format(networkname)]
+    db = TinyDB('statistics.json', sort_keys=True, indent=4)
+    Network = Query()
+    db.upsert({'name': networkname, 'n':n, 'm':m}, Network.name == networkname)
+
+    gitcmd = ['git', 'add', 'networks/{0}.txt.gz'.format(networkname), 'networks/{0}.info'.format(networkname), 'statistics.json']
     print(' '.join(gitcmd))
     subprocess.run(gitcmd)
     
