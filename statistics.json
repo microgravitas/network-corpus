@@ -3145,6 +3145,11 @@
             "maxdeg": 3620,
             "n": 75550,
             "name": "BioGrid-All"
+        },
+        "184": {
+            "m": 28093,
+            "n": 33266,
+            "name": "BioGrid-Chemicals"
         }
     }
 }
