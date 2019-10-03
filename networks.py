@@ -10,6 +10,8 @@ from graph.graphformats import load_graph
 import gzip
 import subprocess
 
+from tinydb import TinyDB, Query, where
+
 def list_networks():
     networks = []
     for f in glob.glob("networks/*.txt.gz"):
@@ -64,10 +66,16 @@ if __name__ == '__main__':
     parser.add_argument('--n_max', type=float, default=math.inf)
 
     args = parser.parse_args()
-    for name in list_networks():
-        n = network_size(name, args.n_max)
-        if n >= args.n_min and n <= args.n_max:
-            print(name)
+    
+    db = TinyDB('statistics.json', sort_keys=True, indent=4)
+
+    for res in db.search((where('n') >= args.n_min) & (where('n') <= args.n_max)):
+        print(res['name'])
+
+    # for name in list_networks():
+    #     n = network_size(name, args.n_max)
+    #     if n >= args.n_min and n <= args.n_max:
+    #         print(name)
     
 
 
