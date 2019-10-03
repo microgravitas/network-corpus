@@ -144,6 +144,7 @@
             "maxdeg": 1383,
             "n": 36692,
             "name": "email-Enron",
+            "radius": 7,
             "tw": 2084
         },
         "8": {
@@ -446,6 +447,7 @@
             "maxdeg": 491,
             "n": 12006,
             "name": "ca-HepPh",
+            "radius": 7,
             "td": 2153,
             "tw": 1252
         },
@@ -647,6 +649,7 @@
             "maxdeg": 2761,
             "n": 23628,
             "name": "soc-gplus",
+            "radius": 4,
             "tw": 70
         },
         "32": {
@@ -1216,6 +1219,7 @@
             "maxdeg": 1625,
             "n": 19428,
             "name": "marvel",
+            "radius": 6,
             "td": 1081,
             "tw": 937
         },
@@ -1443,6 +1447,7 @@
             "maxdeg": 377,
             "n": 23166,
             "name": "cora_citation",
+            "radius": 11,
             "tw": 1460,
             "vc": 10960
         },
@@ -1717,7 +1722,8 @@
             "m": 91471,
             "maxdeg": 728,
             "n": 13356,
-            "name": "foldoc"
+            "name": "foldoc",
+            "radius": 4
         },
         "81": {
             "assort": 0.2257519475783722,
@@ -2375,6 +2381,7 @@
             "maxdeg": 1440,
             "n": 12515,
             "name": "iscas89-s35932",
+            "radius": 9,
             "td": 10,
             "tw": 3,
             "vc": 5293
@@ -2596,6 +2603,7 @@
             "assort": -0.18481260629152152,
             "avgdeg": 2.5003785011355033,
             "category": "transportation",
+            "degen": 2,
             "domset": 2,
             "domset2": 7,
             "domset3": 12,
@@ -2618,6 +2626,7 @@
             "assort": -0.17304201324164362,
             "avgdeg": 11.29448275862069,
             "category": "other",
+            "degen": 12,
             "domset": 12,
             "domset2": 88,
             "domset3": 257,
@@ -2640,6 +2649,7 @@
             "assort": 0.0005946256491819334,
             "avgdeg": 16.292888287475567,
             "category": "citation",
+            "degen": 18,
             "domset": 18,
             "domset2": 204,
             "domset3": 683,
@@ -2662,6 +2672,7 @@
             "assort": -0.22303459229012493,
             "avgdeg": 5.172145748987854,
             "category": "web",
+            "degen": 11,
             "domset": 11,
             "domset2": 65,
             "domset3": 248,
@@ -2684,6 +2695,7 @@
             "assort": -0.09968806819922366,
             "avgdeg": 9.978856319077366,
             "category": "citation",
+            "degen": 15,
             "domset": 15,
             "domset2": 129,
             "domset3": 463,
@@ -2705,6 +2717,7 @@
         "126": {
             "avgdeg": 5.711543495331996,
             "category": "communication",
+            "degen": 31,
             "domset": 31,
             "domset2": 124,
             "domset3": 212,
@@ -2717,6 +2730,7 @@
             "maxdeg": 2432,
             "n": 11461,
             "name": "AS-oregon-2",
+            "radius": 5,
             "td": 204,
             "tw": 161,
             "vc": 1917
@@ -2724,6 +2738,7 @@
         "127": {
             "avgdeg": 4.189905136925004,
             "category": "communication",
+            "degen": 17,
             "domset": 17,
             "domset2": 63,
             "domset3": 105,
@@ -2736,6 +2751,7 @@
             "maxdeg": 2389,
             "n": 11174,
             "name": "AS-oregon-1",
+            "radius": 5,
             "td": 149,
             "tw": 95,
             "vc": 1662
@@ -2743,6 +2759,7 @@
         "128": {
             "assort": -0.09909586049122375,
             "avgdeg": 5.8196147110332745,
+            "degen": 10,
             "domset": 10,
             "domset2": 61,
             "domset3": 201,
@@ -2763,17 +2780,21 @@
         },
         "129": {
             "avgdeg": 4.218612550624918,
+            "degen": 25,
             "m": 48436,
             "maxdeg": 2390,
             "n": 22963,
-            "name": "as-22july06"
+            "name": "as-22july06",
+            "radius": 6
         },
         "130": {
             "avgdeg": 2.5130434782608697,
+            "degen": 6,
             "m": 2312,
             "maxdeg": 376,
             "n": 1840,
-            "name": "BioGrid-Affinity-Capture-Luminescence"
+            "name": "BioGrid-Affinity-Capture-Luminescence",
+            "radius": 6
         },
         "131": {
             "avgdeg": 1.0,
@@ -2889,244 +2910,313 @@
         },
         "147": {
             "avgdeg": 1.5789473684210527,
+            "degen": 1,
             "m": 15,
             "maxdeg": 6,
             "n": 19,
-            "name": "BioGrid-Human-Immunodeficiency-Virus-2"
+            "name": "BioGrid-Human-Immunodeficiency-Virus-2",
+            "radius": 2
         },
         "148": {
             "avgdeg": 1.4814814814814814,
+            "degen": 1,
             "m": 20,
             "maxdeg": 4,
             "n": 27,
-            "name": "BioGrid-Dictyostelium-Discoideum-Ax4"
+            "name": "BioGrid-Dictyostelium-Discoideum-Ax4",
+            "radius": 1
         },
         "149": {
             "avgdeg": 1.7727272727272727,
+            "degen": 2,
             "m": 39,
             "maxdeg": 13,
             "n": 44,
-            "name": "BioGrid-Glycine-Max"
+            "name": "BioGrid-Glycine-Max",
+            "radius": 1
         },
         "150": {
             "avgdeg": 1.6521739130434783,
+            "degen": 1,
             "m": 57,
             "maxdeg": 30,
             "n": 69,
-            "name": "BioGrid-Cricetulus-Griseus"
+            "name": "BioGrid-Cricetulus-Griseus",
+            "radius": 1
         },
         "151": {
             "avgdeg": 1.9375,
+            "degen": 2,
             "m": 62,
             "maxdeg": 44,
             "n": 64,
-            "name": "BioGrid-Emericella-Nidulans-Fgsc-A4"
+            "name": "BioGrid-Emericella-Nidulans-Fgsc-A4",
+            "radius": 1
         },
         "152": {
             "avgdeg": 1.9705882352941178,
+            "degen": 1,
             "m": 134,
             "maxdeg": 133,
             "n": 136,
-            "name": "BioGrid-Hepatitus-C-Virus"
+            "name": "BioGrid-Hepatitus-C-Virus",
+            "radius": 1
         },
         "153": {
             "avgdeg": 1.7685950413223142,
+            "degen": 1,
             "m": 107,
             "maxdeg": 27,
             "n": 121,
-            "name": "BioGrid-Human-Herpesvirus-5"
+            "name": "BioGrid-Human-Herpesvirus-5",
+            "radius": 2
         },
         "154": {
             "avgdeg": 1.7482517482517483,
+            "degen": 2,
             "m": 125,
             "maxdeg": 90,
             "n": 143,
-            "name": "BioGrid-Canis-Familiaris"
+            "name": "BioGrid-Canis-Familiaris",
+            "radius": 2
         },
         "155": {
             "avgdeg": 2.1502890173410405,
+            "degen": 2,
             "m": 186,
             "maxdeg": 93,
             "n": 173,
-            "name": "BioGrid-Human-Papillomavirus-16"
+            "name": "BioGrid-Human-Papillomavirus-16",
+            "radius": 3
         },
         "156": {
             "avgdeg": 2.337078651685393,
+            "degen": 3,
             "m": 208,
             "maxdeg": 40,
             "n": 178,
-            "name": "BioGrid-Human-Herpesvirus-1"
+            "name": "BioGrid-Human-Herpesvirus-1",
+            "radius": 4
         },
         "157": {
             "avgdeg": 2.0383141762452106,
+            "degen": 3,
             "m": 266,
             "maxdeg": 61,
             "n": 261,
-            "name": "BioGrid-Danio-Rerio"
+            "name": "BioGrid-Danio-Rerio",
+            "radius": 4
         },
         "158": {
             "avgdeg": 2.018575851393189,
+            "degen": 2,
             "m": 326,
             "maxdeg": 154,
             "n": 323,
-            "name": "BioGrid-Human-Herpesvirus-4"
+            "name": "BioGrid-Human-Herpesvirus-4",
+            "radius": 5
         },
         "159": {
             "avgdeg": 2.11138014527845,
+            "degen": 4,
             "m": 436,
             "maxdeg": 110,
             "n": 413,
-            "name": "BioGrid-Gallus-Gallus"
+            "name": "BioGrid-Gallus-Gallus",
+            "radius": 5
         },
         "160": {
             "avgdeg": 1.86784140969163,
+            "degen": 3,
             "m": 424,
             "maxdeg": 27,
             "n": 454,
-            "name": "BioGrid-Bos-Taurus"
+            "name": "BioGrid-Bos-Taurus",
+            "radius": 7
         },
         "161": {
             "avgdeg": 1.9301675977653632,
+            "degen": 3,
             "m": 691,
             "maxdeg": 119,
             "n": 716,
-            "name": "BioGrid-Human-Herpesvirus-8"
+            "name": "BioGrid-Human-Herpesvirus-8",
+            "radius": 6
         },
         "162": {
             "avgdeg": 2.3181019332161688,
+            "degen": 3,
             "m": 1319,
             "maxdeg": 324,
             "n": 1138,
-            "name": "BioGrid-Human-Immunodeficiency-Virus-1"
+            "name": "BioGrid-Human-Immunodeficiency-Virus-1",
+            "radius": 3
         },
         "163": {
             "avgdeg": 1.81651376146789,
+            "degen": 3,
             "m": 1089,
             "maxdeg": 60,
             "n": 1199,
-            "name": "BioGrid-Far-Western"
+            "name": "BioGrid-Far-Western",
+            "radius": 11
         },
         "164": {
             "avgdeg": 2.870651204281891,
+            "degen": 9,
             "m": 1609,
             "maxdeg": 427,
             "n": 1121,
-            "name": "BioGrid-Candida-Albicans-Sc5314"
+            "name": "BioGrid-Candida-Albicans-Sc5314",
+            "radius": 5
         },
         "165": {
             "avgdeg": 2.5777027027027026,
+            "degen": 4,
             "m": 2289,
             "maxdeg": 392,
             "n": 1776,
-            "name": "BioGrid-Dosage-Lethality"
+            "name": "BioGrid-Dosage-Lethality",
+            "radius": 6
         },
         "166": {
             "avgdeg": 3.0310988251554942,
+            "degen": 5,
             "m": 2193,
             "maxdeg": 213,
             "n": 1447,
-            "name": "BioGrid-Dosage-Growth-Defect"
+            "name": "BioGrid-Dosage-Growth-Defect",
+            "radius": 7
         },
         "167": {
             "avgdeg": 2.9677926158680283,
+            "degen": 5,
             "m": 1889,
             "maxdeg": 58,
             "n": 1273,
-            "name": "BioGrid-Escherichia-Coli-K12-Mg1655"
+            "name": "BioGrid-Escherichia-Coli-K12-Mg1655",
+            "radius": 8
         },
         "168": {
             "avgdeg": 2.8176470588235296,
+            "degen": 19,
             "m": 2395,
             "maxdeg": 51,
             "n": 1700,
-            "name": "BioGrid-Fret"
+            "name": "BioGrid-Fret",
+            "radius": 11
         },
         "169": {
             "avgdeg": 1.7642950676560454,
+            "degen": 5,
             "m": 2021,
             "maxdeg": 92,
             "n": 2291,
-            "name": "BioGrid-Co-Crystal-Structure"
+            "name": "BioGrid-Co-Crystal-Structure",
+            "radius": 13
         },
         "170": {
             "avgdeg": 2.513124470787468,
+            "degen": 6,
             "m": 4452,
             "maxdeg": 63,
             "n": 3543,
-            "name": "BioGrid-Co-Localization"
+            "name": "BioGrid-Co-Localization",
+            "radius": 15
         },
         "171": {
             "avgdeg": 2.7600554785020806,
+            "degen": 12,
             "m": 5970,
             "maxdeg": 1972,
             "n": 4326,
-            "name": "BioGrid-Co-Purification"
+            "name": "BioGrid-Co-Purification",
+            "radius": 5
         },
         "172": {
             "avgdeg": 3.81301775147929,
+            "degen": 7,
             "m": 6444,
             "maxdeg": 75,
             "n": 3380,
-            "name": "BioGrid-Dosage-Rescue"
+            "name": "BioGrid-Dosage-Rescue",
+            "radius": 11
         },
         "173": {
             "avgdeg": 4.117401392111369,
+            "degen": 11,
             "m": 17746,
             "maxdeg": 427,
             "n": 8620,
-            "name": "BioGrid-Biochemical-Activity"
+            "name": "BioGrid-Biochemical-Activity",
+            "radius": 15
         },
         "174": {
             "avgdeg": 7.396309039724742,
+            "degen": 67,
             "m": 23646,
             "maxdeg": 522,
             "n": 6394,
-            "name": "BioGrid-Caenorhabditis-Elegans"
+            "name": "BioGrid-Caenorhabditis-Elegans",
+            "radius": 7
         },
         "175": {
             "avgdeg": 6.220849981837995,
+            "degen": 63,
             "m": 42815,
             "maxdeg": 3572,
             "n": 13765,
-            "name": "BioGrid-Affinity-Capture-Rna"
+            "name": "BioGrid-Affinity-Capture-Rna",
+            "radius": 5
         },
         "176": {
             "avgdeg": 9.199577613516368,
+            "degen": 26,
             "m": 47916,
             "maxdeg": 1341,
             "n": 10417,
-            "name": "BioGrid-Arabidopsis-Thaliana-Columbia"
+            "name": "BioGrid-Arabidopsis-Thaliana-Columbia",
+            "radius": 6
         },
         "177": {
             "avgdeg": 10.230371244440411,
+            "degen": 85,
             "m": 56354,
             "maxdeg": 187,
             "n": 11017,
-            "name": "BioGrid-Co-Fractionation"
+            "name": "BioGrid-Co-Fractionation",
+            "radius": 6
         },
         "178": {
             "avgdeg": 12.980921757770632,
+            "degen": 85,
             "m": 60556,
             "maxdeg": 303,
             "n": 9330,
-            "name": "BioGrid-Drosophila-Melanogaster"
+            "name": "BioGrid-Drosophila-Melanogaster",
+            "radius": 5
         },
         "179": {
             "avgdeg": 6.091497051550314,
+            "degen": 17,
             "m": 64046,
             "maxdeg": 535,
             "n": 21028,
-            "name": "BioGrid-Affinity-Capture-Western"
+            "name": "BioGrid-Affinity-Capture-Western",
+            "radius": 13
         },
         "180": {
             "avgdeg": 89.4019197637214,
+            "degen": 159,
             "m": 181620,
             "maxdeg": 1187,
             "n": 4063,
-            "name": "BioGrid-Escherichia-Coli-K12-W3110"
+            "name": "BioGrid-Escherichia-Coli-K12-W3110",
+            "radius": 3
         },
         "181": {
             "avgdeg": 15.897616989751821,
+            "degen": 63,
             "m": 321887,
             "maxdeg": 2217,
             "n": 40495,
@@ -3134,6 +3224,7 @@
         },
         "182": {
             "avgdeg": 30.694973643796953,
+            "degen": 95,
             "m": 369767,
             "maxdeg": 2882,
             "n": 24093,
@@ -3141,15 +3232,20 @@
         },
         "183": {
             "avgdeg": 34.860172071475844,
+            "degen": 278,
             "m": 1316843,
             "maxdeg": 3620,
             "n": 75550,
             "name": "BioGrid-All"
         },
         "184": {
+            "avgdeg": 1.6889917633619913,
+            "degen": 1,
             "m": 28093,
+            "maxdeg": 413,
             "n": 33266,
-            "name": "BioGrid-Chemicals"
+            "name": "BioGrid-Chemicals",
+            "radius": 1
         }
     }
 }
