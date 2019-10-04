@@ -3136,17 +3136,23 @@
             "radius": 1
         },
         "185": {
+            "avgdeg": 2.9921259842519685,
             "m": 190,
+            "maxdeg": 18,
             "n": 127,
             "name": "Noordin-terror-loc"
         },
         "186": {
+            "avgdeg": 2.806201550387597,
             "m": 181,
+            "maxdeg": 21,
             "n": 129,
             "name": "Noordin-terror-orgas"
         },
         "187": {
+            "avgdeg": 7.171428571428572,
             "m": 251,
+            "maxdeg": 28,
             "n": 70,
             "name": "Noordin-terror-relation"
         }
