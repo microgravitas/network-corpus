@@ -3246,6 +3246,21 @@
             "n": 33266,
             "name": "BioGrid-Chemicals",
             "radius": 1
+        },
+        "185": {
+            "m": 190,
+            "n": 127,
+            "name": "Noordin-terror-loc"
+        },
+        "186": {
+            "m": 181,
+            "n": 129,
+            "name": "Noordin-terror-orgas"
+        },
+        "187": {
+            "m": 251,
+            "n": 70,
+            "name": "Noordin-terror-relation"
         }
     }
 }
