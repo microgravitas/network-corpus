@@ -1,0 +1,22 @@
+KONECT: Google+
+This directed network contains Google+ userâ€“user links. A node represents a
+user, and a directed edge denotes that one user has the other user in his
+circles.
+
+http://konect.uni-koblenz.de/downloads/tsv/ego-gplus.tar.bz2
+
+@MISC{konect:2017:ego-gplus,
+    title = {Google+ network dataset -- {KONECT}},
+    month = apr,
+    year = {2017},
+    url = {http://konect.uni-koblenz.de/networks/ego-gplus}
+}
+
+@incollection{konect:McAuley2012,
+	title ={Learning to Discover Social Circles in Ego Networks},
+	author={Julian McAuley and Jure Leskovec},
+	booktitle = {Advances in Neural Information Processing Systems},
+	pages = {548--556},
+	year = {2012},
+}
+
