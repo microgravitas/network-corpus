@@ -1,0 +1,12 @@
+KONECT: Dogster Friendships
+This Network contains friendships between users of the website dogster.com.
+
+http://konect.uni-koblenz.de/downloads/tsv/petster-friendships-dog.tar.bz2
+
+@MISC{konect:2017:petster-friendships-dog,
+    title = {Dogster Friendships network dataset -- {KONECT}},
+    month = apr,
+    year = {2017},
+    url = {http://konect.uni-koblenz.de/networks/petster-friendships-dog}
+}
+
