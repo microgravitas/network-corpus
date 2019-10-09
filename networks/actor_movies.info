@@ -1,0 +1,27 @@
+KONECT: Actor movies
+This is a bipartite network of movies and the actors that have played in them.
+
+http://konect.uni-koblenz.de/downloads/tsv/actor-movie.tar.bz2
+
+@MISC{konect:2017:actor-movie,
+    title = {Actor movies network dataset -- {KONECT}},
+    month = apr,
+    year = {2017},
+    url = {http://konect.uni-koblenz.de/networks/actor-movie}
+}
+
+@article{konect:ba,
+	title = {Emergence of Scaling in Random Networks},
+	author = {Albert-László Barabási and Réka Albert},
+	journal = {Science},
+	number = {5439},
+	pages = {509--512},
+	volume = {286},
+	year = {1999},
+	notes = {
+		Preferential attachment (main reference).
+		Scale-free network.
+		Barabási--Albert model.
+	},
+}
+
