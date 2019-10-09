@@ -1,0 +1,22 @@
+KONECT: Livemocha
+This is the social network of Livemocha, an online language learning community.
+The network is undirected and unweighted.
+
+http://konect.uni-koblenz.de/downloads/tsv/livemocha.tar.bz2
+
+@MISC{konect:2017:livemocha,
+    title = {Livemocha network dataset -- {KONECT}},
+    month = apr,
+    year = {2017},
+    url = {http://konect.uni-koblenz.de/networks/livemocha}
+}
+
+@misc{konect:socialcomputing,
+	author = {R. Zafarani and H. Liu},
+	year = {2009},
+	title = {Social Computing Data Repository at {ASU}},
+	url = {http://socialcomputing.asu.edu},
+	institution = {Arizona State University, School of Computing,
+                  Informatics and Decision Systems Engineering},  
+}
+
