@@ -1,0 +1,28 @@
+KONECT: Countries
+This is the bipartite network of entities from DBpedia and their affiliated
+countries. Each edge in the network connects an entity (such as a person) with a
+country associated with that person. The edges correspond to the
+<http://dbpedia.org/ontology/country> relationships in DBpedia. The countries
+include former countries, empires and kingdoms as well as disputed country-like
+entities; therefore, the number of country-nodes is much higher than the number
+of presently existing countries.
+
+http://konect.uni-koblenz.de/downloads/tsv/dbpedia-country.tar.bz2
+
+@MISC{konect:2017:dbpedia-country,
+    title = {Countries network dataset -- {KONECT}},
+    month = apr,
+    year = {2017},
+    url = {http://konect.uni-koblenz.de/networks/dbpedia-country}
+}
+
+@inproceedings{konect:dbpedia2,
+        author = {Sören Auer and Christian Bizer and Georgi Kobilarov
+                  and Jens Lehmann and Richard Cyganiak and Zachary
+                  Ives},
+        title = {{DBpedia}: A Nucleus for a Web of Open Data },
+        booktitle = {Proc. Int. Semantic Web Conf.},    
+        pages = {722--735},
+        year = {2008},
+}
+
