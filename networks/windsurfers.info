@@ -1,0 +1,25 @@
+KONECT: Windsurfers
+This undirected network contains interpersonal contacts between windsurfers in
+southern California during the fall of 1986. A node represents a windsurfer and
+an edge between two windsurfers shows that there was a interpersonal contact.
+
+http://konect.uni-koblenz.de/downloads/tsv/moreno_beach.tar.bz2
+
+@MISC{konect:2017:moreno_beach,
+    title = {Windsurfers network dataset -- {KONECT}},
+    month = apr,
+    year = {2017},
+    url = {http://konect.uni-koblenz.de/networks/moreno_beach}
+}
+
+@article{konect:freeman1988,
+  title={On Human Social Intelligence},
+  author={Freeman, Linton C. and Freeman, Sue C. and Michaelson, Alaina G.},
+  journal={J. of Social and Biological Structures},
+  volume={11},
+  number={4},
+  pages={415--425},
+  year={1988},
+  publisher={Elsevier}
+}
+
