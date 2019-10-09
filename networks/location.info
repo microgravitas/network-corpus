@@ -1,0 +1,26 @@
+KONECT: Location
+This is the bipartite network of entities in Wikipedia and their locations. The
+nodes of the network are entities and locations. Edges denote that an entity is
+associated with a location. Entity can have multiple locations, for instance
+cities associated with a company. The edges correspond to the
+<http://dbpedia.org/ontology/location> relationships in DBpedia.
+
+http://konect.uni-koblenz.de/downloads/tsv/dbpedia-location.tar.bz2
+
+@MISC{konect:2017:dbpedia-location,
+    title = {Location network dataset -- {KONECT}},
+    month = apr,
+    year = {2017},
+    url = {http://konect.uni-koblenz.de/networks/dbpedia-location}
+}
+
+@inproceedings{konect:dbpedia2,
+        author = {Sören Auer and Christian Bizer and Georgi Kobilarov
+                  and Jens Lehmann and Richard Cyganiak and Zachary
+                  Ives},
+        title = {{DBpedia}: A Nucleus for a Web of Open Data },
+        booktitle = {Proc. Int. Semantic Web Conf.},    
+        pages = {722--735},
+        year = {2008},
+}
+
