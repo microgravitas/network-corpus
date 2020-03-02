@@ -3,7 +3,9 @@
         "1": {
             "assort": -0.12406106405633158,
             "avgdeg": 84.69584245076587,
+            "bdegdel": 1,
             "category": "communication",
+            "deg10del": 889,
             "degen": 159,
             "domset": 142,
             "domset2": 1049,
@@ -25,7 +27,9 @@
         "2": {
             "assort": 0.16244224957449838,
             "avgdeg": 10.660869565217391,
+            "bdegdel": 1,
             "category": "conflict",
+            "deg10del": 6,
             "degen": 8,
             "domset": 8,
             "domset2": 51,
@@ -48,7 +52,9 @@
         "3": {
             "assort": -0.16120719438652373,
             "avgdeg": 3.8590556730091614,
+            "bdegdel": 1,
             "category": "genetic",
+            "deg10del": 1,
             "degen": 11,
             "domset": 11,
             "domset2": 26,
@@ -70,7 +76,9 @@
         },
         "4": {
             "avgdeg": 10.694395023656083,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 21,
             "degen": 95,
             "domset": 67,
             "domset2": 1110,
@@ -86,7 +94,9 @@
         "5": {
             "assort": 0.4616224667525834,
             "avgdeg": 3.753593429158111,
+            "bdegdel": 1,
             "category": "collaboration",
+            "deg10del": 1,
             "degen": 19,
             "domset": 19,
             "domset2": 20,
@@ -109,7 +119,9 @@
         "6": {
             "assort": -0.04359402821531252,
             "avgdeg": 5.129032258064516,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 1,
             "degen": 4,
             "domset": 4,
             "domset2": 18,
@@ -131,7 +143,9 @@
         },
         "7": {
             "avgdeg": 10.020222391802028,
+            "bdegdel": 1,
             "category": "communication",
+            "deg10del": 1,
             "degen": 47,
             "domset": 43,
             "domset2": 473,
@@ -150,7 +164,9 @@
         "8": {
             "assort": 0.4460591186032027,
             "avgdeg": 5.619335347432024,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 0,
             "degen": 3,
             "domset": 3,
             "domset2": 9,
@@ -172,7 +188,9 @@
         },
         "9": {
             "avgdeg": 7.353094731057223,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 1,
             "degen": 63,
             "domset": 52,
             "domset2": 343,
@@ -190,7 +208,9 @@
         "10": {
             "assort": -0.28236441444094573,
             "avgdeg": 2.803867403314917,
+            "bdegdel": 1,
             "category": "citation",
+            "deg10del": 1,
             "degen": 4,
             "domset": 4,
             "domset2": 11,
@@ -212,7 +232,9 @@
         },
         "11": {
             "avgdeg": 25.37253772192013,
+            "bdegdel": 1,
             "category": "citation",
+            "deg10del": 3098,
             "degen": 39,
             "domset": 37,
             "domset2": 647,
@@ -226,7 +248,9 @@
         },
         "12": {
             "avgdeg": 12.129782833505688,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 155,
             "degen": 63,
             "domset": 54,
             "domset2": 1098,
@@ -242,7 +266,9 @@
         "13": {
             "assort": -0.47561309768461457,
             "avgdeg": 4.588235294117647,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 1,
             "degen": 4,
             "domset": 4,
             "domset2": 10,
@@ -265,7 +291,9 @@
         "14": {
             "assort": -0.35441674195211703,
             "avgdeg": 11.038297872340426,
+            "bdegdel": 1,
             "category": "transportation",
+            "deg10del": 1,
             "degen": 13,
             "domset": 13,
             "domset2": 35,
@@ -288,6 +316,8 @@
         "15": {
             "assort": -0.3110193918090022,
             "avgdeg": 3.24468085106383,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 4,
             "domset": 4,
             "domset2": 13,
@@ -310,7 +340,9 @@
         "16": {
             "assort": -0.127896009666719,
             "avgdeg": 8.4,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 6,
             "domset": 6,
             "domset2": 19,
@@ -333,7 +365,9 @@
         "17": {
             "assort": -0.2212328638045541,
             "avgdeg": 27.312091503267975,
+            "bdegdel": 1,
             "category": "citation",
+            "deg10del": 106,
             "degen": 38,
             "domset": 36,
             "domset2": 227,
@@ -355,7 +389,9 @@
         },
         "18": {
             "avgdeg": 24.36617842876165,
+            "bdegdel": 1,
             "category": "citation",
+            "deg10del": 4032,
             "degen": 30,
             "domset": 30,
             "domset2": 518,
@@ -370,7 +406,9 @@
         "19": {
             "assort": 0.21681961190098287,
             "avgdeg": 46.54621848739496,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 141,
             "degen": 33,
             "domset": 33,
             "domset2": 148,
@@ -393,7 +431,9 @@
         "20": {
             "assort": -0.22619584751004718,
             "avgdeg": 10.264150943396226,
+            "bdegdel": 1,
             "category": "collaboration",
+            "deg10del": 1,
             "degen": 9,
             "domset": 9,
             "domset2": 20,
@@ -415,7 +455,9 @@
         },
         "21": {
             "avgdeg": 8.078416115505988,
+            "bdegdel": 1,
             "category": "collaboration",
+            "deg10del": 1,
             "degen": 25,
             "domset": 25,
             "domset2": 130,
@@ -434,7 +476,9 @@
         },
         "22": {
             "avgdeg": 19.738297517907714,
+            "bdegdel": 1,
             "category": "collaboration",
+            "deg10del": 434,
             "degen": 238,
             "domset": 238,
             "domset2": 494,
@@ -454,7 +498,9 @@
         "23": {
             "assort": -0.16522513442236916,
             "avgdeg": 6.597402597402597,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 1,
             "degen": 9,
             "domset": 9,
             "domset2": 20,
@@ -477,7 +523,9 @@
         "24": {
             "assort": -0.16319921031570409,
             "avgdeg": 14.464646464646465,
+            "bdegdel": 1,
             "category": "neural",
+            "deg10del": 13,
             "degen": 10,
             "domset": 10,
             "domset2": 65,
@@ -500,7 +548,9 @@
         "25": {
             "assort": -0.12934785343900138,
             "avgdeg": 7.589285714285714,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 6,
             "domset": 6,
             "domset2": 26,
@@ -523,7 +573,9 @@
         "26": {
             "assort": -0.427328375239853,
             "avgdeg": 5.034564958283671,
+            "bdegdel": 1,
             "category": "collaboration",
+            "deg10del": 1,
             "degen": 9,
             "domset": 9,
             "domset2": 33,
@@ -546,7 +598,9 @@
         "27": {
             "assort": -0.1817550462893196,
             "avgdeg": 3.8838430645659563,
+            "bdegdel": 1,
             "category": "communication",
+            "deg10del": 1,
             "degen": 12,
             "domset": 12,
             "domset2": 42,
@@ -568,7 +622,9 @@
         },
         "28": {
             "avgdeg": 7.354542111070247,
+            "bdegdel": 1,
             "category": "communication",
+            "deg10del": 1,
             "degen": 7,
             "domset": 7,
             "domset2": 68,
@@ -590,7 +646,9 @@
         "29": {
             "assort": -0.09456947009756025,
             "avgdeg": 15.263015289336172,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 80,
             "degen": 25,
             "domset": 25,
             "domset2": 309,
@@ -613,7 +671,9 @@
         "30": {
             "assort": 0.04740075396179387,
             "avgdeg": 13.709810387469085,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 46,
             "degen": 24,
             "domset": 24,
             "domset2": 162,
@@ -635,7 +695,9 @@
         },
         "31": {
             "avgdeg": 3.3175893008295243,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 1,
             "degen": 12,
             "domset": 12,
             "domset2": 72,
@@ -655,7 +717,9 @@
         "32": {
             "assort": -0.09419088257872746,
             "avgdeg": 10.006737787759686,
+            "bdegdel": 1,
             "category": "neural",
+            "deg10del": 1,
             "degen": 18,
             "domset": 18,
             "domset2": 103,
@@ -678,7 +742,9 @@
         "33": {
             "assort": -0.028776339281458053,
             "avgdeg": 6.555680539932508,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 1,
             "degen": 9,
             "domset": 9,
             "domset2": 39,
@@ -701,7 +767,9 @@
         "34": {
             "assort": -0.3034129155634405,
             "avgdeg": 4.171856708030906,
+            "bdegdel": 1,
             "category": "web",
+            "deg10del": 1,
             "degen": 6,
             "domset": 6,
             "domset2": 44,
@@ -724,7 +792,9 @@
         "35": {
             "assort": 0.07820096256581392,
             "avgdeg": 9.62224183583407,
+            "bdegdel": 1,
             "category": "communication",
+            "deg10del": 1,
             "degen": 11,
             "domset": 11,
             "domset2": 73,
@@ -747,7 +817,9 @@
         "36": {
             "assort": 0.2257519475783722,
             "avgdeg": 13.487804878048781,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 31,
             "degen": 17,
             "domset": 17,
             "domset2": 77,
@@ -770,6 +842,8 @@
         "37": {
             "assort": -0.6753442901148604,
             "avgdeg": 2.255837861653694,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 5,
             "domset": 5,
             "domset2": 28,
@@ -792,7 +866,9 @@
         "38": {
             "assort": -0.0546939338068309,
             "avgdeg": 4.269438029253272,
+            "bdegdel": 1,
             "category": "web",
+            "deg10del": 1,
             "degen": 17,
             "domset": 17,
             "domset2": 30,
@@ -815,7 +891,9 @@
         "39": {
             "assort": -0.19756673509690198,
             "avgdeg": 168.79368029739777,
+            "bdegdel": 1,
             "category": "citation",
+            "deg10del": 608,
             "degen": 158,
             "domset": 121,
             "domset2": 471,
@@ -838,7 +916,9 @@
         "40": {
             "assort": -0.7268313774245928,
             "avgdeg": 91.57057654075547,
+            "bdegdel": 1,
             "category": "neural",
+            "deg10del": 51,
             "degen": 93,
             "domset": 67,
             "domset2": 136,
@@ -861,7 +941,9 @@
         "41": {
             "assort": -0.06724896007810509,
             "avgdeg": 151.07042253521126,
+            "bdegdel": 1,
             "category": "neural",
+            "deg10del": 186,
             "degen": 157,
             "domset": 111,
             "domset2": 211,
@@ -884,7 +966,9 @@
         "42": {
             "assort": -0.054779690768537545,
             "avgdeg": 25.239669421487605,
+            "bdegdel": 1,
             "category": "neural",
+            "deg10del": 51,
             "degen": 19,
             "domset": 19,
             "domset2": 99,
@@ -907,7 +991,9 @@
         "43": {
             "assort": -0.12285011948910346,
             "avgdeg": 2.5525620707871104,
+            "bdegdel": 1,
             "category": "transportation",
+            "deg10del": 0,
             "degen": 2,
             "domset": 2,
             "domset2": 7,
@@ -930,7 +1016,9 @@
         "44": {
             "assort": -0.21633864276121656,
             "avgdeg": 16.3444976076555,
+            "bdegdel": 1,
             "category": "web",
+            "deg10del": 27,
             "degen": 22,
             "domset": 22,
             "domset2": 134,
@@ -953,7 +1041,9 @@
         "45": {
             "assort": 0.17912160740874863,
             "avgdeg": 7.223762376237624,
+            "bdegdel": 1,
             "category": "citation",
+            "deg10del": 1,
             "degen": 6,
             "domset": 6,
             "domset2": 35,
@@ -976,7 +1066,9 @@
         "46": {
             "assort": -0.18997288473244436,
             "avgdeg": 3.801980198019802,
+            "bdegdel": 1,
             "category": "collaboration",
+            "deg10del": 1,
             "degen": 3,
             "domset": 3,
             "domset2": 11,
@@ -999,7 +1091,9 @@
         "47": {
             "assort": -0.2262702175540263,
             "avgdeg": 2.4832535885167464,
+            "bdegdel": 1,
             "category": "genetic",
+            "deg10del": 1,
             "degen": 3,
             "domset": 3,
             "domset2": 10,
@@ -1022,7 +1116,9 @@
         "48": {
             "assort": -0.3204232546302436,
             "avgdeg": 7.153846153846154,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 1,
             "degen": 5,
             "domset": 5,
             "domset2": 11,
@@ -1045,7 +1141,9 @@
         "49": {
             "assort": -0.1850123482526506,
             "avgdeg": 28.977777777777778,
+            "bdegdel": 1,
             "category": "communication",
+            "deg10del": 18,
             "degen": 24,
             "domset": 24,
             "domset2": 38,
@@ -1068,7 +1166,9 @@
         "50": {
             "assort": -0.1930641019011567,
             "avgdeg": 15.142857142857142,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 5,
             "degen": 12,
             "domset": 12,
             "domset2": 18,
@@ -1091,7 +1191,9 @@
         "51": {
             "assort": -0.4786286731967932,
             "avgdeg": 3.6,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 0,
             "degen": 3,
             "domset": 3,
             "domset2": 8,
@@ -1114,7 +1216,9 @@
         "52": {
             "assort": -0.22445636981508363,
             "avgdeg": 4.058530510585305,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 1,
             "degen": 16,
             "domset": 16,
             "domset2": 51,
@@ -1137,7 +1241,9 @@
         "53": {
             "assort": -0.14488431695962897,
             "avgdeg": 6.671810514982954,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 1,
             "degen": 20,
             "domset": 20,
             "domset2": 127,
@@ -1160,7 +1266,9 @@
         "54": {
             "assort": -0.18091447511934142,
             "avgdeg": 1.8505446022335585,
+            "bdegdel": 1,
             "category": "economic",
+            "deg10del": 1,
             "degen": 3,
             "domset": 3,
             "domset2": 7,
@@ -1183,7 +1291,9 @@
         "55": {
             "assort": -0.08355152087246459,
             "avgdeg": 2.7517802644964395,
+            "bdegdel": 1,
             "category": "protein",
+            "deg10del": 1,
             "degen": 4,
             "domset": 4,
             "domset2": 17,
@@ -1206,7 +1316,9 @@
         "56": {
             "assort": -0.19155705078320995,
             "avgdeg": 9.950792670372659,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 1,
             "degen": 18,
             "domset": 18,
             "domset2": 132,
@@ -1226,7 +1338,9 @@
         "57": {
             "assort": -0.05214186336969799,
             "avgdeg": 9.610660486674393,
+            "bdegdel": 1,
             "category": "transportation",
+            "deg10del": 1,
             "degen": 9,
             "domset": 9,
             "domset2": 34,
@@ -1249,7 +1363,9 @@
         "58": {
             "assort": -0.1949048091768652,
             "avgdeg": 17.90034762456547,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 23,
             "degen": 18,
             "domset": 18,
             "domset2": 67,
@@ -1272,7 +1388,9 @@
         "59": {
             "assort": -0.16131531925755777,
             "avgdeg": 2.556149732620321,
+            "bdegdel": 1,
             "category": "transportation",
+            "deg10del": 0,
             "degen": 2,
             "domset": 2,
             "domset2": 7,
@@ -1295,7 +1413,9 @@
         "60": {
             "assort": 0.09286806545772129,
             "avgdeg": 2.586129753914989,
+            "bdegdel": 1,
             "category": "transportation",
+            "deg10del": 1,
             "degen": 2,
             "domset": 2,
             "domset2": 7,
@@ -1318,7 +1438,9 @@
         "61": {
             "assort": 0.02023739927504758,
             "avgdeg": 27.696969696969695,
+            "bdegdel": 1,
             "category": "collaboration",
+            "deg10del": 53,
             "degen": 29,
             "domset": 29,
             "domset2": 92,
@@ -1341,7 +1463,9 @@
         "62": {
             "assort": -0.30654968615608946,
             "avgdeg": 4.69882100750268,
+            "bdegdel": 1,
             "category": "communication",
+            "deg10del": 1,
             "degen": 17,
             "domset": 17,
             "domset2": 61,
@@ -1362,6 +1486,7 @@
         },
         "63": {
             "avgdeg": 25.641838351822503,
+            "bdegdel": 1,
             "category": "communication",
             "degen": 63,
             "domset": 52,
@@ -1376,7 +1501,9 @@
         "64": {
             "assort": 0.24487448090648217,
             "avgdeg": 46.928881040295394,
+            "bdegdel": 1,
             "category": "protein",
+            "deg10del": 1467,
             "degen": 207,
             "domset": 176,
             "domset2": 641,
@@ -1397,7 +1524,9 @@
         "65": {
             "assort": -0.24713112409086496,
             "avgdeg": 326.8513245033113,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 2648,
             "degen": 540,
             "domset": 299,
             "domset2": 2685,
@@ -1412,7 +1541,9 @@
         "66": {
             "assort": -0.09509459325046282,
             "avgdeg": 15.241513094083414,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 79,
             "degen": 25,
             "domset": 25,
             "domset2": 308,
@@ -1434,7 +1565,9 @@
         },
         "67": {
             "avgdeg": 7.697228697228697,
+            "bdegdel": 1,
             "category": "citation",
+            "deg10del": 1,
             "degen": 13,
             "domset": 13,
             "domset2": 101,
@@ -1454,7 +1587,9 @@
         "68": {
             "assort": -0.22302467167931722,
             "avgdeg": 16.679515076157912,
+            "bdegdel": 1,
             "category": "citation",
+            "deg10del": 11,
             "degen": 88,
             "domset": 65,
             "domset2": 208,
@@ -1477,7 +1612,9 @@
         "69": {
             "assort": 0.37229893343126075,
             "avgdeg": 15.312696890836872,
+            "bdegdel": 1,
             "category": "conflict",
+            "deg10del": 260,
             "degen": 29,
             "domset": 29,
             "domset2": 327,
@@ -1498,7 +1635,9 @@
         },
         "70": {
             "avgdeg": 5.609683794466403,
+            "bdegdel": 1,
             "category": "communication",
+            "deg10del": 1,
             "degen": 9,
             "domset": 9,
             "domset2": 139,
@@ -1518,7 +1657,9 @@
         "71": {
             "assort": -0.23270519283601457,
             "avgdeg": 16.434640522875817,
+            "bdegdel": 1,
             "category": "citation",
+            "deg10del": 9,
             "degen": 71,
             "domset": 65,
             "domset2": 209,
@@ -1541,7 +1682,9 @@
         "72": {
             "assort": 0.05091554986051457,
             "avgdeg": 10.668254508336169,
+            "bdegdel": 1,
             "category": "transportation",
+            "deg10del": 6,
             "degen": 28,
             "domset": 28,
             "domset2": 107,
@@ -1562,7 +1705,9 @@
         },
         "73": {
             "avgdeg": 13.829992865019134,
+            "bdegdel": 1,
             "category": "citation",
+            "deg10del": 15,
             "degen": 23,
             "domset": 23,
             "domset2": 241,
@@ -1583,7 +1728,9 @@
         "74": {
             "assort": -0.7275085170756731,
             "avgdeg": 2.3088235294117645,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 1,
             "degen": 3,
             "domset": 3,
             "domset2": 6,
@@ -1605,7 +1752,9 @@
         },
         "75": {
             "avgdeg": 25.686840740100294,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1689,
             "degen": 35,
             "domset": 34,
             "domset2": 1027,
@@ -1621,7 +1770,9 @@
         "76": {
             "assort": -0.5049172115610621,
             "avgdeg": 1.7695978186775734,
+            "bdegdel": 1,
             "category": "transportation",
+            "deg10del": 1,
             "degen": 1,
             "domset": 1,
             "domset2": 2,
@@ -1644,7 +1795,9 @@
         "77": {
             "assort": -0.1675008960074252,
             "avgdeg": 4.055374592833876,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 5,
             "domset": 5,
             "domset2": 23,
@@ -1666,7 +1819,9 @@
         "78": {
             "assort": 0.1266835739853625,
             "avgdeg": 2.41396933560477,
+            "bdegdel": 1,
             "category": "transportation",
+            "deg10del": 0,
             "degen": 2,
             "domset": 2,
             "domset2": 7,
@@ -1688,7 +1843,9 @@
         "79": {
             "assort": 0.0959625075187467,
             "avgdeg": 16.94930875576037,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 40,
             "degen": 11,
             "domset": 11,
             "domset2": 73,
@@ -1710,7 +1867,9 @@
         },
         "80": {
             "avgdeg": 13.697364480383348,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 497,
             "degen": 12,
             "domset": 12,
             "domset2": 112,
@@ -1728,7 +1887,9 @@
         "81": {
             "assort": 0.2257519475783722,
             "avgdeg": 13.487804878048781,
+            "bdegdel": 1,
             "category": "social",
+            "deg10del": 33,
             "degen": 17,
             "domset": 17,
             "domset2": 78,
@@ -1751,7 +1912,9 @@
         "82": {
             "assort": -0.21172843744663128,
             "avgdeg": 3.074626865671642,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 2,
             "domset": 2,
             "domset2": 7,
@@ -1774,7 +1937,9 @@
         "83": {
             "assort": -0.2048780487804876,
             "avgdeg": 2.19672131147541,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 0,
             "degen": 2,
             "domset": 2,
             "domset2": 6,
@@ -1797,7 +1962,9 @@
         "84": {
             "assort": -0.3395281892646337,
             "avgdeg": 3.0048076923076925,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 2,
             "domset": 2,
             "domset2": 8,
@@ -1820,7 +1987,9 @@
         "85": {
             "assort": -0.13944361656312437,
             "avgdeg": 2.238947368421053,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 4,
             "domset": 4,
             "domset2": 14,
@@ -1843,7 +2012,9 @@
         "86": {
             "assort": -0.2096120472801479,
             "avgdeg": 2.88,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 3,
             "domset": 3,
             "domset2": 7,
@@ -1866,7 +2037,9 @@
         "87": {
             "assort": -0.20929527964612474,
             "avgdeg": 2.896551724137931,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 2,
             "domset": 2,
             "domset2": 7,
@@ -1889,7 +2062,9 @@
         "88": {
             "assort": -0.5251572711750889,
             "avgdeg": 3.365010799136069,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 3,
             "domset": 3,
             "domset2": 13,
@@ -1912,7 +2087,9 @@
         "89": {
             "assort": -0.11817778224827324,
             "avgdeg": 2.7335473515248796,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 4,
             "domset": 4,
             "domset2": 17,
@@ -1934,7 +2111,9 @@
         "90": {
             "assort": -0.3333333333333333,
             "avgdeg": 1.7777777777777777,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 0,
             "degen": 1,
             "domset": 1,
             "domset2": 2,
@@ -1957,7 +2136,9 @@
         "91": {
             "assort": -0.12326006642534555,
             "avgdeg": 2.271698113207547,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 2,
             "domset": 2,
             "domset2": 6,
@@ -1980,7 +2161,9 @@
         "92": {
             "assort": -0.15025001296014395,
             "avgdeg": 2.7349397590361444,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 2,
             "domset": 2,
             "domset2": 7,
@@ -2003,7 +2186,9 @@
         "93": {
             "assort": -0.13205302582689277,
             "avgdeg": 2.627737226277372,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 3,
             "domset": 3,
             "domset2": 7,
@@ -2026,7 +2211,9 @@
         "94": {
             "assort": -0.2245376474480961,
             "avgdeg": 2.619385342789598,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 2,
             "domset": 2,
             "domset2": 7,
@@ -2049,7 +2236,9 @@
         "95": {
             "assort": -0.4916707712389563,
             "avgdeg": 3.3710691823899372,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 3,
             "domset": 3,
             "domset2": 8,
@@ -2072,7 +2261,9 @@
         "96": {
             "assort": -0.5439239007807913,
             "avgdeg": 3.508771929824561,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 3,
             "domset": 3,
             "domset2": 11,
@@ -2095,7 +2286,9 @@
         "97": {
             "assort": -0.05869063752159126,
             "avgdeg": 2.3879093198992445,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 4,
             "domset": 4,
             "domset2": 11,
@@ -2117,7 +2310,9 @@
         "98": {
             "assort": -0.6038532704807332,
             "avgdeg": 4.01673640167364,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 3,
             "domset": 3,
             "domset2": 13,
@@ -2140,7 +2335,9 @@
         "99": {
             "assort": -0.014257123796817449,
             "avgdeg": 2.4901960784313726,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 0,
             "degen": 2,
             "domset": 2,
             "domset2": 7,
@@ -2163,7 +2360,9 @@
         "100": {
             "assort": -0.4991679328557994,
             "avgdeg": 3.375,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 3,
             "domset": 3,
             "domset2": 10,
@@ -2186,7 +2385,9 @@
         "101": {
             "assort": -0.02096118594086262,
             "avgdeg": 2.44,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 0,
             "degen": 2,
             "domset": 2,
             "domset2": 7,
@@ -2209,7 +2410,9 @@
         "102": {
             "assort": -0.14430903187291635,
             "avgdeg": 2.248062015503876,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 0,
             "degen": 2,
             "domset": 2,
             "domset2": 6,
@@ -2232,7 +2435,9 @@
         "103": {
             "assort": -0.1670920060577143,
             "avgdeg": 2.4662765629812133,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 4,
             "domset": 4,
             "domset2": 11,
@@ -2255,7 +2460,9 @@
         "104": {
             "assort": -0.5245757865137467,
             "avgdeg": 3.365750528541226,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 3,
             "domset": 3,
             "domset2": 12,
@@ -2278,7 +2485,9 @@
         "105": {
             "assort": -0.1628436234500815,
             "avgdeg": 2.735342108125748,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 4,
             "domset": 4,
             "domset2": 13,
@@ -2300,7 +2509,9 @@
         "106": {
             "assort": -0.19356892352595534,
             "avgdeg": 2.3231750531537916,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 0,
             "degen": 3,
             "domset": 3,
             "domset2": 10,
@@ -2322,7 +2533,9 @@
         "107": {
             "assort": -0.2097265472645436,
             "avgdeg": 2.9186046511627906,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 2,
             "domset": 2,
             "domset2": 8,
@@ -2345,7 +2558,9 @@
         "108": {
             "assort": -0.22248740068331874,
             "avgdeg": 3.0082644628099175,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 2,
             "domset": 2,
             "domset2": 7,
@@ -2367,7 +2582,9 @@
         },
         "109": {
             "avgdeg": 2.5506991610067917,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 2,
             "domset": 2,
             "domset2": 6,
@@ -2389,7 +2606,9 @@
         "110": {
             "assort": -0.3332661593051831,
             "avgdeg": 2.848806366047745,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 2,
             "domset": 2,
             "domset2": 8,
@@ -2412,7 +2631,9 @@
         "111": {
             "assort": -0.6141778118019126,
             "avgdeg": 4.0653061224489795,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 3,
             "domset": 3,
             "domset2": 13,
@@ -2435,7 +2656,9 @@
         "112": {
             "assort": -0.3996446356346296,
             "avgdeg": 2.847826086956522,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 2,
             "domset": 2,
             "domset2": 7,
@@ -2458,7 +2681,9 @@
         "113": {
             "assort": -0.02574336808308864,
             "avgdeg": 32.5841784989858,
+            "bdegdel": 1,
             "category": "communication",
+            "deg10del": 165,
             "degen": 35,
             "domset": 34,
             "domset2": 228,
@@ -2481,7 +2706,9 @@
         "114": {
             "assort": -0.13126657492521396,
             "avgdeg": 15.410071942446043,
+            "bdegdel": 1,
             "category": "economic",
+            "deg10del": 8,
             "degen": 19,
             "domset": 19,
             "domset2": 43,
@@ -2504,7 +2731,9 @@
         "115": {
             "assort": 0.1888826809248688,
             "avgdeg": 4.260869565217392,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 1,
             "degen": 6,
             "domset": 6,
             "domset2": 12,
@@ -2525,7 +2754,9 @@
         },
         "116": {
             "avgdeg": 2.2404755840186303,
+            "bdegdel": 1,
             "category": "economic",
+            "deg10del": 1,
             "degen": 6,
             "domset": 6,
             "domset2": 18,
@@ -2541,6 +2772,7 @@
         },
         "117": {
             "avgdeg": 2.523638101191695,
+            "bdegdel": 1,
             "category": "economic",
             "degen": 63,
             "domset": 62,
@@ -2555,7 +2787,9 @@
         },
         "118": {
             "avgdeg": 3.628588947815704,
+            "bdegdel": 1,
             "category": "economic",
+            "deg10del": 1,
             "degen": 13,
             "domset": 13,
             "domset2": 53,
@@ -2569,6 +2803,7 @@
         },
         "119": {
             "avgdeg": 2.9313487129728353,
+            "bdegdel": 1,
             "category": "economic",
             "degen": 23,
             "domset": 23,
@@ -2582,7 +2817,9 @@
         "120": {
             "assort": -0.0041967581386037405,
             "avgdeg": 3.5054945054945055,
+            "bdegdel": 1,
             "category": "conflict",
+            "deg10del": 1,
             "degen": 4,
             "domset": 4,
             "domset2": 11,
@@ -2602,7 +2839,9 @@
         "121": {
             "assort": -0.18481260629152152,
             "avgdeg": 2.5003785011355033,
+            "bdegdel": 1,
             "category": "transportation",
+            "deg10del": 0,
             "degen": 2,
             "domset": 2,
             "domset2": 7,
@@ -2625,7 +2864,9 @@
         "122": {
             "assort": -0.17304201324164362,
             "avgdeg": 11.29448275862069,
+            "bdegdel": 1,
             "category": "other",
+            "deg10del": 4,
             "degen": 12,
             "domset": 12,
             "domset2": 88,
@@ -2648,7 +2889,9 @@
         "123": {
             "assort": 0.0005946256491819334,
             "avgdeg": 16.292888287475567,
+            "bdegdel": 1,
             "category": "citation",
+            "deg10del": 279,
             "degen": 18,
             "domset": 18,
             "domset2": 204,
@@ -2671,7 +2914,9 @@
         "124": {
             "assort": -0.22303459229012493,
             "avgdeg": 5.172145748987854,
+            "bdegdel": 1,
             "category": "web",
+            "deg10del": 1,
             "degen": 11,
             "domset": 11,
             "domset2": 65,
@@ -2694,7 +2939,9 @@
         "125": {
             "assort": -0.09968806819922366,
             "avgdeg": 9.978856319077366,
+            "bdegdel": 1,
             "category": "citation",
+            "deg10del": 1,
             "degen": 15,
             "domset": 15,
             "domset2": 129,
@@ -2716,7 +2963,9 @@
         },
         "126": {
             "avgdeg": 5.711543495331996,
+            "bdegdel": 1,
             "category": "communication",
+            "deg10del": 1,
             "degen": 31,
             "domset": 31,
             "domset2": 124,
@@ -2737,7 +2986,9 @@
         },
         "127": {
             "avgdeg": 4.189905136925004,
+            "bdegdel": 1,
             "category": "communication",
+            "deg10del": 1,
             "degen": 17,
             "domset": 17,
             "domset2": 63,
@@ -2759,6 +3010,8 @@
         "128": {
             "assort": -0.09909586049122375,
             "avgdeg": 5.8196147110332745,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 10,
             "domset": 10,
             "domset2": 61,
@@ -2780,6 +3033,8 @@
         },
         "129": {
             "avgdeg": 4.218612550624918,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 25,
             "m": 48436,
             "maxdeg": 2390,
@@ -2789,6 +3044,8 @@
         },
         "130": {
             "avgdeg": 2.5130434782608697,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 6,
             "m": 2312,
             "maxdeg": 376,
@@ -2798,6 +3055,8 @@
         },
         "147": {
             "avgdeg": 1.5789473684210527,
+            "bdegdel": 1,
+            "deg10del": 0,
             "degen": 1,
             "m": 15,
             "maxdeg": 6,
@@ -2807,6 +3066,8 @@
         },
         "148": {
             "avgdeg": 1.4814814814814814,
+            "bdegdel": 1,
+            "deg10del": 0,
             "degen": 1,
             "m": 20,
             "maxdeg": 4,
@@ -2816,6 +3077,8 @@
         },
         "149": {
             "avgdeg": 1.7727272727272727,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 2,
             "m": 39,
             "maxdeg": 13,
@@ -2825,6 +3088,8 @@
         },
         "150": {
             "avgdeg": 1.6521739130434783,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 1,
             "m": 57,
             "maxdeg": 30,
@@ -2834,6 +3099,8 @@
         },
         "151": {
             "avgdeg": 1.9375,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 2,
             "m": 62,
             "maxdeg": 44,
@@ -2843,6 +3110,8 @@
         },
         "152": {
             "avgdeg": 1.9705882352941178,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 1,
             "m": 134,
             "maxdeg": 133,
@@ -2852,6 +3121,8 @@
         },
         "153": {
             "avgdeg": 1.7685950413223142,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 1,
             "m": 107,
             "maxdeg": 27,
@@ -2861,6 +3132,8 @@
         },
         "154": {
             "avgdeg": 1.7482517482517483,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 2,
             "m": 125,
             "maxdeg": 90,
@@ -2870,6 +3143,8 @@
         },
         "155": {
             "avgdeg": 2.1502890173410405,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 2,
             "m": 186,
             "maxdeg": 93,
@@ -2879,6 +3154,8 @@
         },
         "156": {
             "avgdeg": 2.337078651685393,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 3,
             "m": 208,
             "maxdeg": 40,
@@ -2888,6 +3165,8 @@
         },
         "157": {
             "avgdeg": 2.0383141762452106,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 3,
             "m": 266,
             "maxdeg": 61,
@@ -2897,6 +3176,8 @@
         },
         "158": {
             "avgdeg": 2.018575851393189,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 2,
             "m": 326,
             "maxdeg": 154,
@@ -2906,6 +3187,8 @@
         },
         "159": {
             "avgdeg": 2.11138014527845,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 4,
             "m": 436,
             "maxdeg": 110,
@@ -2915,6 +3198,8 @@
         },
         "160": {
             "avgdeg": 1.86784140969163,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 3,
             "m": 424,
             "maxdeg": 27,
@@ -2924,6 +3209,8 @@
         },
         "161": {
             "avgdeg": 1.9301675977653632,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 3,
             "m": 691,
             "maxdeg": 119,
@@ -2933,6 +3220,8 @@
         },
         "162": {
             "avgdeg": 2.3181019332161688,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 3,
             "m": 1319,
             "maxdeg": 324,
@@ -2942,6 +3231,8 @@
         },
         "163": {
             "avgdeg": 1.81651376146789,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 3,
             "m": 1089,
             "maxdeg": 60,
@@ -2951,6 +3242,8 @@
         },
         "164": {
             "avgdeg": 2.870651204281891,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 9,
             "m": 1609,
             "maxdeg": 427,
@@ -2960,6 +3253,8 @@
         },
         "165": {
             "avgdeg": 2.5777027027027026,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 4,
             "m": 2289,
             "maxdeg": 392,
@@ -2969,6 +3264,8 @@
         },
         "166": {
             "avgdeg": 3.0310988251554942,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 5,
             "m": 2193,
             "maxdeg": 213,
@@ -2978,6 +3275,8 @@
         },
         "167": {
             "avgdeg": 2.9677926158680283,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 5,
             "m": 1889,
             "maxdeg": 58,
@@ -2987,6 +3286,8 @@
         },
         "168": {
             "avgdeg": 2.8176470588235296,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 19,
             "m": 2395,
             "maxdeg": 51,
@@ -2996,6 +3297,8 @@
         },
         "169": {
             "avgdeg": 1.7642950676560454,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 5,
             "m": 2021,
             "maxdeg": 92,
@@ -3005,6 +3308,8 @@
         },
         "170": {
             "avgdeg": 2.513124470787468,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 6,
             "m": 4452,
             "maxdeg": 63,
@@ -3014,6 +3319,8 @@
         },
         "171": {
             "avgdeg": 2.7600554785020806,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 12,
             "m": 5970,
             "maxdeg": 1972,
@@ -3023,6 +3330,8 @@
         },
         "172": {
             "avgdeg": 3.81301775147929,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 7,
             "m": 6444,
             "maxdeg": 75,
@@ -3032,6 +3341,8 @@
         },
         "173": {
             "avgdeg": 4.117401392111369,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 11,
             "m": 17746,
             "maxdeg": 427,
@@ -3041,6 +3352,8 @@
         },
         "174": {
             "avgdeg": 7.396309039724742,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 67,
             "m": 23646,
             "maxdeg": 522,
@@ -3050,6 +3363,8 @@
         },
         "175": {
             "avgdeg": 6.220849981837995,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 63,
             "m": 42815,
             "maxdeg": 3572,
@@ -3059,6 +3374,8 @@
         },
         "176": {
             "avgdeg": 9.199577613516368,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 26,
             "m": 47916,
             "maxdeg": 1341,
@@ -3068,6 +3385,8 @@
         },
         "177": {
             "avgdeg": 10.230371244440411,
+            "bdegdel": 1,
+            "deg10del": 10,
             "degen": 85,
             "m": 56354,
             "maxdeg": 187,
@@ -3077,6 +3396,8 @@
         },
         "178": {
             "avgdeg": 12.980921757770632,
+            "bdegdel": 1,
+            "deg10del": 125,
             "degen": 85,
             "m": 60556,
             "maxdeg": 303,
@@ -3086,6 +3407,8 @@
         },
         "179": {
             "avgdeg": 6.091497051550314,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 17,
             "m": 64046,
             "maxdeg": 535,
@@ -3095,6 +3418,8 @@
         },
         "180": {
             "avgdeg": 89.4019197637214,
+            "bdegdel": 1,
+            "deg10del": 791,
             "degen": 159,
             "m": 181620,
             "maxdeg": 1187,
@@ -3104,6 +3429,8 @@
         },
         "181": {
             "avgdeg": 15.897616989751821,
+            "bdegdel": 1,
+            "deg10del": 339,
             "degen": 63,
             "m": 321887,
             "maxdeg": 2217,
@@ -3112,6 +3439,8 @@
         },
         "182": {
             "avgdeg": 30.694973643796953,
+            "bdegdel": 1,
+            "deg10del": 1428,
             "degen": 95,
             "m": 369767,
             "maxdeg": 2882,
@@ -3120,6 +3449,7 @@
         },
         "183": {
             "avgdeg": 34.860172071475844,
+            "bdegdel": 1,
             "degen": 278,
             "m": 1316843,
             "maxdeg": 3620,
@@ -3128,6 +3458,8 @@
         },
         "184": {
             "avgdeg": 1.6889917633619913,
+            "bdegdel": 1,
+            "deg10del": 1,
             "degen": 1,
             "m": 28093,
             "maxdeg": 413,
@@ -3137,6 +3469,8 @@
         },
         "185": {
             "avgdeg": 2.9921259842519685,
+            "bdegdel": 1,
+            "deg10del": 1,
             "m": 190,
             "maxdeg": 18,
             "n": 127,
@@ -3144,6 +3478,8 @@
         },
         "186": {
             "avgdeg": 2.806201550387597,
+            "bdegdel": 1,
+            "deg10del": 1,
             "m": 181,
             "maxdeg": 21,
             "n": 129,
@@ -3151,77 +3487,101 @@
         },
         "187": {
             "avgdeg": 7.171428571428572,
+            "bdegdel": 1,
+            "deg10del": 1,
             "m": 251,
             "maxdeg": 28,
             "n": 70,
             "name": "Noordin-terror-relation"
         },
         "188": {
+            "bdegdel": 1,
             "m": 1470351,
             "n": 383640,
             "name": "actor_movies"
         },
         "189": {
+            "bdegdel": 1,
+            "deg10del": 1,
             "m": 624402,
             "n": 590112,
             "name": "countries"
         },
         "190": {
+            "bdegdel": 1,
             "m": 8546581,
             "n": 426820,
             "name": "dogster_friendships"
         },
         "191": {
+            "bdegdel": 1,
+            "deg10del": 1,
             "m": 39194,
             "n": 23628,
             "name": "google+"
         },
         "192": {
+            "bdegdel": 1,
             "m": 950327,
             "n": 196591,
             "name": "gowalla"
         },
         "193": {
+            "bdegdel": 1,
+            "deg10del": 10,
             "m": 2124,
             "n": 274,
             "name": "haggle"
         },
         "194": {
+            "bdegdel": 1,
+            "deg10del": 45,
             "m": 2196,
             "n": 113,
             "name": "hypertext_2009"
         },
         "195": {
+            "bdegdel": 1,
             "m": 2193083,
             "n": 104103,
             "name": "livemocha"
         },
         "196": {
+            "bdegdel": 1,
+            "deg10del": 1,
             "m": 293696,
             "n": 172082,
             "name": "location"
         },
         "197": {
+            "bdegdel": 1,
+            "deg10del": 1,
             "m": 117378,
             "n": 51083,
             "name": "slashdot_threads"
         },
         "198": {
+            "bdegdel": 1,
             "m": 1366466,
             "n": 901132,
             "name": "teams"
         },
         "199": {
+            "bdegdel": 1,
+            "deg10del": 1,
             "m": 243,
             "n": 64,
             "name": "train_bombing"
         },
         "200": {
+            "bdegdel": 1,
             "m": 3217846,
             "n": 87678,
             "name": "tv_tropes"
         },
         "201": {
+            "bdegdel": 1,
+            "deg10del": 7,
             "m": 336,
             "n": 43,
             "name": "windsurfers"
