@@ -1,6 +1,19 @@
-ICON: Network of neurons and their interactions for a group of neurons in the mouse primary visual cortex. 
-Data obtained via tracing on large-scale electron microscopy of serial thin sections. 
-Data collected by the Brain Architecture Management System (BAMS) project. 
+# Source 
+NeuroData: Rat
 
-Original file name was rattu.norvegicus_rain_1.graphml
-http://openconnecto.me/graph-services/download/
+# Description
+A map of neurological connections for the brain regions of a rat specimen.
+The original data contained a lot of parallel edges.
+
+# Tags
+biology, connectome
+
+# URL
+https://s3.amazonaws.com/connectome-graphs/rat/rattus.norvegicus_brain_1.graphml
+https://neurodata.io/project/connectomes/
+
+# Bibtex
+@misc{connectomes, 
+    url={https://neurodata.io/project/connectomes/}, 
+    journal={NeuroData website}
+} 

@@ -1,9 +1,15 @@
-Taken from http://networkrepository.com
+# Source 
+NeuroData: Fly
 
-@inproceedings{nr,
-     title={The Network Data Repository with Interactive Graph Analytics and Visualization},
-     author={Ryan A. Rossi and Nesreen K. Ahmed},
-     booktitle={Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence},
-     url={http://networkrepository.com},
-     year={2015}
-}
+# Description
+A map of neurological connections for the medula region of the brain of a 
+fly specimen. The original data contained a lot of parallel edges.
+
+# Tags
+biology, connectome
+
+# URL
+https://s3.amazonaws.com/connectome-graphs/fly/drosophila_medulla_1.graphml
+https://neurodata.io/project/connectomes/
+
+

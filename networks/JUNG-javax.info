@@ -1,11 +1,32 @@
-KONECT: This is the software class dependency network of the JUNG 2.0.1 and javax 1.6.0.7 
+# Source
+KONECT: JUNG-javax
+
+# Description
+This is the software class dependency network of the JUNG 2.0.1 and javax 1.6.0.7 
 libraries, namespaces edu.uci.ics.jung and java/javax. The network is directed. Nodes 
 represent classes. An edge between them indicates that there exists a dependency between two 
 classes. 
-http://konect.uni-koblenz.de/networks/subelj_jung-j
 
+# URL
+http://konect.uni-koblenz.de/networks/subelj_jung-j
 http://lovro.lpt.fri.uni-lj.si/support.jsp
 
-[1] 	Jung and javax dependency network dataset -- KONECT, April 2017. [ http ]
-[2] 	Lovro Šubelj and Marko Bajec. Software systems through complex networks science: Review, analysis and applications. In Proc. Int. Workshop on Software Mining, pages 9--16, 2012.
+# Tags
+technology, code
+
+# Bibtex
+@MISC{konect:2017:subelj_jdk,
+    title = {Jung and javax dependency network dataset  -- {KONECT}},
+    month = apr,
+    year = {2017},
+    url = {http://konect.uni-koblenz.de/networks/subelj_jdk}
+}
+
+@inproceedings{vsubelj2012software,
+  title={Software systems through complex networks science: Review, analysis and applications},
+  author={{\v{S}}ubelj, Lovro and Bajec, Marko},
+  booktitle={Proceedings of the First International Workshop on Software Mining},
+  pages={9--16},
+  year={2012}
+}
 

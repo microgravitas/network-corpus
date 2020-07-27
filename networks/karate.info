@@ -1,4 +1,34 @@
+# Source 
+Newman: Zachary's karate club
+
+# Description
+The famous Zachary's karate club network. This social network
+maps the friendships between 34 members of a karate club at a US university in the 1970s
+
+# URL
+http://www-personal.umich.edu/~mejn/netdata/karate.zip
 http://www-personal.umich.edu/~mejn/netdata/
 
-W. W. Zachary, An information flow model for conflict and fission in
-small groups, Journal of Anthropological Research 33, 452-473 (1977)
+# Tags
+social, friendship
+
+# Bibtex
+@misc{newman_2020,
+     title={Network data},
+     url={http://www-personal.umich.edu/~mejn/netdata/},
+     journal={Mark Newman's personal website},
+     author={Newman, Mark},
+     year={2020}
+}
+
+@article{zachary1977information,
+  title={An information flow model for conflict and fission in small groups},
+  author={Zachary, Wayne W},
+  journal={Journal of anthropological research},
+  volume={33},
+  number={4},
+  pages={452--473},
+  year={1977},
+  publisher={University of New Mexico}
+}
+

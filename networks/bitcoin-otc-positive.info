@@ -1,14 +1,24 @@
-SNAP https://snap.stanford.edu/data/soc-sign-bitcoinotc.html
+# Source 
+SNAP: Bitcoin OTC trust weighted signed network
 
+# Description
 This is who-trusts-whom network of people who trade using Bitcoin on a
 platform called Bitcoin OTC. Since Bitcoin users are anonymous, there 
 is a need to maintain a record of users' reputation to prevent transactions 
 with fraudulent and risky users. Members of Bitcoin OTC rate other members 
 in a scale of -10 (total distrust) to +10 (total trust) in steps of 1. 
 
-The file bitcoin-cto-positive.edges contains the edges with positive trust,
-the file bitcoin-cto-negative.edges those with negative trust.
+This network contains all edges with positive weight.
 
+# URL
+https://snap.stanford.edu/data/soc-sign-bitcoinotc.csv.gz
+https://snap.stanford.edu/data/soc-sign-bitcoinotc.html
+
+
+# Tags
+technology, financial, social
+
+# Bibtex
 @inproceedings{kumar2016edge,
   title={Edge weight prediction in weighted signed networks},
   author={Kumar, Srijan and Spezzano, Francesca and Subrahmanian, VS and Faloutsos, Christos},
@@ -17,3 +27,9 @@ the file bitcoin-cto-negative.edges those with negative trust.
   year={2016},
   organization={IEEE}
 }
+
+
+
+
+
+

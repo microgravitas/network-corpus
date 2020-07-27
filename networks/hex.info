@@ -1,1 +1,17 @@
-A bounded-degree hexagonal grid.
+# Source 
+Gephi: hex
+
+# Description
+A planar, hexagonal grid graph. This network is only included for 
+historical reasons and should be excluded for studies of 'real-world'
+effects.
+
+# URL
+https://gephi.org/datasets/hex.dot.zip
+https://github.com/gephi/gephi.github.io/blob/master/datasets/
+
+# Tags
+artificial
+
+
+

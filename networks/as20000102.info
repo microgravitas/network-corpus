@@ -1,1 +1,31 @@
-Source: http://snap.stanford.edu/data/as.html
+# Source 
+SNAP: Autonomous systems AS-733
+
+# Description
+The graph of routers comprising the Internet can be organized into 
+sub-graphs called Autonomous Systems (AS). Each AS exchanges traffic 
+flows with some neighbors (peers). We can construct a communication 
+network of who-talks-to- whom from the BGP (Border Gateway Protocol) logs.
+
+The data was collected from [University of Oregon Route Views Project](http://www.routeviews.org). 
+The dataset contains 733 daily instances which span an interval of 
+785 days from 8 November 1997 to 2 January 2000. 
+
+
+# URL
+http://snap.stanford.edu/data/as20000102.txt.gz
+http://snap.stanford.edu/data/as.html
+
+
+# Tags
+technology, infrastructure, internet
+
+# Bibtex
+@inproceedings{leskovec2005graphs,
+  title={Graphs over time: densification laws, shrinking diameters and possible explanations},
+  author={Leskovec, Jure and Kleinberg, Jon and Faloutsos, Christos},
+  booktitle={Proceedings of the eleventh ACM SIGKDD international conference on Knowledge discovery in data mining},
+  pages={177--187},
+  year={2005}
+}
+

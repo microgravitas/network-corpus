@@ -1,5 +1,9 @@
-The German Autobahn network reconstructed from wikipedia data
-(http://de.wikipedia.org/wiki/Kategorie:Bundesautobahn_als_Thema).
+# Source 
+TCS Aachen: Autobahn
+
+# Description
+The German Autobahn network reconstructed from 
+[Wikipedia data](http://de.wikipedia.org/wiki/Kategorie:Bundesautobahn_als_Thema).
 
 "We sourced the Bundesautobahn network’s junctions and end nodes
 out of the Wikipedia website [71]. If we saw branches from motorway
@@ -10,8 +14,13 @@ we applied subjective criteria. The most important change the graph
 has undergone is that we mapped the varying lengths to an arbitrary
 unit length."
 
+
+# Tags
+infrastructure, transportation
+
+# Bibtex
 @thesis{sequoiavstheworld,
-	author={Rrafael Przybylski}, 
+	author={Rafael Przybylski}, 
 	title={Sequoia vs The World},
 	school={{RWTH} Aachen University},
 	year=2014,

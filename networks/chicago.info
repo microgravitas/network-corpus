@@ -1,9 +1,18 @@
+# Source 
 KONECT: Chicago
-This is the road transportation network of the Chicago region (USA).  Nodes are
-transport nodes, and edges are connections.
 
+# Description
+This is the road transportation network of the Chicago region (USA).  Nodes are
+transport nodes and edges are connections.
+
+# URL
 http://konect.uni-koblenz.de/downloads/tsv/tntp-ChicagoRegional.tar.bz2
 
+
+# Tags
+technology, infrastructure, transportation
+
+# Bibtex
 @MISC{konect:2017:tntp-ChicagoRegional,
     title = {Chicago network dataset -- {KONECT}},
     month = apr,

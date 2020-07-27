@@ -1,6 +1,24 @@
+# Source
+ISCAS: s1494
+
+# Description
 The ISCAS'89 benchmarks are a set of 31 digital sequential circuits. These
 benchmarks  were distributed on tape to participants of the Special Session on
-Sequential Test Generation, Int. Symposium on Circuits and Systems, May 1989,
-and are partially characterized in F. Brglez, D. Bryan, K. Kozminski in
-"Combinational Profiles of Sequential Benchmark Circuits", Proc. IEEE Int.
-Symposium on Circuits and Systems, pp. 1929-1934, May 1989.
+Sequential Test Generation, Int. Symposium on Circuits and Systems, May 1989.
+
+# URL
+https://filebox.ece.vt.edu/~mhsiao/iscas89.html
+
+# Tags
+technology, circuit
+
+# Bibtex
+@inproceedings{brglez1989combinational,
+  title={Combinational profiles of sequential benchmark circuits},
+  author={Brglez, Franc and Bryan, David and Kozminski, Krzysztof},
+  booktitle={IEEE International Symposium on Circuits and Systems,},
+  pages={1929--1934},
+  year={1989},
+  organization={IEEE}
+}
+

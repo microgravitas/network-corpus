@@ -1,5 +1,31 @@
-Downloaded from https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-3.5.177/
-Zip filename: BIOGRID-CHEMICALS-3.5.176.chemtab.zip 
-Original filename: BIOGRID-CHEMICALS-3.5.176.chemtab.txt
+# Source 
+Biogrid: Chemicals
 
-See https://wiki.thebiogrid.org/doku.php/biogrid_chemtab for file specification.
+# Description
+Biogrid is a regularly updated collection of biological interactions
+between proteins, genes, chemicals and model organisms.
+All Biogrid networks in this corpus are taken from version 3.5.176.
+
+All chemical interactions from the biogrid database.
+
+# URL
+https://downloads.thebiogrid.org/File/BioGRID/Release-Archive/BIOGRID-3.5.176/BIOGRID-SYSTEM-3.5.176.tab.zip
+https://wiki.thebiogrid.org/doku.php/experimental_systems
+
+# Tag
+biology, chemical, interaction
+
+# Bibtex
+@article{stark2006biogrid,
+  title={BioGRID: a general repository for interaction datasets},
+  author={Stark, Chris and Breitkreutz, Bobby-Joe and Reguly, Teresa and Boucher, Lorrie and Breitkreutz, Ashton and Tyers, Mike},
+  journal={Nucleic acids research},
+  volume={34},
+  number={suppl\_1},
+  pages={D535--D539},
+  year={2006},
+  publisher={Oxford University Press}
+}
+
+
+

@@ -1,7 +1,20 @@
-Email communication network at the University Rovira i Virgili in Tarragona in the south of Catalonia in Spain. 
+# Source
+Network repository: Email-Univ
+
+# Description
+Email communication network at the University Rovira i Virgili in 
+Tarragona in the south of Catalonia in Spain. 
 Nodes are users and edges indicate that at least one email was sent.
 
 
+# URL
+http://nrvis.com/download/data/ia/ia-email-univ.zip
+http://networkrepository.com/ia-email-univ.php
+
+# Tags
+social, technology, interaction, email
+
+# Bibtex
 @inproceedings{nr,
      title={The Network Data Repository with Interactive Graph Analytics and Visualization},
      author={Ryan A. Rossi and Nesreen K. Ahmed},

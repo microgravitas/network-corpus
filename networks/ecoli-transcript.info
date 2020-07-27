@@ -1,6 +1,31 @@
-This is an updated data set of the data used for the Nature Genetics paper titled:
-"Network motifs in the transcriptional regulation network of Escherichia coli"
-S S SHEN-ORR, R MILO, S MANGAN & U ALON, Nature Genetics Volume 31 No. 1 pp 64 - 68.
+# Source
+Uri Alon Lab: E. coli transcription network
 
-The network is bipartite and connects operons to transcription factors.
-See http://www.weizmann.ac.il/mcb/UriAlon/e-coli-transcription-network
+# Description
+Transcriptional regulation networks in cells orchestrate gene expression. In 
+this network the nodes are operons, and each edge is directed from an 
+operon that encodes a transcription factor to an operon that it directly 
+regulates (an operon is one or more genes transcribed on the same mRNA). 
+
+This is an updated data set of the data used for the Nature Genetics paper cited
+below.
+
+# URL
+http://www.weizmann.ac.il/mcb/UriAlon/sites/mcb.UriAlon/files/uploads/Network_motifs_in_coli/colinet-1.1.zip
+http://www.weizmann.ac.il/mcb/UriAlon/e-coli-transcription-network
+
+# Tags
+interaction, gene
+
+# Bibtex
+@article{shen2002network,
+  title={Network motifs in the transcriptional regulation network of Escherichia coli},
+  author={Shen-Orr, Shai S and Milo, Ron and Mangan, Shmoolik and Alon, Uri},
+  journal={Nature genetics},
+  volume={31},
+  number={1},
+  pages={64--68},
+  year={2002},
+  publisher={Nature Publishing Group}
+}
+

@@ -1,10 +1,35 @@
-SuiteSparse: Lederberg
-Pajek network: Lederberg citation network
+# Source
+Pajek: Lederberg
 
-Pajek network converted to sparse adjacency matrix for inclusion in UF sparse
-matrix collection, Tim Davis.  For Pajek datasets, See V. Batagelj & A. Mrvar,
-http://vlado.fmf.uni-lj.si/pub/networks/data/.
-Articles by and citing J Lederberg, 1945-2002, Wed Jul 31 13:40:22 2002
+# Description
+HistCite is a software package for analysis and visualization of bibliographic 
+databases owned by Thomson Reuters (http://www.histcite.com). It was developed in 
+the 2000s for extracting publication records from WoS database55. This network 
+represents the complete bibliography of Nobel laureate Joshua Lederberg produced 
+by HistCite in February 2008.
 
-https://sparse.tamu.edu/Pajek/Lederberg
+# URL
+http://vlado.fmf.uni-lj.si/pub/networks/data/cite/Lederberg.zip
+http://vlado.fmf.uni-lj.si/pub/networks/data/cite/default.htm
+http://www.garfield.library.upenn.edu/histcomp/index.html
 https://sparse.tamu.edu/MM/Pajek/Lederberg.tar.gz
+https://sparse.tamu.edu/Pajek/Lederberg
+
+
+# Tags
+social, citation
+
+# Bibtex
+@article{garfield2004historiographic,
+  title={Historiographic mapping of knowledge domains literature},
+  author={Garfield, Eugene},
+  journal={Journal of Information Science},
+  volume={30},
+  number={2},
+  pages={119--145},
+  year={2004},
+  publisher={Sage Publications Sage CA: Thousand Oaks, CA}
+}
+
+
+

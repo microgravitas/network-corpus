@@ -1,10 +1,21 @@
+# Source
 KONECT: Haggle
+
+# Description
 This undirected network represents contacts between people measured by carried
 wireless devices. A node represents a person; an edge between two persons shows
-that there was a contact between them.
+that there was a contact between them. 
 
+The data was collected for a study of routing in delay tolerant networks.
+
+# URL
 http://konect.uni-koblenz.de/downloads/tsv/contact.tar.bz2
 
+
+# Tags
+technology, contact, proximity
+
+# Bibtex
 @MISC{konect:2017:contact,
     title = {Haggle network dataset -- {KONECT}},
     month = apr,

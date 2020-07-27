@@ -1,9 +1,17 @@
+# Source
 KONECT: Livemocha
+
+# Description
 This is the social network of Livemocha, an online language learning community.
 The network is undirected and unweighted.
 
+# URL
 http://konect.uni-koblenz.de/downloads/tsv/livemocha.tar.bz2
 
+# Tags
+social, friendship
+
+# Bibtex
 @MISC{konect:2017:livemocha,
     title = {Livemocha network dataset -- {KONECT}},
     month = apr,

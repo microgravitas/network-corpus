@@ -1,9 +1,28 @@
+# Source
+[CORPUS]: capitalist
+
+# Description
 Subset of 147 transnational companies that dominates a much larger
 list of over 600000 companies. The arcs denote shareholdership.
 
-The Network of Global Corporate Control
-Stefania Vitali, James B. Glattfelder,Stefano Battiston
+This network was used as a cover picture by the German newspaper
+Die Zeit: http://www.zeit.de/2012/23/IG-Capitalist-Network
+
+# URL
 http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0025995#
 
-Used as a cover by Die Zeit: 
-http://www.zeit.de/2012/23/IG-Capitalist-Network
+# Tags
+economic, ownership
+
+# Bibtex
+@article{vitali2011network,
+  title={The network of global corporate control},
+  author={Vitali, Stefania and Glattfelder, James B and Battiston, Stefano},
+  journal={PloS one},
+  volume={6},
+  number={10},
+  pages={e25995},
+  year={2011},
+  publisher={Public Library of Science}
+}
+

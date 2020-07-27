@@ -1,10 +1,34 @@
-Taken from networkrepository.com
+# Source
+Network repository: IA-Reality-Call
 
-@inproceedings{nr-aaai15,
-  title = {The Network Data Repository with Interactive Graph Analytics and Visualization},
-  author={Ryan A. Rossi and Nesreen K. Ahmed},
-  booktitle = {Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence},
-  url={http://networkrepository.com},
-  year={2015}
+# Description
+Reality mining network data consists of human mobile phone call events 
+between a small set of core users at the Massachusetts Institute of 
+Technology (MIT) whom actually were assigned mobile phones for which a
+ll calls were collected. 
+The data also contains calls from users outside this small set of users 
+to other phones of individuals that were not actively monitored and 
+thus these nodes generally have fewer edges than nodes within the small 
+set of users at MIT that participated in the experiment and were assigned 
+phones. The data was collected collected by the Reality Mining experiment 
+performed in 2004 as part of the Reality Commons project. The data was 
+collected over 9 months using 100 mobile phones. 
+A node represents a person; an edge indicates a phone call or voicemail 
+between two users. 
+
+# URL
+http://nrvis.com/download/data/labeled/reality-call.zip
+http://networkrepository.com/ia-reality-call.php
+http://realitycommons.media.mit.edu/realitymining.html
+
+# Tags
+social, communication
+
+# Bibtex
+@inproceedings{nr,
+     title={The Network Data Repository with Interactive Graph Analytics and Visualization},
+     author={Ryan A. Rossi and Nesreen K. Ahmed},
+     booktitle={Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence},
+     url={http://networkrepository.com},
+     year={2015}
 }
-

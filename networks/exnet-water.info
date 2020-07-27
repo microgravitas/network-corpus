@@ -1,5 +1,28 @@
-ICON: The data set of water distribution networks of real systems and synthesized benchmarks. 
+# Source 
+ICON: Water Distribution Network  
+
+# Description
+The data set of water distribution networks of real systems and synthesized benchmarks. 
 Nodes represent a junction of pipes, reservoir or tank. Edges represent pipings, pumps or valves.
 This data set is hosted by the Center for Water Systems at the University of Exeter. 
 
+# URL
+http://emps.exeter.ac.uk/media/universityofexeter/emps/research/cws/downloads/exnet.inp
 http://emps.exeter.ac.uk/engineering/research/cws/resources/benchmarks/expansion/exnet.php
+
+
+# Tags
+technology, infrastructure
+
+# Bibtex
+@article{yazdani2011complex,
+  title={Complex network analysis of water distribution systems},
+  author={Yazdani, Alireza and Jeffrey, Paul},
+  journal={Chaos: An Interdisciplinary Journal of Nonlinear Science},
+  volume={21},
+  number={1},
+  pages={016111},
+  year={2011},
+  publisher={American Institute of Physics}
+}
+

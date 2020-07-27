@@ -1,1 +1,50 @@
+# Source 
+SNAP: High-energy physics theory citation network
+
+# Description
+Arxiv HEP-TH (high energy physics theory) citation graph is from 
+the e-print arXiv and covers all the citations within a dataset of 
+27,770 papers with 352,807 edges. If a paper i cites paper j, the 
+graph contains a directed edge from i to j. If a paper cites, or is 
+cited by, a paper outside the dataset, the graph does not contain 
+any information about this.
+
+The data covers papers in the period from January 1993 to April 2003 
+(124 months).
+
+The data was originally released as a part of 2003 KDD Cup. 
+
+# URL
+http://snap.stanford.edu/data/cit-HepTh.txt.gz
 http://snap.stanford.edu/data/cit-HepTh.html
+
+
+# Tags
+social, citation, scientific
+
+# Bibtex
+@inproceedings{leskovec2005graphs,
+  title={Graphs over time: densification laws, shrinking diameters and possible explanations},
+  author={Leskovec, Jure and Kleinberg, Jon and Faloutsos, Christos},
+  booktitle={Proceedings of the eleventh ACM SIGKDD international conference on Knowledge discovery in data mining},
+  pages={177--187},
+  year={2005}
+}
+
+@article{gehrke2003overview,
+  title={Overview of the 2003 KDD Cup},
+  author={Gehrke, Johannes and Ginsparg, Paul and Kleinberg, Jon},
+  journal={Acm Sigkdd Explorations Newsletter},
+  volume={5},
+  number={2},
+  pages={149--151},
+  year={2003},
+  publisher={ACM New York, NY, USA}
+}
+
+
+
+
+
+
+

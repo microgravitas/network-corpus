@@ -1,6 +1,23 @@
-ICON: The Marvel Universe collaboration network, where two Marvel characters 
+# Source
+ICON: Marvel Universe social network 
+
+# Description
+The Marvel Universe collaboration network, where two Marvel characters 
 are considered linked if they jointly appear in the same Marvel comic book.
 
-R. Alberich, J. Miro-Julia, and F. Rossello, "Marvel Universe looks almost like a real social network." arxiv:cond-mat/0202174 (2002). 
 
+# URL
+http://bioinfo.uib.es/~joemiro/marvel/porgat.txt
 http://arxiv.org/abs/cond-mat/0202174
+
+# Tags
+social, collaboration, fiction
+
+# Bibtex
+@article{alberich2002marvel,
+  title={Marvel Universe looks almost like a real social network},
+  author={Alberich, Ricardo and Miro-Julia, Joe and Rossell{\'o}, Francesc},
+  journal={arXiv preprint cond-mat/0202174},
+  year={2002}
+}
+

@@ -1,4 +1,8 @@
-SNAP: Enron email communication network covers all the email communication 
+# Source
+SNAP: Enron email network
+
+# Description
+Enron email communication network covers all the email communication 
 within a dataset of around half million emails. This data was originally made public,
  and posted to the web, by the Federal Energy Regulatory Commission during its 
 investigation. Nodes of the network are email addresses and if an address i sent 
@@ -8,9 +12,29 @@ only observe their communication with the Enron email addresses.
 
 The Enron email data was originally released by William Cohen at CMU.
 
+# URL
+http://snap.stanford.edu/data/email-Enron.txt.gz
 http://snap.stanford.edu/data/email-Enron.html
 
-J. Leskovec, K. Lang, A. Dasgupta, M. Mahoney. Community Structure in Large Networks: 
-Natural Cluster Sizes and the Absence of Large Well-Defined Clusters. Internet Mathematics 6(1) 29--123, 2009.
+# Tags
+social, technology, interaction, email
 
-B. Klimmt, Y. Yang. Introducing the Enron corpus. CEAS conference, 2004.
+# Bibtex
+@article{leskovec2009community,
+  title={Community structure in large networks: Natural cluster sizes and the absence of large well-defined clusters},
+  author={Leskovec, Jure and Lang, Kevin J and Dasgupta, Anirban and Mahoney, Michael W},
+  journal={Internet Mathematics},
+  volume={6},
+  number={1},
+  pages={29--123},
+  year={2009},
+  publisher={Taylor \& Francis}
+}
+
+@inproceedings{klimt2004introducing,
+  title={Introducing the Enron corpus.},
+  author={Klimt, Bryan and Yang, Yiming},
+  booktitle={CEAS},
+  year={2004}
+}
+

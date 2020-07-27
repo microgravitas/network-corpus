@@ -1,7 +1,36 @@
+# Source 
+Newman: Dolphin social network: 
+
+# Description
 An undirected social network of frequent associations between 62 dolphins in 
 a community living off Doubtful Sound, New Zealand. 
 
+
+# URL
+http://www-personal.umich.edu/~mejn/netdata/dolphins.zip
 http://www-personal.umich.edu/~mejn/netdata/
 
-D. Lusseau, K. Schneider, O. J. Boisseau, P. Haase, E. Slooten, and
-S. M. Dawson, Behavioral Ecology and Sociobiology 54, 396-405 (2003)
+
+# Tags
+social, animal, interaction, proximity
+
+# Bibtex
+@misc{newman_2020,
+     title={Network data},
+     url={http://www-personal.umich.edu/~mejn/netdata/},
+     journal={Mark Newman's personal website},
+     author={Newman, Mark},
+     year={2020}
+}
+
+@article{lusseau2003bottlenose,
+  title={The bottlenose dolphin community of Doubtful Sound features a large proportion of long-lasting associations},
+  author={Lusseau, David and Schneider, Karsten and Boisseau, Oliver J and Haase, Patti and Slooten, Elisabeth and Dawson, Steve M},
+  journal={Behavioral Ecology and Sociobiology},
+  volume={54},
+  number={4},
+  pages={396--405},
+  year={2003},
+  publisher={Springer}
+}
+

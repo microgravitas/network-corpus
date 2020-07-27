@@ -1,3 +1,38 @@
+# Source 
+Newman: Neural network
+
+# Description
+A directed, weighted network representing the neural network of 
+C. Elegans. Data compiled by D. Watts and S. Strogatz and made 
+available on the web [here](http://cdg.columbia.edu/cdg/datasets). 
+
+The version in the corpus is undirected.
+
+# URL
+http://www-personal.umich.edu/~mejn/netdata/celegansneural.zip
 http://www-personal.umich.edu/~mejn/netdata/
 
-D. J. Watts and S. H. Strogatz, Nature 393, 440-442 (1998)
+
+# Tags
+biology, connectome
+
+# Bibtex
+@misc{newman_2020,
+     title={Network data},
+     url={http://www-personal.umich.edu/~mejn/netdata/},
+     journal={Mark Newman's personal website},
+     author={Newman, Mark},
+     year={2020}
+}
+
+
+@article{watts1998collective,
+  title={Collective dynamics of ‘small-world’networks},
+  author={Watts, Duncan J and Strogatz, Steven H},
+  journal={nature},
+  volume={393},
+  number={6684},
+  pages={440--442},
+  year={1998},
+  publisher={Nature Publishing Group}
+}

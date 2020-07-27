@@ -1,7 +1,17 @@
-A network of different financial entities derived from the 'Bahama Leaks'.
-data release. Nodes that are connected by the 'same_as' relationship in the dataset have
-been merged into a single node, otherwise it reflects exactly the edges of the file
-'offshore_leaks.edges.csv'.
+# Source
+[CORPUS] : bahamas
 
-https://www.icij.org/offshore/former-eu-official-among-politicians-named-new-leak-offshore-files-bahamas#_ga=2.33803618.2103011006.1517848505-1613031997.1517848505
+# Description
+A network of different financial entities derived from the 
+[Bahama Leaks](https://offshoreleaks.icij.org/pages/database).
+data release. Nodes that are connected by the `same_as` relationship in the dataset have
+been merged into a single node, otherwise it reflects exactly the edges of the file
+`bahamas_leaks.edges.csv`.
+
+# URL
+https://offshoreleaks-data.icij.org/offshoreleaks/csv/csv_offshore_leaks.2018-02-14.zip
 https://offshoreleaks.icij.org/pages/database
+https://www.icij.org/offshore/former-eu-official-among-politicians-named-new-leak-offshore-files-bahamas
+
+# Tags
+economic, financial

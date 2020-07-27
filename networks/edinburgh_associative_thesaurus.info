@@ -1,4 +1,7 @@
+# Source 
 KONECT: Edinburgh Associative Thesaurus
+
+# Description
 This is the Edinburgh Associative Thesaurus.  Nodes are English words, and a
 directed link from A to B denotes that the word B was given as a response to the
 stimulus word A in user experiments.  Multiple links are allowed, and the
@@ -6,8 +9,10 @@ multiplicity of an edge denotes the number of times a word has been given as a
 response to another word.  In some case, the given word itself was given as a
 response, leading to loops in the network.
 
+# URL
 http://konect.uni-koblenz.de/downloads/tsv/eat.tar.bz2
 
+# Bibtex
 @MISC{konect:2017:eat,
     title = {Edinburgh Associative Thesaurus network dataset -- {KONECT}},
     month = apr,

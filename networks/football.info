@@ -1,3 +1,32 @@
+# Source 
+Newman: American College football
+
+# Description
 Network of American football games between Division IA colleges during regular season Fall 2000.
+
+# URL
+http://www-personal.umich.edu/~mejn/netdata/football.zip
 http://www-personal.umich.edu/~mejn/netdata/
-Cite: M. Girvan and M. E. J. Newman, Proc. Natl. Acad. Sci. USA 99, 7821-7826 (2002)
+
+# Tags
+social, sport
+
+# Bibtex
+@misc{newman_2020,
+     title={Network data},
+     url={http://www-personal.umich.edu/~mejn/netdata/},
+     journal={Mark Newman's personal website},
+     author={Newman, Mark},
+     year={2020}
+}
+
+@article{girvan2002community,
+  title={Community structure in social and biological networks},
+  author={Girvan, Michelle and Newman, Mark EJ},
+  journal={Proceedings of the national academy of sciences},
+  volume={99},
+  number={12},
+  pages={7821--7826},
+  year={2002},
+  publisher={National Acad Sciences}
+}

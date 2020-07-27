@@ -1,7 +1,20 @@
+# Source
 SuiteSparse: minnesota
-Minnesota road network (with xy coordinates)
 
+# Description
+Minnesota road network collated by D. Gleich.
 
-
-https://sparse.tamu.edu/Gleich/minnesota
+# URL
 https://sparse.tamu.edu/MM/Gleich/minnesota.tar.gz
+https://sparse.tamu.edu/Gleich/minnesota
+
+# Tags
+infrastructure, transportation
+
+# Bibtex
+@misc{gleich2015matlabbgl,
+  title={The matlabbgl matlab library},
+  author={Gleich, D},
+  year={2015}
+}
+

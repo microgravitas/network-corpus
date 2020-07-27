@@ -1,68 +1,23 @@
-SuiteSparse: Oregon-2
-(9 graphs) AS peering info inferred from Oregon route-views, 3/31-5/26/01
+# Source
+SNAP: Oregon-2
 
-Networks from SNAP (Stanford Network Analysis Platform) Network Data Sets,
-Jure Leskovec http://snap.stanford.edu/data/index.html
-email jure at cs.stanford.edu
-Autonomous systems - Oregon-2
-Dataset information
-9 Autonomous systems graphs, 1 per week between March 31 2001 and May 26 2001.
-Graphs represent AS peering information inferred from Oregon route-views,
-Looking glass data, and Routing registry, all combined.
-Dataset statistics are calculated for the graph with the lowest (March 31 2001)
-and highest (from May 26 2001) number of nodes:
-Dataset statistics for graph with lowest number of nodes - 3 31 2001
-Nodes   10900
-Edges   31180
-Nodes in largest WCC    10900 (1.000)
-Edges in largest WCC    31180 (1.000)
-Nodes in largest SCC    10900 (1.000)
-Edges in largest SCC    31180 (1.000)
-Average clustering coefficient  0.5009
-Number of triangles     82856
-Fraction of closed triangles    0.03855
-Diameter (longest shortest path)    9
-90-percentile effective diameter    4.3
-Dataset statistics for graph with highest number of nodes - 5 26 2001
-Nodes   11461
-Edges   32730
-Nodes in largest WCC    11461 (1.000)
-Edges in largest WCC    32730 (1.000)
-Nodes in largest SCC    11461 (1.000)
-Edges in largest SCC    32730 (1.000)
-Average clustering coefficient  0.4943
-Number of triangles     89541
-Fraction of closed triangles    0.03701
-Diameter (longest shortest path)    9
-90-percentile effective diameter    4.3
-Source (citation)
-J. Leskovec, J. Kleinberg and C. Faloutsos. Graphs over Time: Densification
-Laws, Shrinking Diameters and Possible Explanations. ACM SIGKDD International
-Conference on Knowledge Discovery and Data Mining (KDD), 2005.
-Files
-File    Description
-AS peering information inferred from Oregon route-views, Looking glass
-data, and Routing registry,  ...
-oregon2_010331.txt.gz from March 31 2001
-oregon2_010407.txt.gz from April 7 2001
-oregon2_010414.txt.gz from April 14 2001
-oregon2_010421.txt.gz from April 21 2001
-oregon2_010428.txt.gz from April 28 2001
-oregon2_010505.txt.gz from May 05 2001
-oregon2_010512.txt.gz from May 12 2001
-oregon2_010519.txt.gz from May 19 2001
-oregon2_010526.txt.gz from May 26 2001
-NOTE: for the UF Sparse Matrix Collection, the primary matrix in this problem
-set (Problem.A) is the last matrix in the sequence, oregon2_010526, from May 26
-2001.
-The nodes are uniform across all graphs in the sequence in the UF collection.
-That is, nodes do not come and go.  A node that is "gone" simply has no edges.
-This is to allow comparisons across each node in the graphs.
-Problem.aux.nodenames gives the node numbers of the original problem.  So
-row/column i in the matrix is always node number Problem.aux.nodenames(i) in
-all the graphs.
-Problem.aux.G{k} is the kth graph in the sequence.
-Problem.aux.Gname(k,:) is the name of the kth graph.
+# Description
 
-https://sparse.tamu.edu/SNAP/Oregon-2
+It appears that this dataset is an augmentation of the Oregon-1 dataset by including
+additional information from "Looking Glass" and a routing registry.
+
+The network here is again the latest snapshot from 26 May 2001.
+
+# URL
 https://sparse.tamu.edu/MM/SNAP/Oregon-2.tar.gz
+https://snap.stanford.edu/data/oregon2_010526.txt.gz
+https://sparse.tamu.edu/SNAP/Oregon-2
+
+# Bibtex
+@inproceedings{leskovec2005graphs,
+  title={Graphs over time: densification laws, shrinking diameters and possible explanations},
+  author={Leskovec, Jure and Kleinberg, Jon and Faloutsos, Christos},
+  booktitle={Proceedings of the eleventh ACM SIGKDD international conference on Knowledge discovery in data mining},
+  pages={177--187},
+  year={2005}
+}

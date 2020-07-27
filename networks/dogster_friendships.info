@@ -1,8 +1,18 @@
+# Source
 KONECT: Dogster Friendships
+
+# Description
+
 This Network contains friendships between users of the website dogster.com.
 
+# URL
 http://konect.uni-koblenz.de/downloads/tsv/petster-friendships-dog.tar.bz2
 
+
+# Tags
+social, friendship
+
+# Bibtex
 @MISC{konect:2017:petster-friendships-dog,
     title = {Dogster Friendships network dataset -- {KONECT}},
     month = apr,

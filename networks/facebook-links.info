@@ -1,10 +1,21 @@
-KONECT: The is the directed network of a small subset of posts to other user's wall on Facebook. 
+# Source
+KONECT: Facebook links
+
+# Description
+The is the directed network of a small subset of posts to other user's wall on Facebook. 
 The nodes of the network are Facebook users, and each directed edge represents one post, 
 linking the users writing a post to the users whose wall the post is written on. Since users may 
 write multiple posts on a wall, the network allows multiple edges connecting a single node pair. 
 Since users may write on their own wall, the network contains loops.
 
+# URL
+http://socialnetworks.mpi-sws.mpg.de/data/facebook-links.txt.gz
+http://socialnetworks.mpi-sws.org/data-wosn2009.html
 
+# Tags
+social, interaction
+
+# Bibtex
 @inproceedings{viswanath-2009-activity,
   author = {Bimal Viswanath and Alan Mislove and Meeyoung Cha and Krishna P. Gummadi},
   title = {On the Evolution of User Interaction in Facebook}, 
@@ -15,5 +26,5 @@ Since users may write on their own wall, the network contains loops.
 }
 
 
-http://socialnetworks.mpi-sws.org/data-wosn2009.html
+
 

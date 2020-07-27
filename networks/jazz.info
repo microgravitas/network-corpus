@@ -1,7 +1,27 @@
-ICON:  The network of collaborations among jazz musicians, and among jazz bands, 
+# Source
+ICON: Jazz collaboration network 
+
+# Description
+The network of collaborations among jazz musicians, and among jazz bands, 
 extracted from The Red Hot Jazz Archive digital database, covering bands that 
 performed between 1912 and 1940. 
 
-P. Gleiser and L. Danon, "Community Structure in Jazz." Advances in Complex Systems 6(4), 565-573 (2003). arxiv:cond-mat/0307434
-
+# URL
+http://deim.urv.cat/~alexandre.arenas/data/xarxes/jazz.zip
 http://arxiv.org/abs/cond-mat/0307434
+
+# Tags
+social, collaboration
+
+# Bibtex
+@article{gleiser2003community,
+  title={Community structure in jazz},
+  author={Gleiser, Pablo M and Danon, Leon},
+  journal={Advances in complex systems},
+  volume={6},
+  number={04},
+  pages={565--573},
+  year={2003},
+  publisher={World Scientific}
+}
+

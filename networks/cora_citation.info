@@ -1,10 +1,18 @@
+# Source 
 KONECT: Cora citation
-This is the cora citation network. The network is directed. Nodes represent
+
+# Description
+This is the cora citation network. Nodes represent
 scientific papers. An edge between two nodes indicates that the left node cites
 the right node.
 
+# URL
 http://konect.uni-koblenz.de/downloads/tsv/subelj_cora.tar.bz2
 
+# Tags
+citation, scientific
+
+# Bibtex
 @MISC{konect:2017:subelj_cora,
     title = {Cora citation network dataset -- {KONECT}},
     month = apr,

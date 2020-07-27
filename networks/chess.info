@@ -1,14 +1,21 @@
+# Source 
 KONECT: Chess
+
+# Description
 These are results of chess games.  Each node is a chess player, and a directed
 edge represents a game, with the white player having an outgoing edge and the
 black player having an ingoing edge.  The weight of the edge represents the
-outcome (+1 white won, 0 draw, -1 black won).  The dataset is anonymous:  the
-identity of the players is unknown, and timestamps are approximate.  Timestamps
-are given to a one month precision, and may have been shifted towards the future
-by an unknown amount.
+outcome (+1 white won, 0 draw, -1 black won).  
 
+The network in this corpus is undirected.
+
+# URL
 http://konect.uni-koblenz.de/downloads/tsv/chess.tar.bz2
 
+# Tags
+social, sport
+
+# Bibtex
 @MISC{konect:2017:chess,
     title = {Chess network dataset -- {KONECT}},
     month = apr,

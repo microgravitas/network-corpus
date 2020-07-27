@@ -1,7 +1,15 @@
-A network of different financial entities derived from the 'Offshore Leaks'.
-data release. Nodes that are connected by the 'same_as' relationship in the dataset have
-been merged into a single node, otherwise it reflects exactly the edges of the file
-'offshore_leaks.edges.csv'.
+# Source
+[CORPUS]: offshore
 
-https://www.icij.org/offshore#_ga=2.203154514.2103011006.1517848505-1613031997.1517848505
+# Description
+A network of different financial entities derived from the [Offshore Leaks](https://offshoreleaks.icij.org/pages/database).
+data release. Nodes that are connected by the `same_as` relationship in the dataset have
+been merged into a single node, otherwise it reflects exactly the edges of the file
+`offshore_leaks.edges.csv`.
+
+# URL
+https://offshoreleaks-data.icij.org/offshoreleaks/csv/csv_bahamas_leaks.2017-12-19.zip
 https://offshoreleaks.icij.org/pages/database
+
+# Tags
+economic, financial

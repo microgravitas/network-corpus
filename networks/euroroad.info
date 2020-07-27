@@ -1,10 +1,18 @@
+# Source
 KONECT: Euroroad
+
+# Description
 This is the international E-road network, a road network located mostly in
 Europe.  The network is undirected; nodes represent cities and an edge between
 two nodes denotes that they are connected by an E-road.
 
+# URL
 http://konect.uni-koblenz.de/downloads/tsv/subelj_euroroad.tar.bz2
 
+# Tags
+technology, infrastructure, transportation,
+
+# Bibtex
 @MISC{konect:2017:subelj_euroroad,
     title = {Euroroad network dataset -- {KONECT}},
     month = apr,

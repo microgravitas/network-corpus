@@ -1,5 +1,16 @@
+# Source 
+Gephi: airlines
+
+# Description
 The origin of this network is illusive: its was part of the
 example datasets provided with the Gephi graph visualisation soft-
 ware, but the corresponding web page claims an ‘unknown origin’.
 It contains 235 US airports (with geographical meta-data) and it is
 reasonable to assume that the edges represent direct flights.
+
+# URL
+https://gephi.org/datasets/airlines.gexf.zip
+https://github.com/gephi/gephi.github.io/blob/master/datasets/
+
+# Tags
+transportation

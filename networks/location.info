@@ -1,12 +1,20 @@
+# Source
 KONECT: Location
+
+# Description
 This is the bipartite network of entities in Wikipedia and their locations. The
 nodes of the network are entities and locations. Edges denote that an entity is
 associated with a location. Entity can have multiple locations, for instance
 cities associated with a company. The edges correspond to the
-<http://dbpedia.org/ontology/location> relationships in DBpedia.
+relationships in [DBpedia](http://dbpedia.org/ontology/location).
 
+# URL
 http://konect.uni-koblenz.de/downloads/tsv/dbpedia-location.tar.bz2
 
+# Tags
+ontology
+
+# Bibtex
 @MISC{konect:2017:dbpedia-location,
     title = {Location network dataset -- {KONECT}},
     month = apr,

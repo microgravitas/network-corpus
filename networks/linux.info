@@ -1,10 +1,15 @@
+# Source
 KONECT: Linux
+
+# Description
 This is the network of Linux source code files, with directed edges denoting
 that they include each other.  The network is based on Linux version 3.16.  The
 network is acyclic.
 
+# URL
 http://konect.uni-koblenz.de/downloads/tsv/linux.tar.bz2
 
+# Bibtex
 @MISC{konect:2017:linux,
     title = {Linux network dataset -- {KONECT}},
     month = apr,

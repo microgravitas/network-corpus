@@ -1,11 +1,20 @@
+# Source
 KONECT: Gowalla
-This undirected network contains userâ€“user friendship relations from Gowalla,
+
+# Description
+This undirected network contains user-user friendship relations from Gowalla,
 a former location-based social network where user shared their locations. A node
 represents a user and an edge indicates that a friendship exists between the
 user represented by the left node and the user represented by the right node.
 
+# URL
 http://konect.uni-koblenz.de/downloads/tsv/loc-gowalla_edges.tar.bz2
 
+# Tags
+social, friendship
+
+
+# Bibtex
 @MISC{konect:2017:loc-gowalla_edges,
     title = {Gowalla network dataset -- {KONECT}},
     month = apr,

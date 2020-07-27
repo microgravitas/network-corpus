@@ -1,10 +1,18 @@
+# Source
 KONECT: Digg
+
+# Description
 This is the reply network of the social news website Digg. Each node in the
 network is a user of the website, and each directed edge denotes that a user
 replied to another user.
 
+# URL
 http://konect.uni-koblenz.de/downloads/tsv/munmun_digg_reply.tar.bz2
 
+# Tags
+social, interaction
+
+# Bibtex
 @MISC{konect:2017:munmun_digg_reply,
     title = {Digg network dataset -- {KONECT}},
     month = apr,

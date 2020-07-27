@@ -1,10 +1,18 @@
+# Source
 KONECT: Google+
-This directed network contains Google+ userâ€“user links. A node represents a
+
+# Description
+This directed network contains Google+ user-user links. A node represents a
 user, and a directed edge denotes that one user has the other user in his
 circles.
 
+# URL
 http://konect.uni-koblenz.de/downloads/tsv/ego-gplus.tar.bz2
 
+# Tags
+social, friendship
+
+# Bibtex
 @MISC{konect:2017:ego-gplus,
     title = {Google+ network dataset -- {KONECT}},
     month = apr,

@@ -1,37 +1,32 @@
-Downloaded from https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-3.5.177/
-Zip filename: BIOGRID-ORGANISM-3.5.176.tab.zip
-Original filename: BIOGRID-ORGANISM-Hepatitus_C_Virus-3.5.176.tab
+# Source 
+Biogrid: Hepatitus C Virus
 
-Original preamble follows
+# Description
 
-IN NO EVENT SHALL MOUNT SINAI HOSPITAL BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL
-DAMAGES, INCLUDING LOST PROFITS, ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF MOUNT SINAI HOSPITAL
-HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Biogrid is a regularly updated collection of biological interactions
+between proteins, genes, chemicals and model organisms.
+All Biogrid networks in this corpus are taken from version 3.5.176.
 
-MOUNT SINAI HOSPITAL SPECIFICALLY DISCLAIMS ANY IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
-THE SOFTWARE AND ACCOMPANYING DOCUMENTATION, IF ANY, PROVIDED HEREUNDER IS PROVIDED "AS IS". MOUNT SINAI HOSPITAL HAS NO
-OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+Interactions related to the model organism Hepatitus C Virus.
 
-Published research assisted by this document should cite the original publishing author, as well as:
-In any articles making use of this data, please refer to:
-Stark C, Breitkreutz BJ, Reguly T, Boucher L, Breitkreutz A, Tyers M. BioGRID: A General Repository for Interaction Datasets.
-Nucleic Acids Res. Jan1;34:D535-9.
+# URL
+https://downloads.thebiogrid.org/File/BioGRID/Release-Archive/BIOGRID-3.5.176/BIOGRID-SYSTEM-3.5.176.tab.zip
+https://wiki.thebiogrid.org/doku.php/experimental_systems
 
-This data is distributed for research purposes only, and is provided WITHOUT ANY WARRANTY.
+# Tag
+biology, interaction
+
+# Bibtex
+@article{stark2006biogrid,
+  title={BioGRID: a general repository for interaction datasets},
+  author={Stark, Chris and Breitkreutz, Bobby-Joe and Reguly, Teresa and Boucher, Lorrie and Breitkreutz, Ashton and Tyers, Mike},
+  journal={Nucleic acids research},
+  volume={34},
+  number={suppl\_1},
+  pages={D535--D539},
+  year={2006},
+  publisher={Oxford University Press}
+}
 
 
-Brief Description of the Columns: 
 
-A.) INTERACTOR_A			Unique ID for Interacting Partner A
-B.) INTERACTOR_B			Unique ID for Interacting Partner B
-C.) OFFICIAL_SYMBOL_FOR_A
-D.) OFFICIAL_SYMBOL_FOR_B
-E.) ALIASES_FOR_A			List of common names for geneA, separated by '|'
-F.) ALIASES_FOR_B			List of common names for geneB, separated by '|'
-G.) EXPERIMENTAL_SYSTEM			System in which the interaction was shown
-H.) SOURCE				Author/s of the interaction
-I.) PUBMED_ID				PubMed_ID of the paper, separated by ';'
-J.) ORGANISM_A_ID			NCBI ID of Gene A Organism
-K.) ORGANISM_B_ID			NCBI ID of Gene B Organism
-
-File Version: 3.5.176

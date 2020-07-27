@@ -1,4 +1,8 @@
-SNAP:  The network was generated using email data from a large European research 
+# Source
+SNAP:  email-Eu-core network
+
+# Description
+The network was generated using email data from a large European research 
 institution. We have anonymized information about all incoming and outgoing email 
 between members of the research institution. There is an edge (u, v) in the network 
 if person u sent person v at least one email. The e-mails only represent 
@@ -9,14 +13,30 @@ This network represents the "core" of the email-EuAll network, which also contai
 links between members of the institution and people outside of the institution 
 (although the node IDs are not the same).
 
+# URL
+https://snap.stanford.edu/data/email-Eu-core.txt.gz
 https://snap.stanford.edu/data/email-Eu-core.html
 
+# Tag
+social, technology, interaction, email
 
-Hao Yin, Austin R. Benson, Jure Leskovec, and David F. Gleich. 
-"Local Higher-order Graph Clustering." 
-In Proceedings of the 23rd ACM SIGKDD International Conference 
-on Knowledge Discovery and Data Mining. 2017.
+# Bibtex
+@inproceedings{yin2017local,
+  title={Local higher-order graph clustering},
+  author={Yin, Hao and Benson, Austin R and Leskovec, Jure and Gleich, David F},
+  booktitle={Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+  pages={555--564},
+  year={2017}
+}
 
-J. Leskovec, J. Kleinberg and C. Faloutsos.
-"Graph Evolution: Densification and Shrinking Diameters."
-ACM Transactions on Knowledge Discovery from Data (ACM TKDD), 1(1), 2007.
+@article{leskovec2007graph,
+  title={Graph evolution: Densification and shrinking diameters},
+  author={Leskovec, Jure and Kleinberg, Jon and Faloutsos, Christos},
+  journal={ACM transactions on Knowledge Discovery from Data (TKDD)},
+  volume={1},
+  number={1},
+  pages={2--es},
+  year={2007},
+  publisher={ACM New York, NY, USA}
+}
+

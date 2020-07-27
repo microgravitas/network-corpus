@@ -1,1 +1,35 @@
+# Source 
+SNAP: High Energy Physics - Phenomenology collaboration network
+
+# Description
+Arxiv HEP-PH (High Energy Physics - Phenomenology) collaboration network 
+is from the e-print arXiv and covers scientific collaborations between 
+authors papers submitted to High Energy Physics - Phenomenology category. 
+If an author i co-authored a paper with author j
+, the graph contains a undirected edge from i to j. If the paper is 
+co-authored by k authors this generates a completely connected (sub)graph on k nodes.
+
+The data covers papers in the period from January 1993 to April 2003 
+(124 months). 
+
+# URL
+http://snap.stanford.edu/data/ca-HepPh.txt.gz
 http://snap.stanford.edu/data/ca-HepPh.html
+
+
+# Tags
+social, collaboration, scientific
+
+# Bibtex
+@article{leskovec2007graph,
+  title={Graph evolution: Densification and shrinking diameters},
+  author={Leskovec, Jure and Kleinberg, Jon and Faloutsos, Christos},
+  journal={ACM transactions on Knowledge Discovery from Data (TKDD)},
+  volume={1},
+  number={1},
+  pages={2--es},
+  year={2007},
+  publisher={ACM New York, NY, USA}
+}
+
+

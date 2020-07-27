@@ -1,4 +1,18 @@
-ICON: Network of physiological interactions among brain regions in a mouse. One (Supp Table 2, "s3") is a bipartite network of injection sites and target regions; edges weighted by normalized projection volume. The other (Supp Table 3, "s4") is a network of model-based projection strengths among regions. Regions are also annotated with volume and brain-space location 
+# Source 
+NeuroData: Mouse
 
-Original filename mouse_brain_1.graphml
-http://openconnecto.me/graph-services/download/
+# Description
+Network of physiological interactions among brain regions in a mouse. One (Supp Table 2, "s3") is a bipartite network of injection sites and target regions; edges weighted by normalized projection volume. The other (Supp Table 3, "s4") is a network of model-based projection strengths among regions. Regions are also annotated with volume and brain-space location 
+
+# Tags
+biology, connectome
+
+# URL
+https://s3.amazonaws.com/connectome-graphs/mouse/mouse_brain_1.graphml
+https://neurodata.io/project/connectomes/
+
+# Bibtex
+@misc{connectomes, 
+    url={https://neurodata.io/project/connectomes/}, 
+    journal={NeuroData website}
+} 

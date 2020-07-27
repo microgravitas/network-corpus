@@ -1,8 +1,17 @@
+# Source 
 KONECT: Actor movies
-This is a bipartite network of movies and the actors that have played in them.
 
+# Description
+This is a bipartite network connecting movies to the actors featured
+in them. The network seems to have appeared first in [konect:ba] but
+the paper does not mention how the dataset was collated.
+
+# URL
 http://konect.uni-koblenz.de/downloads/tsv/actor-movie.tar.bz2
 
+# Tags
+
+# Bibtex
 @MISC{konect:2017:actor-movie,
     title = {Actor movies network dataset -- {KONECT}},
     month = apr,
@@ -17,11 +26,6 @@ http://konect.uni-koblenz.de/downloads/tsv/actor-movie.tar.bz2
 	number = {5439},
 	pages = {509--512},
 	volume = {286},
-	year = {1999},
-	notes = {
-		Preferential attachment (main reference).
-		Scale-free network.
-		Barabási--Albert model.
-	},
+	year = {1999}
 }
 
