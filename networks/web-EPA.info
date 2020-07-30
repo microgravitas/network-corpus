@@ -1,17 +1,16 @@
-Network contains pages linking to www.epa.gov. 
+# Source
+Pajek: Kleinberg's web graphs (EPA)
 
-@inproceedings{nr,
-     title={The Network Data Repository with Interactive Graph Analytics and Visualization},
-     author={Ryan A. Rossi and Nesreen K. Ahmed},
-     booktitle={Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence},
-     url={http://networkrepository.com},
-     year={2015}
-}
+# Description
+This graph was constructed by expanding a 200-page response 
+set to a search engine query, as in the hub/authority algorithm. 
+Adapted for Pajek by V. Batagelj, March 19, 2006, obtained from 
+[Jon Kleinberg's page](http://www.cs.cornell.edu/courses/cs685/2002fa/).
+Adapted for Pajek by V. Batagelj, March 19, 2006.
 
-@book{de2011exploratory,
-     title={Exploratory social network analysis with Pajek},
-     author={De Nooy, Wouter and Mrvar, Andrej and Batagelj, Vladimir},
-     volume={27},
-     year={2011},
-     publisher={Cambridge University Press}
-}
+# URL
+http://vlado.fmf.uni-lj.si/pub/networks/data/web/Epa.net
+http://vlado.fmf.uni-lj.si/pub/networks/data/mix/mixed.htm
+
+# Tag
+technology, web

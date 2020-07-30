@@ -1,9 +1,20 @@
-ICON: A network representing protein-protein interactions in budding yeast, 
+# Source
+Pajek: Yeast
+
+# Description
+A network representing protein-protein interactions in budding yeast, 
 obtained by combining information from several high-throughput methods (as of 2002). 
 
-Contained in gephi library and available on Pajek
+This network is contained in the Gephi and Pajek collection.
+
+# URL
+http://vlado.fmf.uni-lj.si/pub/networks/data/bio/Yeast/yeast.zip
 http://vlado.fmf.uni-lj.si/pub/networks/data/bio/yeast/yeast.htm
 
+# Tags
+biology, protein, interaction
+
+# Bibtex
 @article{bu2003topological,
   title={Topological structure analysis of the protein--protein interaction network in budding yeast},
   author={Bu, Dongbo and Zhao, Yi and Cai, Lun and Xue, Hong and Zhu, Xiaopeng and Lu, 

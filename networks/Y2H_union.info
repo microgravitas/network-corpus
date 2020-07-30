@@ -1,7 +1,25 @@
-ICON: Network of protein-protein interactions in Saccharomyces cerevisiae (budding yeast), 
+# Source
+ICON: Yu yeast interactomes (2008) 
+
+# Description
+Network of protein-protein interactions in Saccharomyces cerevisiae (budding yeast), 
 measured by co-complex associations identified by high-throughput affinity purification and 
 mass spectrometry (AP/MS). 
 
-This is an aggregate of previous datasets.
+This is an aggregate of previous datasets by Uetz et al. (2000) and Ito et al. (2001) 
 
-"High-Quality Binary Protein Interaction Map of the Yeast Interactome Network" Yu et al Science 2008.
+# URL
+http://interactome.dfci.harvard.edu/S_cerevisiae/index.php?page=download
+
+# Bibtex
+@article{yu2008high,
+  title={High-quality binary protein interaction map of the yeast interactome network},
+  author={Yu, Haiyuan and Braun, Pascal and Y{\i}ld{\i}r{\i}m, Muhammed A and Lemmens, Irma and Venkatesan, Kavitha and Sahalie, Julie and Hirozane-Kishikawa, Tomoko and Gebreab, Fana and Li, Na and Simonis, Nicolas and others},
+  journal={Science},
+  volume={322},
+  number={5898},
+  pages={104--110},
+  year={2008},
+  publisher={American Association for the Advancement of Science}
+}
+

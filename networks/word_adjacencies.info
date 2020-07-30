@@ -1,5 +1,21 @@
+# Source
+Newman: Word adjacencies
+
+# Description
 Adjacency network of common adjectives and nouns in the novel David Copperfield by Charles Dickens.
 
+# URL
+http://www-personal.umich.edu/~mejn/netdata/adjnoun.zip
 http://www-personal.umich.edu/~mejn/netdata/
 
-M. E. J. Newman, Phys. Rev. E 74, 036104 (2006).
+# Tag
+linguistic
+
+# Bibtex
+@misc{newman_2020,
+     title={Network data},
+     url={http://www-personal.umich.edu/~mejn/netdata/},
+     journal={Mark Newman's personal website},
+     author={Newman, Mark},
+     year={2020}
+}

@@ -1,8 +1,35 @@
-KONECT: This is a network of protein–protein interactions in the species Homo sapiens. 
+# Source
+KONECT: Reactome
+
+# Description
+This is a network of protein–protein interactions in the species Homo sapiens. 
 The data is curated by the Reactome project, an open online database of biological pathways.
 
-http://konect.uni-koblenz.de/networks/reactome
+# URL
+http://konect.cc/files/download.tsv.reactome.tar.bz2
+http://konect.cc/networks/reactome/
 http://www.reactome.org/pages/download-data/
 
-[1] 	Reactome network dataset -- KONECT, April 2017. [ http ]
-[2] 	G. Joshi-Tope, Marc Gillespie, Imre Vastrik, Peter D'Eustachio, Esther Schmidt, Bernard de Bono, Bijay Jassal, GR Gopinath, GR Wu, Lisa Matthews, et al. Reactome: A knowledgebase of biological pathways. Nucleic Acids Research, 33(suppl 1):D428--D432, 2005. 
+# Tags
+biology, interaction, protein
+
+# Bibtex
+@inproceedings{kunegis2013konect,
+  title={Konect: the koblenz network collection},
+  author={Kunegis, J{\'e}r{\^o}me},
+  booktitle={Proceedings of the 22nd International Conference on World Wide Web},
+  pages={1343--1350},
+  year={2013}
+}
+
+@article{joshi2005reactome,
+  title={Reactome: a knowledgebase of biological pathways},
+  author={Joshi-Tope, G and Gillespie, Marc and Vastrik, Imre and D'Eustachio, Peter and Schmidt, Esther and de Bono, Bernard and Jassal, Bijay and Gopinath, GR and Wu, GR and Matthews, Lisa and others},
+  journal={Nucleic acids research},
+  volume={33},
+  number={suppl\_1},
+  pages={D428--D432},
+  year={2005},
+  publisher={Oxford University Press}
+}
+

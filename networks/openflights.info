@@ -1,5 +1,32 @@
-KONECT: This directed network contains flights between airports of the world. A directed 
+# Source
+KONECT: OpenFlights (Opsahl)
+
+# Description
+This directed network contains flights between airports of the world. A directed 
 edge represents a flight from one airport to another. This dataset is extracted from 
 Openflights.org data and corresponds to network 14c in the dataset list by Tore Opsahl.
 
-Opsahl, T., 2011. Why Anchorage is not (that) important: Binary ties and Sample selection. Available at http://wp.me/poFcY-Vw.
+# URL
+http://konect.cc/files/download.tsv.opsahl-openflights.tar.bz2
+http://konect.cc/networks/opsahl-openflights/
+https://toreopsahl.com/2011/08/12/why-anchorage-is-not-that-important-binary-ties-and-sample-selection/
+
+# Tags
+infrastructure, transportation
+
+# Bibtex
+@inproceedings{kunegis2013konect,
+  title={Konect: the koblenz network collection},
+  author={Kunegis, J{\'e}r{\^o}me},
+  booktitle={Proceedings of the 22nd International Conference on World Wide Web},
+  pages={1343--1350},
+  year={2013}
+}
+
+@article{opsahl2011anchorage,
+  title={Why anchorage is not (that) important: Binary ties and sample selection},
+  author={Opsahl, Tore},
+  journal={[online] https://toreopsahl.com/2011/08/12/why-anchorage-is-not-that-important-binary-ties-and-sample-selection/ (accessed September 2013)},
+  year={2011}
+}
+

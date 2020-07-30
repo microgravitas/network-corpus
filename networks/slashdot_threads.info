@@ -1,10 +1,19 @@
+# Source
 KONECT: Slashdot threads
+
+# Description
 This is the reply network of technology website Slashdot.  Nodes are users and
 edges are replies. The edges are directed and start from the responding user.
 Edges are annotated with the timestamp of the reply.
 
-http://konect.uni-koblenz.de/downloads/tsv/slashdot-threads.tar.bz2
+# URL
+http://konect.cc/files/download.tsv.slashdot-threads.tar.bz2
+http://konect.cc/networks/slashdot-threads/
 
+# Tags
+technology, social, communication
+
+# Bibtex
 @MISC{konect:2017:slashdot-threads,
     title = {Slashdot threads network dataset -- {KONECT}},
     month = apr,

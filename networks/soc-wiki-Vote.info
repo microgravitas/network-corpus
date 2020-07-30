@@ -1,8 +1,41 @@
-Taken from http://networkrepository.com/
+# Source
+Network Repository: Soc-Wiki-Vote
+
+# Description
+This networks seems to based on a wikipedia voting network collected
+by Leskovec, Huttenlocher, and Kleinberg (https://snap.stanford.edu/data/wiki-Vote.html)
+but contains much fewer nodes. 
+
+Network Repository's description states that 
+  "The dataset contains all the Wikipedia voting data from the inception of 
+   Wikipedia till January 2008. Nodes in the network represent wikipedia users 
+   and a directed edge from node i to node j represents that user i voted on user j."
+which matches the metadata of the SNAP dataset. 
+
+It is unclear how this network was created exaclty and it might be prudent to exlude
+it from certain analyses.
+
+# URL
+http://nrvis.com/download/data/soc/soc-wiki-Vote.zip
+http://networkrepository.com/soc_wiki_Vote.php
+
+# Tags
+social, trust, dodgy
+
+# Bibtex
 @inproceedings{nr-aaai15,
       title = {The Network Data Repository with Interactive Graph Analytics and Visualization},
       author={Ryan A. Rossi and Nesreen K. Ahmed},
       booktitle = {Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence},
       url={http://networkrepository.com},
       year={2015}
+}
+
+@inproceedings{leskovec2010signed,
+     title={Signed networks in social media},
+     author={Leskovec, Jure and Huttenlocher, Daniel and Kleinberg, Jon},
+     booktitle={Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+     pages={1361--1370},
+     year={2010},
+     organization={ACM}
 }

@@ -1,16 +1,38 @@
-SuiteSparse: California
-Pajek network: Kleinberg's web search of "California"
+# Source
+Pajek: Kleinberg's web graphs (California)
 
-Pajek network converted to sparse adjacency matrix for inclusion in UF sparse
-matrix collection, Tim Davis.  For Pajek datasets, See V. Batagelj & A. Mrvar,
-http://vlado.fmf.uni-lj.si/pub/networks/data/.
-California - Pages matching the query "California".
-This graph was constructed by expanding a 200-page response set to
-a search engine query 'California', as in the hub/authority algorithm.
-from Jon Kleinberg:
-http://www.cs.cornell.edu/courses/cs685/2002fa/
-adapted for Pajek, V. Batagelj, March 19, 2006
-0 -> 9664
+# Description
+This graph was constructed by expanding a 200-page response 
+set to a search engine query 'California', as in the 
+hub/authority algorithm. Obtained from 
+[Jon Kleinberg's page](http://www.cs.cornell.edu/courses/cs685/2002fa/).
+Adapted for Pajek by V. Batagelj, March 19, 2006.
 
-https://sparse.tamu.edu/Pajek/California
+# URL
 https://sparse.tamu.edu/MM/Pajek/California.tar.gz
+http://vlado.fmf.uni-lj.si/pub/networks/data/web/California.net
+http://vlado.fmf.uni-lj.si/pub/networks/data/mix/mixed.htm
+
+# Tag
+technology, web
+
+# Bibtex
+@article{langville2006reordering,
+  title={A reordering for the PageRank problem},
+  author={Langville, Amy N and Meyer, Carl D},
+  journal={SIAM Journal on Scientific Computing},
+  volume={27},
+  number={6},
+  pages={2112--2120},
+  year={2006},
+  publisher={SIAM}
+}
+
+@inproceedings{kleinberg1998authoritative,
+  title={Authoritative sources in a hyperlinked environment},
+  author={Kleinberg, Jon M},
+  booktitle={Proceedings of the ninth annual ACM-SIAM symposium on Discrete algorithms},
+  pages={668--677},
+  year={1998}
+}
+

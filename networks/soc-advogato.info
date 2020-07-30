@@ -1,9 +1,40 @@
-Taken from networkrepository.com
+# Source
+KONECT: Advogato
 
-@inproceedings{nr-aaai15,
-      title = {The Network Data Repository with Interactive Graph Analytics and Visualization},
-      author={Ryan A. Rossi and Nesreen K. Ahmed},
-      booktitle = {Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence},
-      url={http://networkrepository.com},
-      year={2015}
+# Description
+This is the trust network of Advogato. Advogato is an online community 
+platform for developers of free software launched in 1999. Nodes are 
+users of Advogato and the directed edges represent trust relationships.
+ A trust link is called a "certification" on Advogato, and three different 
+levels of certifications are possible on Advogato, corresponding to three 
+different edge weights in the original dataset.
+
+It is possible to trust oneself on Advogato, and therefore the original 
+network contained loops. 
+
+# URL
+http://konect.cc/files/download.tsv.advogato.tar.bz2
+http://konect.cc/networks/advogato/
+
+# Tags
+social, trust
+
+
+# Bibtex
+@inproceedings{kunegis2013konect,
+  title={Konect: the koblenz network collection},
+  author={Kunegis, J{\'e}r{\^o}me},
+  booktitle={Proceedings of the 22nd International Conference on World Wide Web},
+  pages={1343--1350},
+  year={2013}
 }
+
+@inproceedings{massa2009bowling,
+  title={Bowling alone and trust decline in social network sites},
+  author={Massa, Paolo and Salvetti, Martino and Tomasoni, Danilo},
+  booktitle={2009 Eighth IEEE International Conference on Dependable, Autonomic and Secure Computing},
+  pages={658--663},
+  year={2009},
+  organization={IEEE}
+}
+

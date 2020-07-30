@@ -1,8 +1,10 @@
-Source: http://www.thearda.com/Archive/Files/Descriptions/TERRNET.asp
+# Source
+[Corpus]: Noordin terror relation
 
-Relationship between 79 individuals related to the Muslim extremist Noordin Top. 
-The network is an aggregate of the friendship, kinship and classmates relations
-found in the original dataset.
+# Description
+Relationship between 79 individuals related to the Muslim extremist Noordin Top
+and 65 relevant locations (in the wider sense). The locations are aggregated from 
+the operations, training exercises and relevant locations listed in the dataset.
 
 "The Noordin Top Terrorist Network Data were drawn primarily from "Terrorism in
 Indonesia: Noordin's Networks," a publication of the International Crisis
@@ -14,7 +16,21 @@ classmates, kin, friends, and co-religionists, and it details which
 individuals provided logistical support or participated in training events,
 terrorist operations, and meetings."
 
-Citation:
+This network shows the personal relations between the members of the group.
 
-Roberts, Nancy and Sean F. Everton. 2011. Roberts and Everton Terrorist Data: 
-Noordin Top Terrorist Network (Subset). [Machine-readable data file]
+# URL
+https://osf.io/7gw4z/download
+http://www.thearda.com/Archive/Files/Descriptions/TERRNET.asp
+
+# Tags
+social, community
+
+# Bibtex
+
+@article{roberts2011roberts,
+  title={Roberts and everton terrorist data: Noordin top terrorist network (subset)},
+  author={Roberts, Nancy},
+  journal={Machinereadable data file},
+  year={2011}
+}
+

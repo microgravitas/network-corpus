@@ -1,10 +1,27 @@
-SuiteSparse: Zewail
-Pajek network: Zewail citation network
+# Source
+Pajek: Zewail citation network
 
-Pajek network converted to sparse adjacency matrix for inclusion in UF sparse
-matrix collection, Tim Davis.  For Pajek datasets, See V. Batagelj & A. Mrvar,
-http://vlado.fmf.uni-lj.si/pub/networks/data/.
-Articles citing and by AH Zewail, 1970-2002, Wed Jul 31 15:46:38 2002
+# Description
+Citation network in Pajek's format obtained from the Garfield's collection 
+of citation network datasets produced using HistCite software. This network
+is the result of searching in the WebofScience and are used with the permission 
+of ISI of Philadelphia. Please acknowledge this when publishing results based 
+on these data.
 
-https://sparse.tamu.edu/Pajek/Zewail
+
+# URL
 https://sparse.tamu.edu/MM/Pajek/Zewail.tar.gz
+http://vlado.fmf.uni-lj.si/pub/networks/data/cite/Zewail.zip
+http://vlado.fmf.uni-lj.si/pub/networks/data/cite/default.htm
+
+# Tags
+social, science, citation
+
+# Bibtex
+@techreport{garfield1964use,
+  title={The use of citation data in writing the history of science},
+  author={Garfield, Eugene and Sher, Irving H and Torpie, Richard J},
+  year={1964},
+  institution={INSTITUTE FOR SCIENTIFIC INFORMATION INC PHILADELPHIA PA}
+}
+

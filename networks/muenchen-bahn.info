@@ -1,20 +1,21 @@
+# Source
+[Corpus]: Muenchen-bahn
+
+# Description
 The Munich U- and S-Bahn network reconstructed from wikipedia data
-(http://en.wikipedia.org/wiki/Munich_S-Bahn,
- http://en.wikipedia.org/wiki/Munich_U-Bahn).
+(http://en.wikipedia.org/wiki/Munich_S-Bahn, http://en.wikipedia.org/wiki/Munich_U-Bahn).
+The network was obtained from the raw data by applying the following
+rules:
+1. For each train line in the data, every serviced station is treated as 
+a node of the network
 
-"We extracted the Munich U–and S–Bahn network from two Wikipedia
-websites [72], [73]. In a first step we transformed the network by the
-following rules:
-• For each train line we treated each passed station of that line as
-a unique node.
-• If a station formally is passed by two or more lines we created
-a new super node and connected it to an edge with each of the
-unique line–station nodes.
-In a second step we set the distance of all edges to an arbitrary unit
-length. We created three graphs out of the transformed source: The
-Munich U–Bahn, the Munich S–Bahn and the combined Munich U–
-and S–Bahn network (cf. Figure 4)."
+2. If a station is services by two or more lines, a new super-node
+is added and connected with each of the unique line–station nodes.
 
+# Tags
+technology, infrastructure, transportation
+
+# Bibtex
 @thesis{sequoiavstheworld,
 	author={Rrafael Przybylski}, 
 	title={Sequoia vs The World},

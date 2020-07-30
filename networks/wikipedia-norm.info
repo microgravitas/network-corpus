@@ -1,8 +1,33 @@
-ICON: The network of Wikipedia pages on editorial norms, in 2015. 
-Nodes are wikipedia entries, and two entries are linked by a directed edge if one hyperlinks to the other.
+# Source
+Misc: Wikipedia norms
+
+# Description
+The network of Wikipedia pages on editorial norms in 2015, collated
+by Heaberlin and DeDeo. Nodes are wikipedia entries, and two entries 
+are linked by a directed edge if one hyperlinks to the other.
+
 Editorial norms cover content creation, interactions between users, and formal administrative structure 
 among users and admins. Metadata includes page creation time, and norm category. 
 
-Original filename was links.csv
+The linked archive contains four files, then network here is cointained in `links.csv`.
+
+# URL
+http://santafe.edu/~simon/heaberlin_dedeo_norm_network.zip
 http://tuvalu.santafe.edu/~simon/styled-9/styled-10/
 
+# Tags
+web
+
+# Bibtex
+@Article{bradi16,
+    AUTHOR = {Heaberlin, Bradi and DeDeo, Simon},
+    TITLE = {The Evolution of {W}ikipedia's Norm Network},
+    JOURNAL = {Future Internet},
+    VOLUME = {8},
+    YEAR = {2016},
+    NUMBER = {2},
+    PAGES = {14},
+    URL = {http://www.mdpi.com/1999-5903/8/2/14},
+    ISSN = {1999-5903},
+    DOI = {10.3390/fi8020014}
+}

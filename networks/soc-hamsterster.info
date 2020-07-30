@@ -1,5 +1,13 @@
-Taken from networkrepository.com
+# Source
+Network repository: Soc-Hamsterster
 
+# Description
+Friendship between the users of the now defunct website hamsterster.com
+
+# Tags
+social, friendship
+
+# Bibtex
 @inproceedings{nr-aaai15,
   title = {The Network Data Repository with Interactive Graph Analytics and Visualization},
   author={Ryan A. Rossi and Nesreen K. Ahmed},
@@ -8,3 +16,9 @@ Taken from networkrepository.com
   year={2015}
 }
 
+
+@misc{soc-hamsterster,
+     author={Hamsterster},
+     title={Hamsterster social network},
+     note={http://www.hamsterster.com}
+}

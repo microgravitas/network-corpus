@@ -1,9 +1,37 @@
-See:
+# Source
+SNAP: Gnutella peer-to-peer network
+
+# Description
+A sequence of snapshots of the Gnutella peer-to-peer file sharing network from 
+August 2002. There are total of 9 snapshots of Gnutella network collected in 
+August 2002. Nodes represent hosts in the Gnutella network topology and edges 
+represent connections between the Gnutella hosts.
+
+# URL
 https://snap.stanford.edu/data/p2p-Gnutella04.html
+https://snap.stanford.edu/data/p2p-Gnutella04.txt.gz
 
-Cite:
-J. Leskovec, J. Kleinberg and C. Faloutsos. Graph Evolution: Densification and Shrinking Diameters. ACM Transactions on Knowledge Discovery from Data (ACM TKDD), 1(1), 2007.
+# Tags
+technology, communication
 
-M. Ripeanu and I. Foster and A. Iamnitchi. Mapping the Gnutella Network: Properties of Large-Scale Peer-to-Peer Systems and Implications for System Design. IEEE Internet Computing Journal, 2002
+# Bibtex
+@article{leskovec2007graph,
+  title={Graph evolution: Densification and shrinking diameters},
+  author={Leskovec, Jure and Kleinberg, Jon and Faloutsos, Christos},
+  journal={ACM transactions on Knowledge Discovery from Data (TKDD)},
+  volume={1},
+  number={1},
+  pages={2--es},
+  year={2007},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{ripeanu2002mapping,
+  title={Mapping the gnutella network: Properties of large-scale peer-to-peer systems and implications for system design},
+  author={Ripeanu, Matei and Foster, Ian and Iamnitchi, Adriana},
+  journal={arXiv preprint cs/0209028},
+  year={2002}
+}
+
 
 

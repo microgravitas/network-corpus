@@ -1,9 +1,15 @@
-Taken from http://networkrepository.com.
+# Source
+Network Repository: web-google
 
-@inproceedings{nr,
-     title={The Network Data Repository with Interactive Graph Analytics and Visualization},
-     author={Ryan A. Rossi and Nesreen K. Ahmed},
-     booktitle={Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence},
-     url={http://networkrepository.com},
-     year={2015}
-}
+# Description
+This networks seems to based on a Google web graph based on data from
+a 2002 Google programming contest.
+
+The network repository data has changed in the meantime, including the
+(probably correct) ~800K network that is also part of the SNAP dataset
+(https://snap.stanford.edu/data/web-Google.html). 
+
+# Tags
+web, dodgy
+
+

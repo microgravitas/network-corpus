@@ -1,4 +1,19 @@
-ICON: Network of interactions among cortical regions in the Rhesus brain, extracted from tract tracing studies collated in the CoCoMac database 
+# Source 
+NeuroData: Macaque
 
-Original filename rhesus_brain_1.graphml
-openconnecto.me/graph-services/download/
+# Description
+A map of neurological connections for the retina of a macaque specimen. 
+The original data contained a lot of parallel edges.
+
+# URL
+https://s3.amazonaws.com/connectome-graphs/macaque/rhesus_brain_1.graphml
+https://neurodata.io/project/connectomes/
+
+# Tags
+biology, connectome
+
+# Bibtex
+@misc{connectomes, 
+    url={https://neurodata.io/project/connectomes/}, 
+    journal={NeuroData website}
+} 

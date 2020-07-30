@@ -1,9 +1,24 @@
-Taken from http://networkrepository.com/
+# Source
+SNAP: Google+ (NIPS)
 
-@inproceedings{nr-aaai15,
-	title = {The Network Data Repository with Interactive Graph Analytics and Visualization},
-	author={Ryan A. Rossi and Nesreen K. Ahmed},
-	booktitle = {Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence},
-	url={http://networkrepository.com},
-	year={2015}
+# Description
+This directed network contains Google+ user–user links. 
+A node represents a user, and a (directed) edge denotes that one 
+user has the other user in his circles. 
+
+# URL
+http://konect.cc/files/download.tsv.ego-gplus.tar.bz2
+http://konect.cc/networks/ego-gplus/
+
+# Tags
+social, friendship
+
+# Bibtex
+@inproceedings{leskovec2012learning,
+  title={Learning to discover social circles in ego networks},
+  author={Leskovec, Jure and Mcauley, Julian J},
+  booktitle={Advances in neural information processing systems},
+  pages={539--547},
+  year={2012}
 }
+

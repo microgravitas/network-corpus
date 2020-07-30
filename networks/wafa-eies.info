@@ -1,36 +1,38 @@
-There are five network examples: Krackhardt's high-tech managers, 
-Padgett's Florentine families, Freeman's EIES network, Countries trade network, 
-and Galaskiewicz's CEOs and clubs network.
+# Source
+Pajek: Wasserman and Faust datasets
 
-Description
-
-HighTech.paj - multirelational network with 21 vertices and 190+102+20 arcs
-Padgett.paj - multirelational network with 16 vertices and 30+40 arcs
-EIES.paj - multirelational network with 48/32 vertices and 695+830/460 arcs
-Trade.paj - multirelational network with 24 vertices and 307+307+310+135+369 arcs
-CEOs.net - two-mode network with 41 vertices and 98 edges.
-
-Download
-
-all datasets (ZIP, 10K)
-Background
+# Description
+Wasserman and Faust provided five network in their work on social network
+analysis: Krackhardt's high-tech managers, Padgett's Florentine families, 
+Freeman's EIES network, Countries trade network, and Galaskiewicz's CEOs 
+and clubs network. The trade network has been exluded here since it is 
+actually a collection of small networks.
 
 Complete descriptions of these data, including references for the original sources 
 of the data, can be found in Chapter 2 (pages 59- 66) and Appendix B (pages 738-755)
 of Wasserman and Faust.
 
-The original data in ASCII, UCINET and KrackPlot formats are available at INSNA.
-History
+The network relates acquaintanceship among a group of researchers recorded at two 
+time points, one before, and one seven months after the introduction to the then 
+novel phenomenon of communication by computer based on the pioneering Electronic 
+Information Exchange System (EIES). EIES afforded what we would call today "newsgroups" 
+(collective discussions for the entire group), and more selective "electronic mail" 
+(one-to-one or one-to-many). Acquaintanceship was recorded on each pair of researchers 
+on a five-point scale.
 
-1.   INSNA page.
-2.   Transformed in Pajek format by V. Batagelj, 15. January 2005.
-
-Files
-
-wafa-hightech.net (HighTech.paj) - Krackhardt's High-tech managers
-wafa-padgett.net (Padgett.paj) - Padgett's Florentine Families
-wafa-eies.net (EIES.paj) - Freeman's EIES network
-wafa-trade.net (Trade.paj) - Countries trade data
-wafa-ceos.net (CEOs.net) - Galaskiewicz's CEOs and clubs. 
-
+# URL
+http://vlado.fmf.uni-lj.si/pub/networks/data/WaFa/EIES.paj
 http://vlado.fmf.uni-lj.si/pub/networks/data/WaFa/default.htm
+
+# Tags
+social, collaboration, survey
+
+# Bibtex
+@book{wasserman1994social,
+  title={Social network analysis: Methods and applications},
+  author={Wasserman, Stanley and Faust, Katherine and others},
+  volume={8},
+  year={1994},
+  publisher={Cambridge university press}
+}
+

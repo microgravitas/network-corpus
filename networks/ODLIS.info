@@ -1,9 +1,29 @@
-SuiteSparse: ODLIS
-Pajek network: online dictionary of library & inf. sci
+# Source
+Pajek: ODLIS
 
-Pajek network converted to sparse adjacency matrix for inclusion in UF sparse
-matrix collection, Tim Davis.  For Pajek datasets, See V. Batagelj & A. Mrvar,
-http://vlado.fmf.uni-lj.si/pub/networks/data/.
+# Description
 
-https://sparse.tamu.edu/Pajek/ODLIS
-https://sparse.tamu.edu/MM/Pajek/ODLIS.tar.gz
+ODLIS is designed to be a hypertext reference resource for library and information science professionals, university students and faculty, and users of all types of libraries. The primary criterion for including a new term is whether a librarian or other information professional might reasonably be expected to encounter it at some point in her career, or be required to know its meaning in the course of executing her responsibilities as a librarian. 
+
+An arc (x,y) from term x to term y exists in the network iff in the ODLIS dictionary the term y is used to describe the meaning of term x.
+
+ODLIS is the work of Joan M. Reitz, Assistant Professor/Instruction Librarian at the Ruth A. Haas Library, Western Connecticut State University (WCSU) in Danbury.
+
+# URL
+http://vlado.fmf.uni-lj.si/pub/networks/data/dic/odlis/odlis.zip
+http://vlado.fmf.uni-lj.si/pub/networks/data/dic/odlis/Odlis.htm
+
+
+# Tags
+ontology
+
+# Bibtex
+@book{reitz1996odlis,
+  title={ODLIS: Online dictionary of library and information science},
+  author={Reitz, Joan M},
+  year={1996},
+  publisher={WCSU Libraries}
+}
+
+
+

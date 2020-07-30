@@ -1,3 +1,7 @@
+# Source
+Pajek: Roget
+
+# Description
 The network Roget.net is based on the file roget.dat from the Stanford 
 GraphBase that contains cross-references in Roget's Thesaurus, 1879. 
 
@@ -8,15 +12,19 @@ Roget gave a reference to the latter among the words and phrases of the
 former, or if the two categories were directly related to each other by 
 their positions in Roget's book.
 
-History
-1.   Original Roget's Thesaurus was published in 1852.
-2.   Peter's son John Luis Roget published the second, improved edition in 1879.
-3.   Project Gutenberg Roget's Thesaurus (1911 edition) put into electronic format in 1991.
-4.   Graph Roget.dat of cross-references based on the second edition was produced for Stanford GraphBase (SGB) in 1992/3.
-5.   MICRA (Pat Cassidy) prepared the electronic version of the 1911 Roget's Thesaurus that is widely available on the internet.
-6.   SGB Roget.dat transformed in Pajek format: A. Mrvar, 5. December 1996.
 
-
-Original file name roget.net
-
+# URL
+http://vlado.fmf.uni-lj.si/pub/networks/data/dic/roget/Roget.zip
 http://vlado.fmf.uni-lj.si/pub/networks/data/dic/roget/Roget.htm
+
+# Tags
+linguistic
+
+# Bibtex
+@book{knuth1993stanford,
+  title={The Stanford GraphBase: a platform for combinatorial computing},
+  author={Knuth, Donald Ervin},
+  year={1993},
+  publisher={AcM Press New York}
+}
+

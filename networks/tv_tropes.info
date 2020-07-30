@@ -1,11 +1,20 @@
+# Source
 KONECT: TV Tropes
+
+# Description
 This is the bipartite network of TV Tropes (tvtropes.org), characterising
 artistic works by their tropes. Each edge connects a work (such as a movie, a
 novel, etc.) to one trope (stylistic convention or device).  The network was
 extracted by the DBTropes project (dbtropes.org).
 
-http://konect.uni-koblenz.de/downloads/tsv/dbtropes-feature.tar.bz2
+# URL
+http://konect.cc/files/download.tsv.dbtropes-feature.tar.bz2
+http://konect.cc/networks/dbtropes-feature/
 
+# Tags
+ontology
+
+# Bibtex
 @MISC{konect:2017:dbtropes-feature,
     title = {TV Tropes network dataset -- {KONECT}},
     month = apr,

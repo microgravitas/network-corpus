@@ -1,4 +1,30 @@
-Source: http://www.sociopatterns.org/datasets/primary-school-cumulative-networks/
-Cite: High-Resolution Measurements of Face-to-Face Contact Patterns in a Primary School.
-Juliette Stehlé, Nicolas Voirin, Alain Barrat, Ciro Cattuto, Lorenzo Isella, Jean-François Pinton, Marco Quaggiotto, Wouter Van den Broeck, Corinne Régis, Bruno Lina and Philippe Vanhems. PLOS ONE 6(8): e23176. doi:10.1371/journal.pone.0023176
+# Source
+SocioPatterns: Primary school
+
+# Description
+This dataset is part of a study of contact networks in a primary school, as reported in 
+the paper cited below. The original dataset comprised two weighted networks of face-to-face 
+proximity between students and teachers. For each day of the study, a daily contact network 
+was created: nodes are individuals and edges represent face-to-face interactions.  
+
+The network contained in the corpus is from the second day of the study.
+
+# URL
+http://www.sociopatterns.org/wp-content/uploads/2014/05/sp_data_school_day_2_g.gexf_.gz
+http://www.sociopatterns.org/datasets/primary-school-cumulative-networks/
+
+# Tags
+socail, contact
+
+# Bibtex
+@article{stehle2011high,
+  title={High-resolution measurements of face-to-face contact patterns in a primary school},
+  author={Stehl{\'e}, Juliette and Voirin, Nicolas and Barrat, Alain and Cattuto, Ciro and Isella, Lorenzo and Pinton, Jean-Fran{\c{c}}ois and Quaggiotto, Marco and Van den Broeck, Wouter and R{\'e}gis, Corinne and Lina, Bruno and others},
+  journal={PloS one},
+  volume={6},
+  number={8},
+  pages={e23176},
+  year={2011},
+  publisher={Public Library of Science}
+}
 

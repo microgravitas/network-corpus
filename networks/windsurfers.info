@@ -1,10 +1,21 @@
+# Source
 KONECT: Windsurfers
-This undirected network contains interpersonal contacts between windsurfers in
-southern California during the fall of 1986. A node represents a windsurfer and
-an edge between two windsurfers shows that there was a interpersonal contact.
 
-http://konect.uni-koblenz.de/downloads/tsv/moreno_beach.tar.bz2
+# Description
+This was a study of windsurfers on a beach in southern California during the fall of 1986.
+The windsurfing community was fairly clearly divided into at least two sub-communities. 
+Members of each community seemed, to some degree, to limit their interaction to 
+fellow group members. Contacts between members of the two groups occurred, but these were 
+less frequent. Observations of 43 individuals were made for 31 days. All interpersonal 
+contacts among collections of these individuals were recorded. Then all 43 individuals 
+were interviewed following the end of observation. Data on each individual's perception 
+of social affiliations were collected.
 
+# URL
+http://konect.cc/files/download.tsv.moreno_beach.tar.bz2
+http://konect.cc/networks/moreno_beach/
+
+# Bibtex
 @MISC{konect:2017:moreno_beach,
     title = {Windsurfers network dataset -- {KONECT}},
     month = apr,
@@ -12,14 +23,24 @@ http://konect.uni-koblenz.de/downloads/tsv/moreno_beach.tar.bz2
     url = {http://konect.uni-koblenz.de/networks/moreno_beach}
 }
 
-@article{konect:freeman1988,
-  title={On Human Social Intelligence},
-  author={Freeman, Linton C. and Freeman, Sue C. and Michaelson, Alaina G.},
-  journal={J. of Social and Biological Structures},
+@article{freeman1988human,
+  title={On human social intelligence},
+  author={Freeman, Linton C and Freeman, Sue C and Michaelson, Alaina G},
+  journal={Journal of Social and Biological Structures},
   volume={11},
   number={4},
   pages={415--425},
   year={1988},
   publisher={Elsevier}
+}
+
+@article{freeman1989humans,
+  title={How humans see social groups: A test of the Sailer-Gaulin models},
+  author={Freeman, Linton C and Freeman, Sue C and Michaelson, Alaina G},
+  journal={Journal of Quantitative Anthropology},
+  volume={1},
+  number={3},
+  pages={229--238},
+  year={1989}
 }
 

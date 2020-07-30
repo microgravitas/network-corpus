@@ -10,6 +10,7 @@ the paper does not mention how the dataset was collated.
 http://konect.uni-koblenz.de/downloads/tsv/actor-movie.tar.bz2
 
 # Tags
+social, professional
 
 # Bibtex
 @MISC{konect:2017:actor-movie,

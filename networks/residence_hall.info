@@ -1,10 +1,31 @@
+# Source
 KONECT: Residence hall
-This directed network contains friendship ratings between 217 residents living
-at a residence hall located on the Australian National University campus. A node
-represents a person and
 
-http://konect.uni-koblenz.de/downloads/tsv/moreno_oz.tar.bz2
+# Description
+ Cynthia Webster collected friendship data among the 217 residents living 
+at a residence hall located on the Australian National University campus.
+ Residents were interviewed individually at the start of the second semester.
 
+First, they were asked to recall all of their friends who currently lived 
+in the residence hall. They then were provided with a list of all residents 
+and were asked to add anyone whom they also considered a friend, but had 
+forgotten to include. From the complete list of friends, they were asked 
+to indicate the strength of each friendship tie. Most specified three 
+levels of friendship, "best friend," "close friend," and "friend." 
+The data were combined to form a valued, actor-by-actor matrix of 
+reported friendship relations. 
+
+The network in this corpus simply treats every non-zero entry as an edge.
+
+# URL
+http://konect.cc/downloads/tsv/moreno_oz.tar.bz2
+http://konect.cc/networks/moreno_oz/
+http://moreno.ss.uci.edu/data.html#oz
+
+# Tags
+social, friendship, survey
+
+# Bibtex
 @MISC{konect:2017:moreno_oz,
     title = {Residence hall network dataset -- {KONECT}},
     month = apr,

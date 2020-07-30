@@ -1,5 +1,14 @@
-A network of tags from the StackOverflow website. Two tags are connected to each
-other if they appear in a common thread. The original dataset is weighted, we retain
-all edges here.
+# Source
+Kaggle: Stack Overflow Tag Network
 
+# Description
+A network of tags from the StackOverflow website. Two tags are connected to each
+other if they appear in a common thread. The original dataset is weighted, every
+edge with a non-zero weight is included here
+
+# URL
 https://www.kaggle.com/stackoverflow/stack-overflow-tag-network
+
+# Tags
+technology, ontology
+

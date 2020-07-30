@@ -1,12 +1,18 @@
+# Source
 KONECT: Teams
+
+# Description
 The is the bipartite network of athletes and their teams, extracted from
 DBpedia. The nodes in the network are individual athletes and individual teams.
 An edge in the network connects an athlete with a team the athlete has played
 in. The dataset was extracted from DBpedia and corresponds to the
-<http://dbpedia.org/ontology/team> relationship type.
+[team relationship type](http://dbpedia.org/ontology/team).
 
-http://konect.uni-koblenz.de/downloads/tsv/dbpedia-team.tar.bz2
+# URL
+http://konect.cc/files/download.tsv.dbpedia-team.tar.bz2
+http://konect.cc/networks/dbpedia-team/
 
+# Bibtex
 @MISC{konect:2017:dbpedia-team,
     title = {Teams network dataset -- {KONECT}},
     month = apr,

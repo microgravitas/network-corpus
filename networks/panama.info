@@ -1,7 +1,17 @@
-A network of different financial entities derived from the 'Panama Papers'.
-data release. Nodes that are connected by the 'same_as' relationship in the dataset have
-been merged into a single node, otherwise it reflects exactly the edges of the file
-'panama_papers.edges.csv'.
+# Source
+[CORPUS]: offshore
 
-https://panamapapers.icij.org/#_ga=2.223913304.2103011006.1517848505-1613031997.1517848505
+# Description
+A network of different financial entities derived from the [Panama Papers](https://offshoreleaks.icij.org/pages/database).
+data release. Nodes that are connected by the `same_as` relationship in the dataset have
+been merged into a single node, otherwise it reflects exactly the edges of the file
+`panama_papers.edges.csv`.
+
+# URL
+https://offshoreleaks-data.icij.org/offshoreleaks/csv/csv_panama_papers.2018-02-14.zip
 https://offshoreleaks.icij.org/pages/database
+
+# Tags
+economic, financial
+
+

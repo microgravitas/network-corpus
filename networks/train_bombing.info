@@ -1,4 +1,7 @@
+# Source
 KONECT: Train bombing
+
+# Description
 This undirected network contains contacts between suspected terrorists involved
 in the train bombing of Madrid on March 11, 2004 as reconstructed from
 newspapers. A node represents a terrorist and an edge between two terrorists
@@ -6,8 +9,14 @@ shows that there was a contact between the two terroists. The edge weights
 denote how 'strong' a connection was. This includes friendship and co-
 participating in training camps or previous attacks.
 
-http://konect.uni-koblenz.de/downloads/tsv/moreno_train.tar.bz2
+# URL
+http://konect.cc/files/download.tsv.moreno_train.tar.bz2
+http://konect.cc/networks/moreno_train/
 
+# Tags
+social, friendship, professional
+
+# Bibtex
 @MISC{konect:2017:moreno_train,
     title = {Train bombing network dataset -- {KONECT}},
     month = apr,

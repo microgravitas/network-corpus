@@ -1,6 +1,24 @@
+# Source 
+Newman: Coauthorships in network science
+
+# Description
 Coauthorship network of scientists working on network theory and experiment, as compiled 
 by M. Newman in May 2006. 
 
+# URL
+http://www-personal.umich.edu/~mejn/netdata/netscience.zip
 http://www-personal.umich.edu/~mejn/netdata/
 
-M. E. J. Newman, Phys. Rev. E 74, 036104 (2006).
+# Tags
+social, collaboration
+
+# Bibtex 
+@misc{newman_2020,
+     title={Network data},
+     url={http://www-personal.umich.edu/~mejn/netdata/},
+     journal={Mark Newman's personal website},
+     author={Newman, Mark},
+     year={2020}
+}
+
+

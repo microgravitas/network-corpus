@@ -1,9 +1,27 @@
-SNAP: This is a who-trust-whom online social network of a a general 
+# Source
+SNAP: Epinions social network
+
+# Description
+This is a who-trust-whom online social network of a a general 
 consumer review site Epinions.com. Members of the site can decide 
-whether to ''trust'' each other. All the trust relationships interact 
+whether to "trust" each other. All the trust relationships interact 
 and form the Web of Trust which is then combined with review ratings 
 to determine which reviews are shown to the user.
 
-M. Richardson and R. Agrawal and P. Domingos. Trust Management for the Semantic Web. ISWC, 2003.
-
+# URL
+http://snap.stanford.edu/data/soc-Epinions1.txt.gz
 http://snap.stanford.edu/data/soc-Epinions1.html
+
+# Tags
+social, professional
+
+# Bibtex
+@inproceedings{richardson2003trust,
+  title={Trust management for the semantic web},
+  author={Richardson, Matthew and Agrawal, Rakesh and Domingos, Pedro},
+  booktitle={International semantic Web conference},
+  pages={351--368},
+  year={2003},
+  organization={Springer}
+}
+
