@@ -1,0 +1,27 @@
+# Source
+CoMuNe: Cannes2013
+
+# Description
+Omodei et al. considered different types of social relationships among Twitter users
+during an exceptional event. This dataset concerns the Cannes Film Festival in 2013.
+Each edge in the network corresponds to a retweet, mention or reply between
+2013-05-06 07:23:49 and 2013-06-03 05:48:26.
+
+# URL
+https://comunelab.fbk.eu/data/Cannes2013_Multiplex_Social.zip
+https://comunelab.fbk.eu/data.php
+
+# Tags
+social, technology, communication
+
+# Bibtex
+@article{omodei2015characterizing,
+  title={Characterizing interactions in online social networks during exceptional events},
+  author={Omodei, Elisa and De Domenico, Manlio De and Arenas, Alex},
+  journal={Frontiers in Physics},
+  volume={3},
+  pages={59},
+  year={2015},
+  publisher={Frontiers}
+}
+
