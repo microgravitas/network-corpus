@@ -1,0 +1,27 @@
+# Source
+Web of Life: M_PL_039
+
+# Description
+A foodweb of 249 species (predators and prey) from
+the Caribbean collected by Bascompte, Melian, and Sala.
+
+# URL
+http://www.web-of-life.es/networkjson.php?id=FW_008
+http://www.web-of-life.es/map.php
+
+# Tags
+biology, food_web
+
+# Bibtex
+@article{bascompte2005interaction,
+  title={Interaction strength combinations and the overfishing of a marine food web},
+  author={Bascompte, Jordi and Meli{\'a}n, Carlos J and Sala, Enric},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={102},
+  number={15},
+  pages={5443--5447},
+  year={2005},
+  publisher={National Acad Sciences}
+}
+
+
