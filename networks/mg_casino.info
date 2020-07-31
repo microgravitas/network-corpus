@@ -1,0 +1,23 @@
+# Source
+Movie Galaxies: Casino
+
+# Description
+Movie Galaxies maps social networks of charactres from popular movies.
+
+# URL
+https://moviegalaxies.com/movies/view/178/casino/
+
+# Tag
+social, fiction
+
+# Bibtex
+@misc{
+    kaminski_schober_albaladejo_zastupailo_hidalgo_2012,
+    title={Moviegalaxies - Social Networks in Movies},
+    url={http://moviegalaxies.com/},
+    journal={Moviegalaxies},
+    author={Kaminski, Jermain and Schober, Michael and Zastupailo, Oleksandr and Hidalgo, Cesar},
+    year={2012},
+    month={Dec}
+}
+
