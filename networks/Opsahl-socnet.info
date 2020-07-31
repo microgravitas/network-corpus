@@ -1,0 +1,28 @@
+# Source
+Opsahl: Facebook-like Social Network
+
+# Description
+The Facebook-like Social Network originate from an online community for students
+at University of California, Irvine. The dataset includes the users that sent or
+received at least one message (1,899). A total number of 59,835 online messages
+were set over 20,296 directed ties among these users. This dataset was the main
+dataset used in [Opsahl's Ph.D. thesis](https://toreopsahl.com/publications/thesis/).
+
+# URL
+http://opsahl.co.uk/tnet/datasets/OCnodeslinks.txt
+https://toreopsahl.com/datasets/#online_social_network
+
+# Tags
+social, technology, communication
+
+# Bibtex
+@article{opsahl2009clustering,
+  title={Clustering in weighted networks},
+  author={Opsahl, Tore and Panzarasa, Pietro},
+  journal={Social networks},
+  volume={31},
+  number={2},
+  pages={155--163},
+  year={2009},
+  publisher={Elsevier}
+}
