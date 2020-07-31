@@ -1,0 +1,25 @@
+# Source
+Web of Life: FW_014_04
+
+# Description
+A foodweb of 112 species (predators and prey) from
+Otago, New Zealand collected by Thompson and Mcintosh
+
+# URL
+http://www.web-of-life.es/networkjson.php?id=FW_014_04
+http://www.web-of-life.es/map.php
+
+# Tags
+biology, food_web
+
+# Bibtex
+@article{thompson1998disturbance,
+  title={Disturbance, resource supply, and food-web architecture in streams},
+  author={Thompson, Ross M and Mcintosh, Angus R},
+  journal={Ecology Letters},
+  volume={1},
+  pages={200{\k{a}}209},
+  year={1998}
+}
+
+
