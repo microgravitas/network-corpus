@@ -1,0 +1,38 @@
+# Source
+Konect: Adolescent health
+
+# Description
+This directed network was created from a survey that took place in 1994/1995. 
+Each student was asked to list his 5 best female and his 5 male friends. 
+A node represents a student and an edge between two students shows that the 
+left student chose the right student as a friend. In the original data, a higher 
+edge weights indicate more interactions and a zero edge weight shows that there is 
+no common activity at all. 
+
+The undirected version here was obtained by converting all arcs into edges.
+
+# URL
+http://konect.cc/files/download.tsv.moreno_health.tar.bz2
+http://konect.cc/networks/moreno_health
+
+# Tags
+social, survey, friendship
+
+# Bibtex
+@MISC{konect:2017:moreno_health,
+    title = {Adolescent health network dataset -- {KONECT}},
+    month = oct,
+    year = {2017},
+    url = {http://konect.cc/networks/moreno_health}
+}
+
+@article{konect:moody,
+	title = {Peer Influence Groups: Identifying Dense Clusters in Large Networks},
+	author = {Moody, James},
+	journal = {Soc. Netw.},
+	volume = {23},
+	number = {4},
+	pages = {261--283},
+	year = {2001},
+}
+
