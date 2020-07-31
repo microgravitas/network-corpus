@@ -10,7 +10,7 @@ two nodes denotes that they are connected by an E-road.
 http://konect.uni-koblenz.de/downloads/tsv/subelj_euroroad.tar.bz2
 
 # Tags
-technology, infrastructure, transportation,
+technology, infrastructure, transportation
 
 # Bibtex
 @MISC{konect:2017:subelj_euroroad,
