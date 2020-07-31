@@ -1,0 +1,30 @@
+# Source
+[Corpus]: Boards and Gender
+
+# Description
+Seierstad and Opsahl collected data on the makeup of board of directors of
+384 Norwegian companies in the time from 2002 to 2012. Their data is a monthly
+collection of director-board and director-director connections.
+
+We aggregated all data into two networks: boards_gender_1m contains all
+director-director connections and boards_gender_2m contains all director-board
+connections.
+
+# URL
+http://www.boardsandgender.com/data.php
+
+# Tags
+social, professional, community
+
+# Bibtex
+@article{seierstad2011few,
+  title={For the few not the many? The effects of affirmative action on presence,
+         prominence, and social capital of women directors in Norway},
+  author={Seierstad, Cathrine and Opsahl, Tore},
+  journal={Scandinavian journal of management},
+  volume={27},
+  number={1},
+  pages={44--54},
+  year={2011},
+  publisher={Elsevier}
+}
