@@ -1,0 +1,23 @@
+# Source
+Web of Life: M_PL_039
+
+# Description
+A pollination network of 1500 species (pollinators and plants) from 
+Carlinville, Illinois collected by C. Robertson.
+
+# URL
+http://www.web-of-life.es/networkjson.php?id=M_PL_039
+http://www.web-of-life.es/map.php
+
+# Tags
+biology, pollination
+
+# Bibtex
+@article{robertson1929flowers,
+  title={Flowers and insects: lists of visitors to four hundred and fifty-three flowers. Carlinville, IL, USA, C. Robertson},
+  author={Robertson, C},
+  journal={National Center for Ecological Analysis and Synthesis Interaction Web Database: http://www. nceas. ucsb. edu/interactionweb/html/robertson\_1929. html. Keywords: Lists plant-pollinator interactions for},
+  volume={456},
+  year={1929}
+}
+
