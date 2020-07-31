@@ -1,0 +1,22 @@
+# Source
+Web of Life: M_PL_015
+
+# Description
+A pollination network of 797 species (pollinators and plants) from 
+Carlinville, Illinois collected by T. Petanidou.
+
+# URL
+http://www.web-of-life.es/networkjson.php?id=M_PL_015
+http://www.web-of-life.es/map.php
+
+# Tags
+biology, pollination
+
+# Bibtex
+@article{petanidou1991pollination,
+  title={Pollination ecology in a phryganic ecosystem},
+  author={Petanidou, T},
+  journal={Thessaloniki: Aristotle University of Thessaloniki},
+  year={1991}
+}
+
