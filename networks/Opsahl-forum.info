@@ -1,0 +1,29 @@
+# Source
+Opsahl: Facebook-like Facebook-like Forum Network
+
+# Description
+The Facebook-like Forum Network was attained from the same online community as
+the online social network; however, the focus in this network is not on the
+private messages exchanged among users, but on users’ activity in the forum. The
+forum represents an interesting two-mode network among 899 users and 522 topics
+in that a weight can be assigned to the ties based on the number of messages or
+characters that a user posted to a topic.
+
+# URL
+http://opsahl.co.uk/tnet/datasets/OF_longitudinal_binary.txt
+https://toreopsahl.com/datasets/#online_social_network
+
+# Tags
+social, technology, communication
+
+# Bibtex
+@article{opsahl2013triadic,
+  title={Triadic closure in two-mode networks: Redefining the global and local clustering coefficients},
+  author={Opsahl, Tore},
+  journal={Social Networks},
+  volume={35},
+  number={2},
+  pages={159--167},
+  year={2013},
+  publisher={Elsevier}
+}
