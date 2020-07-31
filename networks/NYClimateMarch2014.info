@@ -1,0 +1,27 @@
+# Source
+CoMuNe: NYClimateMarch2014
+
+# Description
+Omodei et al. considered different types of social relationships among Twitter users
+during an exceptional event. This dataset concerns the People's Climate March in 2014.
+Each edge in the network corresponds to a retweet, mention or reply between
+2014-09-19 00:46:19 and 2014-09-22 06:56:25.
+
+# URL
+https://comunelab.fbk.eu/data/NYClimateMarch2014_Multiplex_Social.zip
+https://comunelab.fbk.eu/data.php
+
+# Tags
+social, technology, communication
+
+# Bibtex
+@article{omodei2015characterizing,
+  title={Characterizing interactions in online social networks during exceptional events},
+  author={Omodei, Elisa and De Domenico, Manlio De and Arenas, Alex},
+  journal={Frontiers in Physics},
+  volume={3},
+  pages={59},
+  year={2015},
+  publisher={Frontiers}
+}
+
