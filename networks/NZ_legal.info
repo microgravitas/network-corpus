@@ -1,0 +1,23 @@
+# Source
+Havard Dataverse: New Zealand Legislation Network. 
+
+# Description
+This dataset contains a binary citation network for the New Zealand legislation network. 
+
+# URL
+https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/GBEEV0 
+
+# Tags
+law, citation
+
+# Bibtex
+@data{DVN/GBEEV0_2016,
+    author = {Sakhaee, Neda},
+    publisher = {Harvard Dataverse},
+    title = {{Binary Citation Network}},
+    year = {2016},
+    version = {V2},
+    doi = {10.7910/DVN/GBEEV0},
+    url = {https://doi.org/10.7910/DVN/GBEEV0}
+}
+
