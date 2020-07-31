@@ -1,0 +1,22 @@
+# Source
+Web of Life: M_PL_039
+
+# Description
+A pollination network of 68 species (pollinators and plants) from the
+island of Tenerife. 
+
+# URL
+http://www.web-of-life.es/networkjson.php?id=M_PL_039
+http://www.web-of-life.es/map.php
+
+# Tags
+biology, pollination
+
+# Bibtex
+@phdthesis{stald2003struktur,
+  title={Struktur og dynamik i rum og tid at et best{\o}vningsnetv{\ae}rk p{\aa} Tenerife, De Kanariske {\O}er},
+  author={Stald, L and Valido, A and Olesen, J},
+  year={2003},
+  school={PhD thesis, MSc-thesis, University of Aarhus, Denmark}
+}
+
