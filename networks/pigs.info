@@ -1,0 +1,23 @@
+# Source
+bnlearn: win95pts
+
+# Description
+An example network used in the book on bayesian networks cited below.
+Bayesian networks are directed hypergraphs, the network here was created
+by turning a directed hyperedge (x_1,...,x_d) -> y into edges (x_i,y) for
+1 <= i <= d.
+
+# URL
+https://www.bnlearn.com/bnrepository/pigs/pigs.dsc.gz
+https://www.bnlearn.com/bnrepository/discrete-verylarge.html#pigs
+
+# Tags
+bayesian
+
+# Bibtex
+@misc{scutari2013bayesian,
+  title={Bayesian Networks in R: With Applications in Systems Biology},
+  author={Scutari, M and Lebre, S},
+  year={2013},
+  publisher={New York: Springer Verlag New York Inc}
+}
