@@ -1,5 +1,5 @@
 # Source
-bnlearn: MUNIN
+bnlearn: LINK 
 
 # Description
 The original dataset is derived from a pedigree (lineage) network.
