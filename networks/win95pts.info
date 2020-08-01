@@ -1,0 +1,15 @@
+# Source
+bnlearn: win95pts
+
+# Description
+The original network is an expert system to debug printer issues on windows 95.
+Bayesian networks are directed hypergraphs, the network here was created
+by turning a directed hyperedge (x_1,...,x_d) -> y into edges (x_i,y) for
+1 <= i <= d.
+
+# URL
+https://www.bnlearn.com/bnrepository/win95pts/win95pts.dsc.gz
+https://www.bnlearn.com/bnrepository/discrete-large.html#win95pts
+
+# Tags
+bayesian
