@@ -1,0 +1,27 @@
+# Source
+bnlearn: MUNIN
+
+# Description
+The original dataset is derived from a pedigree (lineage) network.
+Bayesian networks are directed hypergraphs, the network here was created
+by turning a directed hyperedge (x_1,...,x_d) -> y into edges (x_i,y) for
+1 <= i <= d.
+
+# URL
+https://www.bnlearn.com/bnrepository/link/link.dsc.gz
+https://www.bnlearn.com/bnrepository/discrete-massive.html#link
+
+# Tags
+bayesian
+
+# Bibtex
+@article{jensen1999blocking,
+  title={Blocking Gibbs sampling for linkage analysis in large pedigrees with many loops},
+  author={Jensen, Claus Skaanning and Kong, Augustine},
+  journal={The American Journal of Human Genetics},
+  volume={65},
+  number={3},
+  pages={885--901},
+  year={1999},
+  publisher={Elsevier}
+}
