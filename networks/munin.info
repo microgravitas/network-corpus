@@ -1,0 +1,27 @@
+# Source
+bnlearn: MUNIN
+
+# Description
+The original dataset is a medical expert system for Electromyography (EMG).
+Bayesian networks are directed hypergraphs, the network here was created
+by turning a directed hyperedge (x_1,...,x_d) -> y into edges (x_i,y) for
+1 <= i <= d.
+
+# URL
+https://www.bnlearn.com/bnrepository/munin/munin.dsc.gz
+https://www.bnlearn.com/bnrepository/discrete-massive.html#munin
+
+# Tags
+bayesian
+
+# Bibtex
+@incollection{andreassen1989munin,
+  title={MUNIN: an expert EMG Assistant},
+  author={Andreassen, Steen and Jensen, Finn V and Andersen, Stig Kj{\ae}r and
+          Falck, B and Kj{\ae}rulff, U and Woldbye, M and S{\o}rensen, AR and
+          Rosenfalck, A and Jensen, F},
+  booktitle={Computer-aided electromyography and expert systems},
+  pages={255--277},
+  year={1989},
+  publisher={Pergamon Press}
+}
