@@ -11,6 +11,9 @@ This is an aggregate of previous datasets by Uetz et al. (2000) and Ito et al. (
 # URL
 http://interactome.dfci.harvard.edu/S_cerevisiae/index.php?page=download
 
+# Tags
+biology, protein, interaction
+
 # Bibtex
 @article{yu2008high,
   title={High-quality binary protein interaction map of the yeast interactome network},

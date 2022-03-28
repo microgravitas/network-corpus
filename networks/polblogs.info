@@ -1,5 +1,20 @@
+# Source
+Newman
+
+# Description
+A directed network of hyperlinks between weblogs on US politics, recorded in 2005 by Adamic and Glance.
+
+# URL
 http://www-personal.umich.edu/~mejn/netdata/
 
-L. A. Adamic and N. Glance, "The political blogosphere and the 2004 US
-Election", in Proceedings of the WWW-2005 Workshop on the Weblogging
-Ecosystem (2005)
+# Tags
+technology
+
+# Bibtex
+@inproceedings{adamic2005political,
+  title={The political blogosphere and the 2004 US election: divided they blog},
+  author={Adamic, Lada A and Glance, Natalie},
+  booktitle={Proceedings of the 3rd international workshop on Link discovery},
+  pages={36--43},
+  year={2005}
+}

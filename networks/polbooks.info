@@ -1,7 +1,15 @@
+# Source
+Newman
+
+# Description
 A network of books about US politics published around the time of the 2004 
 presidential election and sold by the online bookseller Amazon.com. Edges 
 between books represent frequent copurchasing of books by the same buyers. 
 The network was compiled by V. Krebs and is unpublished, but can found on Krebs' web site.
 
-http://www.orgnet.com/
+# URL
 http://www-personal.umich.edu/~mejn/netdata/
+http://www.orgnet.com/
+
+# Tags
+preference

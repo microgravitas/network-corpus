@@ -2,7 +2,6 @@
 SNAP: Oregon-1
 
 # Description
-
 The original dataset contains 9 graphs of Autonomous Systems (AS) 
 peering information inferred from Oregon route-views between 31 March 2001 
 and 26 May 2001. The file in our collection is the snapshot from 26 May 2001.
@@ -15,6 +14,10 @@ This is to allow comparisons across each node in the graphs.
 https://sparse.tamu.edu/MM/SNAP/Oregon-1.tar.gz
 https://snap.stanford.edu/data/oregon1_010526.txt.gz
 https://sparse.tamu.edu/SNAP/Oregon-1
+
+# Tags
+technology, infrastructure, internet
+
 
 # Bibtex
 @inproceedings{leskovec2005graphs,

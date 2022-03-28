@@ -12,6 +12,9 @@ response, leading to loops in the network.
 # URL
 http://konect.uni-koblenz.de/downloads/tsv/eat.tar.bz2
 
+# Tags
+linguistic
+
 # Bibtex
 @MISC{konect:2017:eat,
     title = {Edinburgh Associative Thesaurus network dataset -- {KONECT}},

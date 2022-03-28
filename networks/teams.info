@@ -12,6 +12,9 @@ in. The dataset was extracted from DBpedia and corresponds to the
 http://konect.cc/files/download.tsv.dbpedia-team.tar.bz2
 http://konect.cc/networks/dbpedia-team/
 
+# Tags
+sport, community
+
 # Bibtex
 @MISC{konect:2017:dbpedia-team,
     title = {Teams network dataset -- {KONECT}},

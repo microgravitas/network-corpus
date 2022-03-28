@@ -2,7 +2,6 @@
 SNAP: Oregon-2
 
 # Description
-
 It appears that this dataset is an augmentation of the Oregon-1 dataset by including
 additional information from "Looking Glass" and a routing registry.
 
@@ -12,6 +11,10 @@ The network here is again the latest snapshot from 26 May 2001.
 https://sparse.tamu.edu/MM/SNAP/Oregon-2.tar.gz
 https://snap.stanford.edu/data/oregon2_010526.txt.gz
 https://sparse.tamu.edu/SNAP/Oregon-2
+
+# Tags
+technology, infrastructure, internet
+
 
 # Bibtex
 @inproceedings{leskovec2005graphs,

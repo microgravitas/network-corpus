@@ -9,6 +9,9 @@ network is acyclic.
 # URL
 http://konect.uni-koblenz.de/downloads/tsv/linux.tar.bz2
 
+# Tags
+technology
+
 # Bibtex
 @MISC{konect:2017:linux,
     title = {Linux network dataset -- {KONECT}},
