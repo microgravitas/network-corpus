@@ -1,0 +1,13 @@
+# Source
+Netschleuder
+
+# Description
+A hypergraph representing collaborations among authors listed in the Microsoft Academic Graph (MAG), derived from papers with the "Geology" tag as of 3 Sept. 2017. Each node represents an author, and each publication is represented by a simplex (a set of nodes, i.e., a hyperedge), timestamped by the year of publication. Simplices are restricted to at most 25 authors. In addition to the hypergraph, a weighted projection of the same network is available.
+
+There are four version available on Netschleuder, this network is called `full-proj` there.
+
+# URL
+https://networks.skewed.de/net/mag_geology_coauthor#full-bip_draw
+
+# Tags
+socal, collaboration, bipartite
