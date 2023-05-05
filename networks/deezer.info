@@ -1,0 +1,11 @@
+# Source
+[CORPUS]: deezer
+
+# Description
+Friendship connections between users of the Deezer music streaming platform. Data collected by Benedek Rozemberczki for the GEMSEC clustering and embedding algorithm.
+
+# URL
+https://github.com/benedekrozemberczki/GEMSEC/blob/master/data/deezer_clean_data/HR_edges.csv
+
+# Tags
+social
