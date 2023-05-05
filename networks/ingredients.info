@@ -1,0 +1,12 @@
+# Source
+[CORPUS]: ingredients
+
+# Description
+A co-occurence network of recipe ingredients, the raw data collated by Jan Altosaar is linked below. Ingredients are connected by an edge if they appear in at least one recipe together.
+
+# URL
+https://jaan.io/food2vec-augmented-cooking-machine-intelligence/ 
+https://github.com/jaanli/food2vec/blob/master/dat/allrecipes_recipes.csv
+
+# Tags
+food
