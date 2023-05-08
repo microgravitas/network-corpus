@@ -1,0 +1,26 @@
+# Source
+
+https://snap.stanford.edu/data/wiki-Vote.html
+
+
+# Description
+
+Wikipedia is a free encyclopedia written collaboratively by volunteers around the world. A small part of Wikipedia contributors are administrators, who are users with access to additional technical features that aid in maintenance. In order for a user to become an administrator a Request for adminship (RfA) is issued and the Wikipedia community via a public discussion or a vote decides who to promote to adminship. Using the latest complete dump of Wikipedia page edit history (from January 3 2008) we extracted all administrator elections and vote history data. This gave us 2,794 elections with 103,663 total votes and 7,066 users participating in the elections (either casting a vote or being voted on). Out of these 1,235 elections resulted in a successful promotion, while 1,559 elections did not result in the promotion. About half of the votes in the dataset are by existing admins, while the other half comes from ordinary Wikipedia users.
+
+The network contains all the Wikipedia voting data from the inception of Wikipedia till January 2008. Nodes in the network represent wikipedia users and a directed edge from node i to node j represents that user i voted on user j.
+
+
+# Name
+
+SNAP: Wikipedia vote network
+
+# Tags
+
+social-media, voting, human, directed
+
+# URL
+
+https://snap.stanford.edu/data/wiki-Vote.txt.gz
+
+# Relationship
+voting
