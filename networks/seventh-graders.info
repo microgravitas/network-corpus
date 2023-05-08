@@ -1,0 +1,26 @@
+# Source
+moreno.ss.uci.edu/data.html#seventh
+http://konect.cc/networks/moreno_seventh/
+
+# Description
+
+This directed network contains proximity ratings between studetns from
+29 seventh grade students from a school in Victoria. Among other
+questions the students were asked to nominate their preferred classmates
+for three different activities. A node represents a student. An edge
+between two nodes shows that the left student picked the right student
+as his answer. The edge weights are between 1 and 3 and show how often
+the left student chose the right student as his favourite.
+
+
+# Name
+Seventh graders
+
+# URL
+http://konect.cc/files/download.tsv.moreno_seventh.tar.bz2
+
+# Tags
+human, social, school
+
+# Relationship
+proximity
