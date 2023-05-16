@@ -1,0 +1,33 @@
+# Source
+SNAP: as-skitter
+
+
+# Description
+
+Internet topology graph. From traceroutes run daily in 2005 -
+http://www.caida.org/tools/measurement/skitter. From several scattered
+sources to million destinations. 1.7 million nodes, 11 million edges.
+
+
+# Name
+
+Autonomous systems by Skitter
+
+
+# URL
+
+https://snap.stanford.edu/data/as-skitter.html
+
+
+# Tags
+
+network, internet, topology
+
+# Relationship
+
+network
+
+
+# References
+
+J. Leskovec, J. Kleinberg and C. Faloutsos. Graphs over Time: Densification Laws, Shrinking Diameters and Possible Explanations. ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), 2005.
